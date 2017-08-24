@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MyTheme" parent="MaterialDrawerTheme.Light.DarkToolbar">
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/colorDarkPrimary</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+             which is used to tint widgets -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <!--<item name="android:background">@color/colorTextIcons</item>-->
+
+        <!-- You can also set , colorControlActivated
+             colorControlHighlight, and colorSwitchThumbNormal. -->
+
+        <item name="material_drawer_background">@color/material_drawer_background</item>
+        <item name="material_drawer_primary_text">@color/colorPrimaryText</item>
+        <!--<item name="material_drawer_primary_icon">@color/material_drawer_primary_icon</item>-->
+        <item name="material_drawer_secondary_text">@color/material_drawer_secondary_text</item>
+        <!--<item name="material_drawer_hint_text">@color/material_drawer_hint_text</item>-->
+        <item name="material_drawer_divider">@color/material_drawer_divider</item>
+        <!--<item name="material_drawer_selected">@color/material_drawer_selected</item>-->
+        <item name="material_drawer_selected_text">@color/colorPrimary</item>
+        <item name="material_drawer_header_selection_text">@android:color/white</item>
+
+
+    </style>
+
+    <style name="ToolbarColoredBackArrow" parent="Theme.MyTheme">
+        <item name="android:textColorPrimary">@color/colorTextIcons</item>
+        <item name="colorControlNormal">@color/colorTextIcons</item>
+        <item name="android:background">@null</item>
+    </style>
+
+</resources>

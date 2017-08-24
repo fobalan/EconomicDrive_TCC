@@ -1,0 +1,7 @@
+#Thu Aug 24 19:52:38 BRT 2017
+base.0=C\:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_7861459e9fbd1be452f1f0ad6192a906258fb78a
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_cdca6ae2cb3e11726f8e3f0940b7f3adc603bc96\\classes.dex
+base.1=C\:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_cdca6ae2cb3e11726f8e3f0940b7f3adc603bc96
+file.0=C\:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_7861459e9fbd1be452f1f0ad6192a906258fb78a\\classes.dex

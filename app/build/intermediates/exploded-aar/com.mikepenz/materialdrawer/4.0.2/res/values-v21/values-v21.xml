@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/mikepenz/Drive/Development/AndroidLibraries/MaterialDrawer/library/src/main/res/values-v21/colors.xml -->
+    <eat-comment/>
+    <color name="material_drawer_dark_hint_icon">@color/md_dark_disabled</color>
+    <color name="material_drawer_dark_primary_icon">@color/md_dark_primary_icon</color>
+    <color name="material_drawer_hint_icon">@color/md_light_disabled</color>
+    <color name="material_drawer_primary_icon">@color/md_light_secondary</color>
+</resources>

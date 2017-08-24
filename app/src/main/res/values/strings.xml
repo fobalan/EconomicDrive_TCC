@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EconomicDrive</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_local">LocalActivity</string>
+    <string name="title_activity_local_list">LocalListActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_usuario">UsuarioActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_manutencao">ManutencaoActivity</string>
+    <string name="title_activity_abastecimento_list">AbastecimentoListActivity</string>
+    <string name="title_activity_carro">CarroActivity</string>
+    <string name="title_activity_carro_list">CarroListActivity</string>
+    <string name="title_activity_opcao_abastecimento">OpcaoAbastecimentoActivity</string>
+    <string name="title_activity_abastecimento_chart">AbastecimentoChartActivity</string>
+    <string name="title_activity_opcao_gasto">OpcaoGastoActivity</string>
+    <string name="title_activity_gasto_chart">GastoChartActivity</string>
+
+    <string-array name="optionsList">
+        <item>Gerenciar</item>
+        <item>Despesas</item>
+        <item>Abastacimentos</item>
+        <item>Manutenções</item>
+        <item>Locais</item>
+        <item>Relatórios</item>
+        <item>Senha</item>
+        <item>Gerar</item>
+        <item>Configurações</item>
+    </string-array>
+
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+</resources>

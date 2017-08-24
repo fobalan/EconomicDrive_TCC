@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <!-- The main content view -->
+    <FrameLayout
+        android:id="@+id/contentFrame"
+        android:layout_width="match_parent"
+        android:layout_height="564dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/myMainToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentLeft="true"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:minHeight="?attr/actionBarSize"
+            app:popupTheme="@style/Theme.MyTheme"
+            app:theme="@style/ToolbarColoredBackArrow">
+
+            <ImageButton
+                android:id="@+id/deletarButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|right"
+                android:layout_marginRight="12dp"
+                android:background="@null"
+                android:src="@mipmap/ic_trash"/>
+        </android.support.v7.widget.Toolbar>
+
+    </FrameLayout>
+
+</LinearLayout>
