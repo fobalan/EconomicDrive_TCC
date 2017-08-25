@@ -1,7 +1,0 @@
-#Fri Aug 25 10:51:09 BRT 2017
-base.0=C\:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_44a2633cc1c1e99787876432f83fcb315aa6900c
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_4e1bb5148de1210bec1be6fa6d8e8b90fd48a43c\\classes.dex
-base.1=C\:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_4e1bb5148de1210bec1be6fa6d8e8b90fd48a43c
-file.0=C\:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_44a2633cc1c1e99787876432f83fcb315aa6900c\\classes.dex

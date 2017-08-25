@@ -17,14 +17,25 @@ ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\An
 		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ITST\.android\build-cache\592445ae2f0ac3aa1ddcb5ca6a7d905ed2b5283d\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.melnykov:floatingactionbutton:1.3.0] C:\Users\ITST\.android\build-cache\42c59b40714911df68bbfcfa68c713b6a2ae6d91\output\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:design:23.0.0] C:\Users\ITST\.android\build-cache\4315ddc0323fd43bdd404bacb523b454ee3c461c\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:25.3.1] C:\Users\ITST\.android\build-cache\3edc5701e3a2abad10d1ef568fb1254b47010497\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ITST\.android\build-cache\731572eff4f2580471e9ddf35a2fa4e81446fcba\output\AndroidManifest.xml:20:5-44
 MERGED from [com.mikepenz:materialdrawer:4.0.2] C:\Users\ITST\.android\build-cache\aaff61457d4848cb773eb560a7a51f76d16a230a\output\AndroidManifest.xml:8:5-10:41
 MERGED from [com.mikepenz:iconics-core:1.7.4] C:\Users\ITST\.android\build-cache\605b664bd2710693b98c1d4110fb9e74eedc8832\output\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:recyclerview-v7:23.0.0] C:\Users\ITST\.android\build-cache\43ef036be1624905582ced1dac69000ad32ac7ad\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ITST\.android\build-cache\056bc342fdb4fe3dda77a4321b22933f50c948f2\output\AndroidManifest.xml:20:5-43
 MERGED from [com.mikepenz:materialize:0.2.0] C:\Users\ITST\.android\build-cache\d8d11e0424d24813772d3575d58fd3e53d4090ac\output\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:23.0.0] C:\Users\ITST\.android\build-cache\ff20e51f5e03820d56be71375349d858d64c6c2c\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.0.0] C:\Users\ITST\.android\build-cache\dae081403e537bfd95718981e123245c8b93df95\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ITST\.android\build-cache\279f52b86ac6fc3208bba188524381052da25684\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ITST\.android\build-cache\67a15b013d4994696511a4f7b37c103ab9691c4b\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ITST\.android\build-cache\e5c5fa4128ab3585292128655dd3de8e328219c1\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ITST\.android\build-cache\4bfdb189cd6bad51e60449d0cda10859565d04f1\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ITST\.android\build-cache\5af0499912af3fb78181a335014a2711775445b4\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ITST\.android\build-cache\2fe08581f0f11b7f5574d5048b2f92a89b8c3699\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ITST\.android\build-cache\8156cba897dfa528a2b47663efd1b879e82f7abf\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ITST\.android\build-cache\e2280f39e19265a2c5ba7b4c01bef527d256f420\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ITST\.android\build-cache\e2bf861f8feab68e2996aa191c4ec06f876d9b53\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\ITST\.android\build-cache\3edc5701e3a2abad10d1ef568fb1254b47010497\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:9:9-38
 		INJECTED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml
@@ -35,10 +46,19 @@ MERGED from [com.android.support:support-v4:23.0.0] C:\Users\ITST\.android\build
 		INJECTED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml
 application
 ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:11:5-85:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ITST\.android\build-cache\592445ae2f0ac3aa1ddcb5ca6a7d905ed2b5283d\output\AndroidManifest.xml:9:5-20
 MERGED from [com.melnykov:floatingactionbutton:1.3.0] C:\Users\ITST\.android\build-cache\42c59b40714911df68bbfcfa68c713b6a2ae6d91\output\AndroidManifest.xml:12:5-20
-MERGED from [com.android.support:design:23.0.0] C:\Users\ITST\.android\build-cache\4315ddc0323fd43bdd404bacb523b454ee3c461c\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.0.0] C:\Users\ITST\.android\build-cache\ff20e51f5e03820d56be71375349d858d64c6c2c\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.0.0] C:\Users\ITST\.android\build-cache\dae081403e537bfd95718981e123245c8b93df95\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\ITST\.android\build-cache\3edc5701e3a2abad10d1ef568fb1254b47010497\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ITST\.android\build-cache\731572eff4f2580471e9ddf35a2fa4e81446fcba\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ITST\.android\build-cache\279f52b86ac6fc3208bba188524381052da25684\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ITST\.android\build-cache\67a15b013d4994696511a4f7b37c103ab9691c4b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ITST\.android\build-cache\e5c5fa4128ab3585292128655dd3de8e328219c1\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ITST\.android\build-cache\4bfdb189cd6bad51e60449d0cda10859565d04f1\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ITST\.android\build-cache\5af0499912af3fb78181a335014a2711775445b4\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ITST\.android\build-cache\2fe08581f0f11b7f5574d5048b2f92a89b8c3699\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ITST\.android\build-cache\8156cba897dfa528a2b47663efd1b879e82f7abf\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ITST\.android\build-cache\e2280f39e19265a2c5ba7b4c01bef527d256f420\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ITST\.android\build-cache\e2bf861f8feab68e2996aa191c4ec06f876d9b53\output\AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:14:9-41
 	android:allowBackup
@@ -153,3 +173,20 @@ ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\An
 		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:83:13-39
 	android:name
 		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:82:13-47
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\ITST\.android\build-cache\3edc5701e3a2abad10d1ef568fb1254b47010497\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ITST\.android\build-cache\731572eff4f2580471e9ddf35a2fa4e81446fcba\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ITST\.android\build-cache\056bc342fdb4fe3dda77a4321b22933f50c948f2\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ITST\.android\build-cache\279f52b86ac6fc3208bba188524381052da25684\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ITST\.android\build-cache\67a15b013d4994696511a4f7b37c103ab9691c4b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ITST\.android\build-cache\e5c5fa4128ab3585292128655dd3de8e328219c1\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ITST\.android\build-cache\4bfdb189cd6bad51e60449d0cda10859565d04f1\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ITST\.android\build-cache\5af0499912af3fb78181a335014a2711775445b4\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ITST\.android\build-cache\2fe08581f0f11b7f5574d5048b2f92a89b8c3699\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ITST\.android\build-cache\8156cba897dfa528a2b47663efd1b879e82f7abf\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ITST\.android\build-cache\e2280f39e19265a2c5ba7b4c01bef527d256f420\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ITST\.android\build-cache\e2bf861f8feab68e2996aa191c4ec06f876d9b53\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\ITST\.android\build-cache\3edc5701e3a2abad10d1ef568fb1254b47010497\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\ITST\.android\build-cache\3edc5701e3a2abad10d1ef568fb1254b47010497\output\AndroidManifest.xml:26:9-47

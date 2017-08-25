@@ -41,7 +41,6 @@ public class CarroListActivity extends AppCompatActivity implements Communicator
     private LinearLayoutManager layoutManager;
     private ImageButton deletarCarroButton;
     private FloatingActionButton fabActionButton;
-    private DialogFragmentMessage fragmentDialog;
     private Carro carro;
     private ActionBar actionBar;
     private Toolbar toolbar;
