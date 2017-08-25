@@ -31,6 +31,8 @@ import android.widget.ListView;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 
+import br.com.economicdrive.model.Abastecimento;
+
 public class AbastecimentoChartActivity extends AppCompatActivity {
 
 	private View mChart;

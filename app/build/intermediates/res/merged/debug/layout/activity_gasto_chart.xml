@@ -15,7 +15,6 @@
             android:id="@+id/myGastoChartToolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:layout_alignParentLeft="true"
             android:background="?attr/colorPrimary"
             android:elevation="4dp"
             android:minHeight="?attr/actionBarSize"
@@ -36,8 +35,6 @@
                 android:id="@+id/chart3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentLeft="true"
                 android:orientation="vertical">
             </LinearLayout>
 

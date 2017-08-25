@@ -1,4 +1,4 @@
-#Thu Aug 24 19:52:38 BRT 2017
+#Fri Aug 25 00:05:15 BRT 2017
 base.0=C\:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_7861459e9fbd1be452f1f0ad6192a906258fb78a
 renamed.1=classes.dex
 renamed.0=classes2.dex

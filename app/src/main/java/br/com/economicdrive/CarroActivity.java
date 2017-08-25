@@ -2,7 +2,6 @@ package br.com.economicdrive;
 
 import java.util.List;
 
-import android.accounts.Account;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
@@ -24,6 +23,11 @@ import android.widget.Toast;
 
 import com.mikepenz.materialdrawer.AccountHeader;
 import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
+
+import br.com.economicdrive.model.Carro;
+import br.com.economicdrive.model.Marca;
+import br.com.economicdrive.model.Modelo;
+import br.com.economicdrive.model.TipoCombustivel;
 
 public class CarroActivity extends AppCompatActivity implements Button.OnClickListener {
 	

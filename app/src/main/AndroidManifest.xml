@@ -47,10 +47,6 @@
             android:label="Abastecimento" >
         </activity>
         <activity
-            android:name=".AbastecimentoListFragment"
-            android:label="Lista de abastecimentos" >
-        </activity>
-        <activity
             android:name=".CarroActivity"
             android:label="Veículo" >
         </activity>
@@ -61,10 +57,6 @@
         <activity
             android:name=".DespesasActivity"
             android:label="Despesas" >
-        </activity>
-        <activity
-            android:name=".DespesasListFragment"
-            android:label="Lista de Despesas" >
         </activity>
         <activity
             android:name=".RelatorioListActivity"
@@ -89,10 +81,6 @@
                 <activity
             android:name=".ManutencaoActivity"
             android:label="Manutenção" >
-        </activity>
-        <activity
-            android:name=".ManutencaoListFragment"
-            android:label="Lista de Manutenções" >
         </activity>
     </application>
 

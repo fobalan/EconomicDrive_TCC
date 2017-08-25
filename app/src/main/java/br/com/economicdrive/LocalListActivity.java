@@ -21,6 +21,14 @@ import com.melnykov.fab.FloatingActionButton;
 import java.util.ArrayList;
 import java.util.List;
 
+import br.com.economicdrive.adapter.MyAdapter;
+import br.com.economicdrive.fragment.DialogFragmentMessage;
+import br.com.economicdrive.listener.OnListViewListener;
+import br.com.economicdrive.model.Abastecimento;
+import br.com.economicdrive.model.Despesas;
+import br.com.economicdrive.model.Local;
+import br.com.economicdrive.model.Manutencao;
+
 public class LocalListActivity extends AppCompatActivity implements Communicator,
         Button.OnClickListener, OnListViewListener {
 

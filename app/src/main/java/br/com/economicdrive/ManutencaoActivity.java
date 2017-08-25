@@ -29,7 +29,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.mikepenz.materialdrawer.holder.StringHolder;
-import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
+
+import br.com.economicdrive.fragment.DatePickerFragment;
+import br.com.economicdrive.model.Carro;
+import br.com.economicdrive.model.Local;
+import br.com.economicdrive.model.Manutencao;
+import br.com.economicdrive.model.TipoManutencao;
 
 @SuppressLint("SimpleDateFormat")
 public class ManutencaoActivity extends AppCompatActivity implements OnClickListener,

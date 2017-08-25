@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import br.com.economicdrive.model.Usuario;
+
 public class SplashActivity extends Activity implements Runnable {
 
 	@Override

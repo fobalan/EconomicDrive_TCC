@@ -18,11 +18,18 @@ import android.widget.Toast;
 
 import com.melnykov.fab.FloatingActionButton;
 import com.mikepenz.materialdrawer.AccountHeader;
-import com.mikepenz.materialdrawer.holder.StringHolder;
 import com.mikepenz.materialdrawer.model.interfaces.IProfile;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import br.com.economicdrive.adapter.MyAdapter;
+import br.com.economicdrive.fragment.DialogFragmentMessage;
+import br.com.economicdrive.listener.OnListViewListener;
+import br.com.economicdrive.model.Abastecimento;
+import br.com.economicdrive.model.Carro;
+import br.com.economicdrive.model.Despesas;
+import br.com.economicdrive.model.Manutencao;
 
 public class CarroListActivity extends AppCompatActivity implements Communicator,
         Button.OnClickListener, OnListViewListener {

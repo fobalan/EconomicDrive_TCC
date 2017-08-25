@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:2:1-99:12
+ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:2:1-87:12
 	package
 		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml
@@ -34,7 +34,7 @@ MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Flavio\.android\bui
 		INJECTED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:11:5-97:19
+ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:11:5-85:19
 MERGED from [com.melnykov:floatingactionbutton:1.3.0] C:\Users\Flavio\.android\build-cache\f56e2a51323e03ad4aad9d14a786486f27376b65\output\AndroidManifest.xml:12:5-20
 MERGED from [com.android.support:design:23.0.0] C:\Users\Flavio\.android\build-cache\ab9ab70ac9ac2988acb7db5b020d9f3e354a10a3\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.0.0] C:\Users\Flavio\.android\build-cache\153dfee5c8170f1e2a4f04cd348863badaffb341\output\AndroidManifest.xml:22:5-20
@@ -99,75 +99,57 @@ ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\mai
 		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:47:13-42
 	android:name
 		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:46:13-50
-activity#br.com.economicdrive.AbastecimentoListFragment
+activity#br.com.economicdrive.CarroActivity
 ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:49:9-52:20
 	android:label
-		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:51:13-52
+		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:51:13-36
 	android:name
-		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:50:13-54
-activity#br.com.economicdrive.CarroActivity
+		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:50:13-42
+activity#br.com.economicdrive.CarroListActivity
 ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:53:9-56:20
 	android:label
-		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:55:13-36
+		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:55:13-46
 	android:name
-		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:54:13-42
-activity#br.com.economicdrive.CarroListActivity
+		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:54:13-46
+activity#br.com.economicdrive.DespesasActivity
 ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:57:9-60:20
 	android:label
-		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:59:13-46
+		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:59:13-37
 	android:name
-		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:58:13-46
-activity#br.com.economicdrive.DespesasActivity
+		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:58:13-45
+activity#br.com.economicdrive.RelatorioListActivity
 ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:61:9-64:20
 	android:label
-		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:63:13-37
+		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:63:13-39
 	android:name
-		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:62:13-45
-activity#br.com.economicdrive.DespesasListFragment
+		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:62:13-50
+activity#br.com.economicdrive.OpcaoAbastecimentoActivity
 ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:65:9-68:20
 	android:label
-		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:67:13-46
+		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:67:13-48
 	android:name
-		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:66:13-49
-activity#br.com.economicdrive.RelatorioListActivity
+		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:66:13-55
+activity#br.com.economicdrive.AbastecimentoChartActivity
 ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:69:9-72:20
 	android:label
-		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:71:13-39
+		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:71:13-53
 	android:name
-		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:70:13-50
-activity#br.com.economicdrive.OpcaoAbastecimentoActivity
+		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:70:13-55
+activity#br.com.economicdrive.OpcaoGastoActivity
 ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:73:9-76:20
 	android:label
 		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:75:13-48
 	android:name
-		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:74:13-55
-activity#br.com.economicdrive.AbastecimentoChartActivity
+		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:74:13-47
+activity#br.com.economicdrive.GastoChartActivity
 ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:77:9-80:20
 	android:label
-		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:79:13-53
+		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:79:13-63
 	android:name
-		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:78:13-55
-activity#br.com.economicdrive.OpcaoGastoActivity
-ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:81:9-84:20
+		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:78:13-47
+activity#br.com.economicdrive.ManutencaoActivity
+ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:81:17-84:20
 	android:label
-		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:83:13-48
+		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:83:13-39
 	android:name
 		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:82:13-47
-activity#br.com.economicdrive.GastoChartActivity
-ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:85:9-88:20
-	android:label
-		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:87:13-63
-	android:name
-		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:86:13-47
-activity#br.com.economicdrive.ManutencaoActivity
-ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:89:17-92:20
-	android:label
-		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:91:13-39
-	android:name
-		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:90:13-47
-activity#br.com.economicdrive.ManutencaoListFragment
-ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:93:9-96:20
-	android:label
-		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:95:13-49
-	android:name
-		ADDED from C:\Users\Flavio\AndroidStudioProjects\EconomicDrive_atual\app\src\main\AndroidManifest.xml:94:13-51
