@@ -3,6 +3,8 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
+import br.com.economicdrive.DatabaseHelper;
+
 public class Sqlite {
 	
 	SQLiteDatabase sqlite = null;

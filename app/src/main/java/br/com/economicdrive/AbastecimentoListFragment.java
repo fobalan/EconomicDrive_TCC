@@ -18,6 +18,11 @@ import com.melnykov.fab.FloatingActionButton;
 import java.util.ArrayList;
 import java.util.List;
 
+import br.com.economicdrive.adapter.MyAdapter;
+import br.com.economicdrive.fragment.DialogFragmentMessage;
+import br.com.economicdrive.listener.OnListViewListener;
+import br.com.economicdrive.model.Carro;
+
 public class AbastecimentoListFragment extends Fragment implements Button.OnClickListener,
         OnListViewListener {
 

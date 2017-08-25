@@ -24,6 +24,9 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import br.com.economicdrive.fragment.DatePickerFragment;
+import br.com.economicdrive.holder.Combustivel;
+
 public class OpcaoAbastecimentoActivity extends AppCompatActivity implements OnClickListener{
 	private Spinner tpcombustiveSpinner;
 	private TextView datainicioTextView;

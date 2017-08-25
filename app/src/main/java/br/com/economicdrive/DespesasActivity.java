@@ -18,14 +18,17 @@ import android.text.TextWatcher;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.mikepenz.materialdrawer.holder.StringHolder;
-import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
+
+import br.com.economicdrive.fragment.DatePickerFragment;
+import br.com.economicdrive.model.Carro;
+import br.com.economicdrive.model.Despesas;
+import br.com.economicdrive.model.Local;
 
 @SuppressLint("SimpleDateFormat")
 public class DespesasActivity extends AppCompatActivity implements OnClickListener,

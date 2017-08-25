@@ -10,7 +10,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 	 
     private static final int DATABASE_VERSION = 2;
  
-    DatabaseHelper (Context context) {
+    public DatabaseHelper(Context context) {
         super(context, "EconomicDrive.sqlite", null, DATABASE_VERSION);
     }
     

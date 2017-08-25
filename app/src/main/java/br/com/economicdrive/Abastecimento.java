@@ -10,6 +10,10 @@ import android.database.Cursor;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import br.com.economicdrive.database.Sqlite;
+import br.com.economicdrive.model.Carro;
+import br.com.economicdrive.model.Local;
+
 public class Abastecimento extends Gastos {
 	private int combustivel;
 	private float valorLitro;

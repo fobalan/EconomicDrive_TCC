@@ -1,26 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\menu\\actionmenu.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\src\\main\\res\\menu\\actionmenu.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\manutencao.xml",
+        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\menu\\manutencao.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\src\\main\\res\\menu\\main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\menu\\manutencao.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\src\\main\\res\\menu\\manutencao.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\menu\\actionmenu.xml",
-        "source": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\src\\main\\res\\menu\\actionmenu.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\menu\\manutencao.xml",
-        "source": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\src\\main\\res\\menu\\manutencao.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\actionmenu.xml",
+        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\menu\\actionmenu.xml"
     }
 ]

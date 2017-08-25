@@ -1,10 +1,6 @@
 [
     {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\drawable-v23\\abc_control_background_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-v23\\abc_control_background_material.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\drawable-v23\\abc_control_background_material.xml"
     }
 ]

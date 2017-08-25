@@ -28,6 +28,13 @@ import com.mikepenz.materialdrawer.model.interfaces.IProfile;
 import java.util.ArrayList;
 import java.util.List;
 
+import br.com.economicdrive.adapter.MyAdapter;
+import br.com.economicdrive.fragment.DialogFragmentMessage;
+import br.com.economicdrive.model.Carro;
+import br.com.economicdrive.model.Despesas;
+import br.com.economicdrive.model.Manutencao;
+import br.com.economicdrive.model.Usuario;
+
 public class MainActivity extends AppCompatActivity implements Communicator,
         Drawer.OnDrawerItemClickListener, AccountHeader.OnAccountHeaderListener {
 

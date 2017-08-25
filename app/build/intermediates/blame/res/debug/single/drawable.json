@@ -1,266 +1,134 @@
 [
     {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\material_drawer_badge.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\drawable\\material_drawer_badge.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_bg.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\src\\main\\res\\drawable\\custom_bg.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\roadtrip_span.jpg",
+        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\drawable\\roadtrip_span.jpg"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\material_drawer_badge.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\aaff61457d4848cb773eb560a7a51f76d16a230a\\output\\res\\drawable\\material_drawer_badge.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\material_drawer_shadow_left.9.png",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\aaff61457d4848cb773eb560a7a51f76d16a230a\\output\\res\\drawable\\material_drawer_shadow_left.9.png"
     },
     {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\material_drawer_circle_mask.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\drawable\\material_drawer_circle_mask.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\material_drawer_shadow_bottom.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\aaff61457d4848cb773eb560a7a51f76d16a230a\\output\\res\\drawable\\material_drawer_shadow_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\material_drawer_badge.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.0.2\\res\\drawable\\material_drawer_badge.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\drawable\\abc_dialog_material_background_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\4315ddc0323fd43bdd404bacb523b454ee3c461c\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\material_drawer_shadow_bottom.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.0.2\\res\\drawable\\material_drawer_shadow_bottom.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\material_drawer_shadow_right.9.png",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\drawable\\material_drawer_shadow_right.9.png"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\roadtrip_span.jpg",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\src\\main\\res\\drawable\\roadtrip_span.jpg"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\material_drawer_shadow_bottom.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\drawable\\material_drawer_shadow_bottom.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\material_drawer_shadow_right.9.png",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\aaff61457d4848cb773eb560a7a51f76d16a230a\\output\\res\\drawable\\material_drawer_shadow_right.9.png"
     },
     {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\material_drawer_circle_mask.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\aaff61457d4848cb773eb560a7a51f76d16a230a\\output\\res\\drawable\\material_drawer_circle_mask.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\4315ddc0323fd43bdd404bacb523b454ee3c461c\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.0\\res\\drawable\\design_fab_background.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_btn_colored_material.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\splash_ultra_top.png",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\src\\main\\res\\drawable\\splash_ultra_top.png"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\material_drawer_shadow_top.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\drawable\\material_drawer_shadow_top.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\splash_ultra_top.png",
-        "source": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\src\\main\\res\\drawable\\splash_ultra_top.png"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\splash_ultra_top.png",
+        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\drawable\\splash_ultra_top.png"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\material_drawer_circle_mask.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.0.2\\res\\drawable\\material_drawer_circle_mask.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\material_drawer_shadow_top.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\aaff61457d4848cb773eb560a7a51f76d16a230a\\output\\res\\drawable\\material_drawer_shadow_top.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_bg.xml",
+        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\drawable\\custom_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\roadtrip_span.jpg",
-        "source": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\src\\main\\res\\drawable\\roadtrip_span.jpg"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\drawable\\abc_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\material_drawer_shadow_top.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.0.2\\res\\drawable\\material_drawer_shadow_top.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\ab9ab70ac9ac2988acb7db5b020d9f3e354a10a3\\output\\res\\drawable\\design_snackbar_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.0\\res\\drawable\\design_snackbar_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\material_drawer_shadow_right.9.png",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.0.2\\res\\drawable\\material_drawer_shadow_right.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\material_drawer_shadow_left.9.png",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\4.0.2\\res\\drawable\\material_drawer_shadow_left.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_bg.xml",
-        "source": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\src\\main\\res\\drawable\\custom_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\ab9ab70ac9ac2988acb7db5b020d9f3e354a10a3\\output\\res\\drawable\\design_fab_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\material_drawer_shadow_left.9.png",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\drawable\\material_drawer_shadow_left.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_edit_text_material.xml"
+        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\drawable\\abc_edit_text_material.xml"
     }
 ]

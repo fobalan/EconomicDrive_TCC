@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+        "outputFile": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 102
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\ec2f84443621fcd94d7fe3318b11731d89ca2e97\\output\\res\\values-v23\\values-v23.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\d8d11e0424d24813772d3575d58fd3e53d4090ac\\output\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 237
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\values-v23\\values-v23.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 312
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\values-v23\\values-v23.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 399
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\values-v23\\values-v23.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -88,7 +88,7 @@
                     "endOffset": 727
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\values-v23\\values-v23.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -109,7 +109,7 @@
                     "endOffset": 1067
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\values-v23\\values-v23.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -129,7 +129,7 @@
                     "endOffset": 1172
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\values-v23\\values-v23.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,

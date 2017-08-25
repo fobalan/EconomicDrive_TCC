@@ -28,7 +28,6 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:layout_marginRight="12dp"
-                android:contentDescription="Botão de salvar Local"
                 android:background="@null"
                 android:src="@mipmap/ic_save"/>
         </android.support.v7.widget.Toolbar>

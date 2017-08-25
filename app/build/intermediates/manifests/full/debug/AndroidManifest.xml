@@ -47,10 +47,6 @@
             android:label="Abastecimento" >
         </activity>
         <activity
-            android:name="br.com.economicdrive.AbastecimentoListFragment"
-            android:label="Lista de abastecimentos" >
-        </activity>
-        <activity
             android:name="br.com.economicdrive.CarroActivity"
             android:label="Veículo" >
         </activity>
@@ -61,10 +57,6 @@
         <activity
             android:name="br.com.economicdrive.DespesasActivity"
             android:label="Despesas" >
-        </activity>
-        <activity
-            android:name="br.com.economicdrive.DespesasListFragment"
-            android:label="Lista de Despesas" >
         </activity>
         <activity
             android:name="br.com.economicdrive.RelatorioListActivity"
@@ -89,10 +81,6 @@
         <activity
             android:name="br.com.economicdrive.ManutencaoActivity"
             android:label="Manutenção" >
-        </activity>
-        <activity
-            android:name="br.com.economicdrive.ManutencaoListFragment"
-            android:label="Lista de Manutenções" >
         </activity>
     </application>
 

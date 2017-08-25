@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Flavio\\AndroidStudioProjects\\EconomicDrive_atual\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w720dp-v13\\values-w720dp-v13.xml",
+        "outputFile": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w720dp-v13\\values-w720dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 127
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\153dfee5c8170f1e2a4f04cd348863badaffb341\\output\\res\\values-w720dp\\values-w720dp.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\ff20e51f5e03820d56be71375349d858d64c6c2c\\output\\res\\values-w720dp\\values-w720dp.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
