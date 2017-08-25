@@ -1,4 +1,4 @@
-package br.com.economicdrive;
+package br.com.economicdrive.mask;
 
 import android.text.Editable;
 import android.text.TextWatcher;

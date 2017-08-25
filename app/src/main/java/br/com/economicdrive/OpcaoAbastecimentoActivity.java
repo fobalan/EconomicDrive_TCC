@@ -24,6 +24,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import br.com.economicdrive.constantes.Constantes;
 import br.com.economicdrive.fragment.DatePickerFragment;
 import br.com.economicdrive.holder.Combustivel;
 

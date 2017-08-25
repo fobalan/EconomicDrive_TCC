@@ -29,7 +29,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.com.economicdrive.adapter.MyAdapter;
+import br.com.economicdrive.communicator.Communicator;
+import br.com.economicdrive.constantes.Constantes;
+import br.com.economicdrive.fragment.AbastecimentoListFragment;
+import br.com.economicdrive.fragment.DespesasListFragment;
 import br.com.economicdrive.fragment.DialogFragmentMessage;
+import br.com.economicdrive.fragment.FirstCarFragment;
+import br.com.economicdrive.fragment.ManutencaoListFragment;
+import br.com.economicdrive.model.Abastecimento;
 import br.com.economicdrive.model.Carro;
 import br.com.economicdrive.model.Despesas;
 import br.com.economicdrive.model.Manutencao;

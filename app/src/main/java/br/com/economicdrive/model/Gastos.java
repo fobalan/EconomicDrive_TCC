@@ -1,8 +1,10 @@
-package br.com.economicdrive;
+package br.com.economicdrive.model;
 
 import android.content.Context;
 import android.os.Parcel;
 import android.os.Parcelable;
+
+import br.com.economicdrive.Information;
 
 
 public abstract class Gastos implements Parcelable, Information {

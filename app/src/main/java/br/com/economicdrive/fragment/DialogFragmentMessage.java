@@ -9,7 +9,7 @@ import android.os.Bundle;
 
 import java.util.List;
 
-import br.com.economicdrive.Communicator;
+import br.com.economicdrive.communicator.Communicator;
 import br.com.economicdrive.Information;
 import br.com.economicdrive.R;
 import br.com.economicdrive.adapter.MyAdapter;

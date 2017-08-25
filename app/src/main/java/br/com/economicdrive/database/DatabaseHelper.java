@@ -1,4 +1,4 @@
-package br.com.economicdrive;
+package br.com.economicdrive.database;
 
 import android.content.Context;
 import android.database.SQLException;

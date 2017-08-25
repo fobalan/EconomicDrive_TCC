@@ -15,6 +15,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import br.com.economicdrive.constantes.Constantes;
 import br.com.economicdrive.model.Local;
 
 public class LocalActivity extends AppCompatActivity implements Button.OnClickListener{

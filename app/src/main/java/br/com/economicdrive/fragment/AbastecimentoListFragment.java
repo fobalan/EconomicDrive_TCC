@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.com.economicdrive.AbastecimentoActivity;
-import br.com.economicdrive.Constantes;
+import br.com.economicdrive.constantes.Constantes;
 import br.com.economicdrive.Information;
 import br.com.economicdrive.adapter.MyAdapter;
 import br.com.economicdrive.listener.OnListViewListener;

@@ -16,6 +16,7 @@ import android.widget.Toast;
 import java.util.List;
 
 import br.com.economicdrive.adapter.MyAdapter;
+import br.com.economicdrive.communicator.Communicator;
 import br.com.economicdrive.fragment.DialogFragmentMessage;
 
 public class LoginActivity extends AppCompatActivity implements Communicator {

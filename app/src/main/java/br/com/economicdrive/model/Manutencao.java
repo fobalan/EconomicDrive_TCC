@@ -9,7 +9,6 @@ import android.database.Cursor;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import br.com.economicdrive.Gastos;
 import br.com.economicdrive.Information;
 import br.com.economicdrive.database.Sqlite;
 

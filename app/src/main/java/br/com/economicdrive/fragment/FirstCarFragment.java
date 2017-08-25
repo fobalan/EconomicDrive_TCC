@@ -11,10 +11,9 @@ import android.widget.ImageButton;
 import com.melnykov.fab.FloatingActionButton;
 
 import br.com.economicdrive.CarroActivity;
-import br.com.economicdrive.Constantes;
+import br.com.economicdrive.constantes.Constantes;
 import br.com.economicdrive.MainActivity;
 import br.com.economicdrive.R;
-import br.com.economicdrive.fragment.DespesasListFragment;
 
 public class FirstCarFragment extends Fragment implements Button.OnClickListener{
     private FloatingActionButton fabActionButton;

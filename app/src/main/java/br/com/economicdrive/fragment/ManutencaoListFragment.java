@@ -1,9 +1,8 @@
-package br.com.economicdrive;
+package br.com.economicdrive.fragment;
 
 import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
-
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -18,27 +17,30 @@ import com.melnykov.fab.FloatingActionButton;
 import java.util.ArrayList;
 import java.util.List;
 
+import br.com.economicdrive.constantes.Constantes;
+import br.com.economicdrive.Information;
+import br.com.economicdrive.ManutencaoActivity;
+import br.com.economicdrive.R;
 import br.com.economicdrive.adapter.MyAdapter;
-import br.com.economicdrive.fragment.DialogFragmentMessage;
 import br.com.economicdrive.listener.OnListViewListener;
 import br.com.economicdrive.model.Carro;
+import br.com.economicdrive.model.Manutencao;
 
-public class AbastecimentoListFragment extends Fragment implements Button.OnClickListener,
+public class ManutencaoListFragment extends Fragment implements Button.OnClickListener,
         OnListViewListener {
-
     private RecyclerView recyclerView;
     private MyAdapter myAdapter;
-    private FloatingActionButton fabActionButton;
     private Carro veiculoEscolhido;
-    private Intent i;
-    private List<Information> abastecimentoList;
+    protected DialogFragmentMessage fragmentDialog;
+    protected FloatingActionButton fabActionButton;
+
+    private List<Information> manutencaoList;
     private List<Information> deleteList;
     private ImageButton deletarButton;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_list, container, false);
     }
-
     @Override
     public void onActivityCreated( Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
@@ -47,21 +49,15 @@ public class AbastecimentoListFragment extends Fragment implements Button.OnClic
         deletarButton = (ImageButton) getActivity().findViewById(R.id.deletarButton);
         fabActionButton.attachToRecyclerView(recyclerView);
         fabActionButton.setOnClickListener(this);
-        fabActionButton.setColorNormal(getResources().getColor(R.color.colorDeepPurple));
-        fabActionButton.setColorPressed(getResources().getColor(R.color.colorRipplePurple));
-        fabActionButton.setColorRipple(getResources().getColor(R.color.colorDeepPurple));
         deletarButton.setOnClickListener(this);
-        customizeToolBar();
         onCarSelected();
         onRecyclerView();
+        customizeToolbar();
         onSetEditMode();
     }
 
-    @Override
-    public void onResume() {
-        super.onResume();
-        onLoadAbastecimento();
-        myAdapter.setList(abastecimentoList);
+    private void customizeToolbar() {
+        getActivity().setTitle("Lista de Manutenção");
     }
 
     private void onRecyclerView() {
@@ -73,30 +69,31 @@ public class AbastecimentoListFragment extends Fragment implements Button.OnClic
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setHasFixedSize(true);
 
-        onLoadAbastecimento();
+        onLoadManutencao();
 
-        myAdapter = new MyAdapter(getActivity(), abastecimentoList, R.layout.three_info_list);
+        myAdapter = new MyAdapter(getActivity(), manutencaoList, R.layout.four_info_list);
         myAdapter.setOnViewClickListener(this);
 
         recyclerView.setAdapter(myAdapter);
 
     }
 
-    private void onLoadAbastecimento() {
-        abastecimentoList = Abastecimento.ConsultaAbastecimentos(getActivity(), "SELECT * "
-                + "FROM TB_ABASTECIMENTO "
+    private void onLoadManutencao() {
+        manutencaoList = Manutencao.ConsultaManutencao(getActivity(), "SELECT * "
+                + "FROM TB_MANUTENCAO "
                 + "WHERE idCarro = "
                 + veiculoEscolhido.getCodigo());
     }
 
     private void onCarSelected() {
         veiculoEscolhido = getArguments().getParcelable("veiculo");
-
     }
 
-    private void customizeToolBar() {
-        getActivity().setTitle("Lista de Abastecimento");
-
+    @Override
+    public void onResume() {
+        super.onResume();
+        onLoadManutencao();
+        myAdapter.setList(manutencaoList);
     }
 
     @Override
@@ -104,16 +101,15 @@ public class AbastecimentoListFragment extends Fragment implements Button.OnClic
         switch (v.getId()) {
             case R.id.fabActionButton:
                 if (deleteModeON()) {
-                    DialogFragmentMessage fragmentDialog = new DialogFragmentMessage("Deletar", "Deseja deletar os registros?", deleteList, myAdapter, Constantes.GERENCIAR_ABASTECIMENTO);
-                    fragmentDialog.show(getActivity().getFragmentManager(), "Deletar");
+                    fragmentDialog = new DialogFragmentMessage("Deletar", "Deseja deletar os registros?", deleteList, myAdapter, Constantes.GERENCIAR_MANUTENCAO);
+                    fragmentDialog.show(getFragmentManager(), "Deletar");
                 } else {
-                    i = new Intent(getActivity(), AbastecimentoActivity.class);
+                    Intent i = new Intent(getActivity(), ManutencaoActivity.class);
                     i.putExtra("acao", Constantes.INSERIR);
                     i.putExtra("veiculo", veiculoEscolhido);
-                    startActivityForResult(i, Constantes.ABASTECIMENTO_CODE);
+                    startActivity(i);
                 }
                 break;
-
             case R.id.deletarButton:
                 if (deleteModeON()) {
                     onSetEditMode();
@@ -122,6 +118,7 @@ public class AbastecimentoListFragment extends Fragment implements Button.OnClic
                 }
                 break;
         }
+
     }
 
     private void onSetDeleteMode() {
@@ -140,18 +137,18 @@ public class AbastecimentoListFragment extends Fragment implements Button.OnClic
 
     @Override
     public void onViewClick(View v, int position) {
-        i = new Intent(getActivity(), AbastecimentoActivity.class);
+        Intent chamada = new Intent(getActivity(), ManutencaoActivity.class);
         switch (v.getId()) {
             case R.id.editImageButton:
-                i.putExtra("acao", Constantes.EDITAR);
+                chamada.putExtra("acao", Constantes.EDITAR);
                 break;
             default:
-                i.putExtra("acao", Constantes.VISUALIZAR);
+                chamada.putExtra("acao", Constantes.VISUALIZAR);
         }
         if (!myAdapter.isDeletable()) {
-            i.putExtra("parcel", (Abastecimento) myAdapter.getItem(position));
-            i.putExtra("veiculo", veiculoEscolhido);
-            startActivity(i);
+            Manutencao manutencao = (Manutencao) myAdapter.getItem(position);
+            chamada.putExtra("parcel", manutencao);
+            startActivity(chamada);
         }
     }
 
@@ -161,14 +158,14 @@ public class AbastecimentoListFragment extends Fragment implements Button.OnClic
 
     @Override
     public void onCheckedClick(CompoundButton buttonView, boolean isChecked, int position) {
-        Abastecimento abastecimento = (Abastecimento) myAdapter.getItem(position);
+        Manutencao manutencao = (Manutencao) myAdapter.getItem(position);
         if (deleteList == null) {
             deleteList = new ArrayList<>();
         }
         if (isChecked) {
-            deleteList.add(abastecimento);
+            deleteList.add(manutencao);
         } else {
-            deleteList.remove(abastecimento);
+            deleteList.remove(manutencao);
         }
     }
 

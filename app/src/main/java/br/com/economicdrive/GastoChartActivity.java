@@ -26,6 +26,7 @@ import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 
 import br.com.economicdrive.adapter.ExpandableListAdapter;
+import br.com.economicdrive.model.Abastecimento;
 import br.com.economicdrive.model.Despesas;
 import br.com.economicdrive.model.Manutencao;
 

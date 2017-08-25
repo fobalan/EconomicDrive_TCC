@@ -16,6 +16,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import br.com.economicdrive.constantes.Constantes;
 import br.com.economicdrive.model.Usuario;
 
 public class UsuarioActivity extends AppCompatActivity implements Button.OnClickListener {

@@ -1,4 +1,4 @@
-package br.com.economicdrive;
+package br.com.economicdrive.constantes;
 
 public class Constantes {
 	public static final int ABASTECIMENTO_CODE = 1000;
