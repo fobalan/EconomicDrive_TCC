@@ -3,84 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Flavio\Desktop\Android\EconomicDrive_TCC\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="5d536ece9a27eb1cd561b2bdcb1f4b97e785f5c6">
-        <dex dex="C:\Users\Flavio\Desktop\Android\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_7d88e161148ffaabfa3f8b6b720cee115465d4e8\classes.dex" />
+        sha1="7a5a534658aafc4fb81e2497b0b0df4e38cf65ad">
+        <dex dex="F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_750b0b19fed87f6786a1d294ea40451893c50d3f\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Flavio\.android\build-cache\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\output\jars\classes.jar"
+        jar="C:\Users\Flavio\.android\build-cache\69ddd38b8701d4e3ab54da076240a25c5b10b13b\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="9bb74ff6df9bb866bdd788d4495e91a031582ffc">
-        <dex dex="C:\Users\Flavio\Desktop\Android\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_118b254d9c3958b9f0b2cbc413eb87feb02798d8\classes.dex" />
+        sha1="8d8c5463a1a50691e2cf66cd7ce4751c8545b584">
+        <dex dex="F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a2dd8b732eb438d5c65f037396297570ea660eeb\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Flavio\.android\build-cache\ec2f84443621fcd94d7fe3318b11731d89ca2e97\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="dad684c489525a68656ac3402ec6835abe475cc7">
-        <dex dex="C:\Users\Flavio\Desktop\Android\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_73b1aa93b1032f412502089940101bfd45017079\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Flavio\.android\build-cache\f56e2a51323e03ad4aad9d14a786486f27376b65\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="8c6ebb7d087d1a30bf84356bd2aecf85309fc024">
-        <dex dex="C:\Users\Flavio\Desktop\Android\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7f9b1909f561e118f38c7fd33e526e78df3f074e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Flavio\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="C:\Users\Flavio\Desktop\Android\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_5d15dfd6f6cc876b953281332df7cbb649ba0c8b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Flavio\.android\build-cache\dabc89f520a1267dd6e1971a32b2da11491ff6bf\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="288913b440a3c61c30aa171095453a605432277a">
-        <dex dex="C:\Users\Flavio\Desktop\Android\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_61e1a7d666568767de6b3447d7ec39a8f4c8683e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Flavio\.gradle\caches\modules-2\files-2.1\org.achartengine\achartengine\1.1.0\6b9f421d67b60253072003b2b8a1028b12cb916a\achartengine-1.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="6b9f421d67b60253072003b2b8a1028b12cb916a">
-        <dex dex="C:\Users\Flavio\Desktop\Android\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\achartengine-1.1.0_75d2a68b08e58ba4d2920e07ae51056925c20f86\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Flavio\Desktop\Android\EconomicDrive_TCC\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\Flavio\Desktop\Android\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_dfdcc4b482763ff7cff0e0131bade94fc779e4f8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Flavio\.android\build-cache\18809e357e9128ff601f0f418fc05d72ac4d7689\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="2664cbaf9225435c21605e8014c5453652c74c76">
-        <dex dex="C:\Users\Flavio\Desktop\Android\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0a17a44df236a4d4fa9d404ce8b3a8ae52a707ae\classes.dex" />
+        <dex dex="F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_14b40896444b8e6d16abed936e78912fe8dc6ad2\classes.dex" />
     </item>
 
 </items>

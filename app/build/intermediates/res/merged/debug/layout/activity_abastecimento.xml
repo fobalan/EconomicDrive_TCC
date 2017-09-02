@@ -65,8 +65,8 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tanqueCheioCheckBox">
 
-            <com.rengwuxian.materialedittext.MaterialEditText
-                android:id="@+id/combustivelMaterialEditText"
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/combustivelBetterSpinner"
                 style="@style/Widget.AppCompat.AutoCompleteTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -97,6 +97,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Valor do Litro"
+                android:inputType="numberDecimal"
                 app:met_helperText="R$0,00"
                 app:met_iconLeft="@mipmap/ic_money" />
         </android.support.design.widget.TextInputLayout>
@@ -120,6 +121,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Valor Pago"
+                android:inputType="numberDecimal"
                 app:met_helperText="R$0,00"
                 app:met_iconLeft="@mipmap/ic_money" />
         </android.support.design.widget.TextInputLayout>
@@ -143,6 +145,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Hodometro"
+                android:inputType="number"
                 app:met_helperText="Selecione um valor maior que o ultimo"
                 app:met_iconLeft="@drawable/ic_camera_timer_black_24dp" />
         </android.support.design.widget.TextInputLayout>

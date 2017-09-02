@@ -21,6 +21,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Fl
 MERGED from [com.melnykov:floatingactionbutton:1.3.0] C:\Users\Flavio\.android\build-cache\f56e2a51323e03ad4aad9d14a786486f27376b65\output\AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support:design:25.3.1] C:\Users\Flavio\.android\build-cache\965c158e6cf8683823d0aa863e009629d51d0724\output\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:transition:25.3.1] C:\Users\Flavio\.android\build-cache\2949b0b3ae69b4e6a564ba318935ec03a591109b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] C:\Users\Flavio\.android\build-cache\69ddd38b8701d4e3ab54da076240a25c5b10b13b\output\AndroidManifest.xml:7:5-9:41
 MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Flavio\.android\build-cache\dabc89f520a1267dd6e1971a32b2da11491ff6bf\output\AndroidManifest.xml:6:5-8:41
 MERGED from [com.mikepenz:materialdrawer:4.0.2] C:\Users\Flavio\.android\build-cache\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\output\AndroidManifest.xml:8:5-10:41
 MERGED from [com.mikepenz:iconics-core:1.7.4] C:\Users\Flavio\.android\build-cache\18809e357e9128ff601f0f418fc05d72ac4d7689\output\AndroidManifest.xml:8:5-10:41
@@ -51,6 +52,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Fl
 MERGED from [com.melnykov:floatingactionbutton:1.3.0] C:\Users\Flavio\.android\build-cache\f56e2a51323e03ad4aad9d14a786486f27376b65\output\AndroidManifest.xml:12:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\Flavio\.android\build-cache\965c158e6cf8683823d0aa863e009629d51d0724\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:25.3.1] C:\Users\Flavio\.android\build-cache\2949b0b3ae69b4e6a564ba318935ec03a591109b\output\AndroidManifest.xml:26:5-20
+MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] C:\Users\Flavio\.android\build-cache\69ddd38b8701d4e3ab54da076240a25c5b10b13b\output\AndroidManifest.xml:11:5-14:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Flavio\.android\build-cache\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Flavio\.android\build-cache\126da8c3b5b8353d23899d23bc22f4c65f1caca2\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Flavio\.android\build-cache\02e79cc8381cec36cc84386bd5e4fb878e2e9a9e\output\AndroidManifest.xml:29:5-20

@@ -1,63 +1,43 @@
 [
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_options.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\list_options.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_local.xml",
+        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_local.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_navigation_menu_item.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_local_list.xml",
+        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_local_list.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_dropdown_list.xml",
         "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\spinner_dropdown_list.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_profile.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_profile.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_group.xml",
         "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\list_group.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\four_info_list.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\four_info_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
@@ -76,72 +56,40 @@
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\two_info_list.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\two_info_list.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_deseja_sair.xml",
+        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\fragment_deseja_sair.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_profile_setting.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_profile_setting.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opcao_abastecimento.xml",
+        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_opcao_abastecimento.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_profile.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\aaff61457d4848cb773eb560a7a51f76d16a230a\\output\\res\\layout\\material_drawer_item_profile.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_splash.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_manutencao.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_manutencao.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_mini.xml",
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_mini.xml",
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_mini.xml"
+    },
+    {
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_gasto_chart.xml",
         "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_gasto_chart.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_relatorio_list.xml",
         "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_relatorio_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_carro_list.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_carro_list.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
@@ -152,92 +100,52 @@
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_relatorio_list.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_relatorio_list.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_compact_header.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_compact_header.xml"
+    },
+    {
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_abastecimento_chart.xml",
+        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_abastecimento_chart.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_divider.xml",
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_divider.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_list.xml",
+        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\fragment_list.xml"
+    },
+    {
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\three_info_list.xml",
+        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\three_info_list.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_toggle.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_toggle.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_header.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_header.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_secondary.xml",
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_secondary.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_gasto_chart.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_gasto_chart.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\first_car_fragment.xml",
         "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\first_car_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\list_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_local_list.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_local_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_switch.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\aaff61457d4848cb773eb560a7a51f76d16a230a\\output\\res\\layout\\material_drawer_item_switch.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_dropdown_list.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\spinner_dropdown_list.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
@@ -248,626 +156,6 @@
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_mini_profile.xml"
     },
     {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_profile_setting.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\aaff61457d4848cb773eb560a7a51f76d16a230a\\output\\res\\layout\\material_drawer_item_profile_setting.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_recycler_view.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_recycler_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listrow.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\listrow.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opcao_gasto.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_opcao_gasto.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_compact_header.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\aaff61457d4848cb773eb560a7a51f76d16a230a\\output\\res\\layout\\material_drawer_compact_header.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_divider.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\aaff61457d4848cb773eb560a7a51f76d16a230a\\output\\res\\layout\\material_drawer_item_divider.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\notification_action_tombstone.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\notification_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_manutencao.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_manutencao.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_section.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_section.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_list.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\fragment_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\notification_action_tombstone.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_layout_snackbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\two_info_list.xml",
-        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\two_info_list.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_slider.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\aaff61457d4848cb773eb560a7a51f76d16a230a\\output\\res\\layout\\material_drawer_slider.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_recycler_view.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_recycler_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_switch.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_switch.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_mini.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\aaff61457d4848cb773eb560a7a51f76d16a230a\\output\\res\\layout\\material_drawer_item_mini.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_section.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_section.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_abastecimento_new.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_abastecimento_new.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_options.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\list_options.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_container.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_container.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opcao_gasto.xml",
-        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_opcao_gasto.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_group.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\list_group.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowsrelatorio.xml",
-        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\rowsrelatorio.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_secondary.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_secondary.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_text_input_password_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opcao_abastecimento.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_opcao_abastecimento.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_abastecimento_new.xml",
-        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_abastecimento_new.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_toggle.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_toggle.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_navigation_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\three_info_list.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\three_info_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_header.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\aaff61457d4848cb773eb560a7a51f76d16a230a\\output\\res\\layout\\material_drawer_header.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowsrelatorio.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\rowsrelatorio.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_profile.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_profile.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_despesas.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_despesas.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\notification_template_lines_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\materialize.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\d8d11e0424d24813772d3575d58fd3e53d4090ac\\output\\res\\layout\\materialize.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_toggle.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\aaff61457d4848cb773eb560a7a51f76d16a230a\\output\\res\\layout\\material_drawer_item_toggle.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_abastecimento_chart.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_abastecimento_chart.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_local.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_local.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_abastecimento.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_abastecimento.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\notification_template_lines_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
-        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\list_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\notification_template_lines_media.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_bottom_navigation_item.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_primary.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_primary.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_local.xml",
-        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_local.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_navigation_item_separator.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_local_list.xml",
-        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_local_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_splash.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\first_car_fragment.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\first_car_fragment.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowsrelatorio.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\rowsrelatorio.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\notification_action.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_navigation_item_separator.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\layout\\design_layout_tab_text.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_deseja_sair.xml",
-        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\fragment_deseja_sair.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opcao_gasto.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_opcao_gasto.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_deseja_sair.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\fragment_deseja_sair.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_secondary.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\aaff61457d4848cb773eb560a7a51f76d16a230a\\output\\res\\layout\\material_drawer_item_secondary.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_usuario.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_usuario.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_profile_setting.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_profile_setting.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\notification_template_media_custom.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opcao_abastecimento.xml",
-        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_opcao_abastecimento.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_bottom_navigation_item.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_mini.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_mini.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_dropdown_list.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\spinner_dropdown_list.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opcao_abastecimento.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_opcao_abastecimento.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listrow.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\listrow.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_list.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\fragment_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\materialize.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\ec2f84443621fcd94d7fe3318b11731d89ca2e97\\output\\res\\layout\\materialize.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_compact_header.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_compact_header.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_abastecimento_chart.xml",
-        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_abastecimento_chart.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_list.xml",
-        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\fragment_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\three_info_list.xml",
-        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\three_info_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_carro.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_carro.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_local.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_local.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_navigation_item.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_group.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\list_group.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_mini_profile.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\aaff61457d4848cb773eb560a7a51f76d16a230a\\output\\res\\layout\\material_drawer_item_mini_profile.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_abastecimento.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_abastecimento.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_container.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\aaff61457d4848cb773eb560a7a51f76d16a230a\\output\\res\\layout\\material_drawer_item_container.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_mini_profile.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_mini_profile.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_usuario.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_usuario.xml"
-    },
-    {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_carro_list.xml",
         "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_carro_list.xml"
     },
@@ -876,20 +164,12 @@
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_container.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_action_menu_layout.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\three_info_list.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\three_info_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\two_info_list.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\two_info_list.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
@@ -908,100 +188,84 @@
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_primary.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_primary.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_recycler_view.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\aaff61457d4848cb773eb560a7a51f76d16a230a\\output\\res\\layout\\material_drawer_recycler_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_deseja_sair.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\fragment_deseja_sair.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
         "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_slider.xml",
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_slider.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_abastecimento_chart.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_abastecimento_chart.xml"
-    },
-    {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_abastecimento.xml",
         "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_abastecimento.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\layout\\design_navigation_menu_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\first_car_fragment.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\first_car_fragment.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\four_info_list.xml",
         "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\four_info_list.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_options.xml",
         "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\list_options.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_primary.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\aaff61457d4848cb773eb560a7a51f76d16a230a\\output\\res\\layout\\material_drawer_item_primary.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_switch.xml",
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_switch.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\layout\\design_navigation_item_separator.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\two_info_list.xml",
+        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\two_info_list.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_local_list.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_local_list.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\layout\\design_navigation_item.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_recycler_view.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_recycler_view.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\layout\\design_layout_snackbar.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_section.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_section.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_usuario.xml",
@@ -1016,172 +280,116 @@
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opcao_gasto.xml",
+        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_opcao_gasto.xml"
+    },
+    {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_header.xml",
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_header.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_navigation_item_header.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_search_view.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\notification_template_media_custom.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\notification_action_tombstone.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_slider.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_slider.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\aaff61457d4848cb773eb560a7a51f76d16a230a\\output\\res\\layout\\material_drawer.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowsrelatorio.xml",
+        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\rowsrelatorio.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_text_input_password_icon.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\notification_template_part_time.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_abastecimento_new.xml",
+        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_abastecimento_new.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\layout\\design_text_input_password_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_section.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\aaff61457d4848cb773eb560a7a51f76d16a230a\\output\\res\\layout\\material_drawer_item_section.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\layout\\design_bottom_navigation_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_toggle.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_toggle.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\materialize.xml",
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\ec2f84443621fcd94d7fe3318b11731d89ca2e97\\output\\res\\layout\\materialize.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_navigation_item.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listrow.xml",
         "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\listrow.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_relatorio_list.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_relatorio_list.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_navigation_item_subheader.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_abastecimento_new.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_abastecimento_new.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_gasto_chart.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_gasto_chart.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_carro_list.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_carro_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_carro.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_carro.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_layout_tab_text.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_menu_item_action_area.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_profile.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_profile.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\four_info_list.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\four_info_list.xml"
-    },
-    {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_divider.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_divider.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_despesas.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_despesas.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_profile_setting.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_profile_setting.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\list_item.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_manutencao.xml",
         "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\activity_manutencao.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\layout\\list_item.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_compact_header.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_compact_header.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_primary.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\layout\\material_drawer_item_primary.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",

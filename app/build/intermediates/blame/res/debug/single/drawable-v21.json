@@ -1,27 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\drawable-v21\\avd_show_password.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\drawable-v21\\avd_hide_password.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\custom_bg.xml",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\drawable-v21\\custom_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\custom_bg.xml",
@@ -32,76 +16,20 @@
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\drawable-v21\\design_password_eye.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\drawable-v21\\avd_hide_password.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\custom_bg.xml",
-        "source": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\src\\main\\res\\drawable-v21\\custom_bg.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\drawable-v21\\avd_hide_password.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\drawable-v21\\notification_action_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\drawable-v21\\design_password_eye.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\drawable-v21\\notification_action_background.xml"
-    },
-    {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\drawable-v21\\design_password_eye.xml"
-    },
-    {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\drawable-v21\\avd_show_password.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\drawable-v21\\design_password_eye.xml"
-    },
-    {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
         "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Flavio\\Desktop\\Android\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\drawable-v21\\avd_show_password.xml"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",

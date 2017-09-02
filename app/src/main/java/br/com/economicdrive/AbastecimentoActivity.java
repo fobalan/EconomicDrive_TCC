@@ -30,6 +30,7 @@ import android.widget.TextView;
 import com.mikepenz.materialdrawer.holder.StringHolder;
 import com.rengwuxian.materialedittext.MaterialAutoCompleteTextView;
 import com.rengwuxian.materialedittext.MaterialEditText;
+import com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner;
 
 import br.com.economicdrive.constantes.Constantes;
 import br.com.economicdrive.fragment.DatePickerFragment;
@@ -41,327 +42,330 @@ import br.com.economicdrive.model.Local;
 @SuppressLint("SimpleDateFormat")
 public class AbastecimentoActivity extends AppCompatActivity implements OnClickListener,
 		TextWatcher, OnItemSelectedListener {
-	private Toolbar abastecimentoToolbar;
-	private MaterialEditText dataMaterialEditText;
-	private TextView quantidadeLitrosTextView;
-	private MaterialAutoCompleteTextView localMaterialEditText;
-	private MaterialEditText combustivelMaterialEditText;
-	private MaterialEditText valorLitroMaterialEditText;
-	private MaterialEditText valorGastoMaterialEditText;
-	private MaterialEditText hodometroMaterialEditText;
-	private CheckBox tanqueCheioCheckBox;
-	private Abastecimento abastecimento;
-	private Local local;
-	private float valorGasto;
-	private float valorLitro;
-	private NumberFormat dinheiroGastoFormat;
-	private NumberFormat dinheiroLitroFormat;
-	private ArrayAdapter<Combustivel> adapterCombustivel;
-	private Combustivel escolhaCombustivel;
-	private Combustivel[] itens;
-	private Carro veiculoEscolhido;
+    private Toolbar abastecimentoToolbar;
+    private MaterialEditText dataMaterialEditText;
+    private TextView quantidadeLitrosTextView;
+    private MaterialAutoCompleteTextView localMaterialAutoComplete;
+    private MaterialBetterSpinner combustivelBetterSpinner;
+    private MaterialEditText valorLitroMaterialEditText;
+    private MaterialEditText valorGastoMaterialEditText;
+    private MaterialEditText hodometroMaterialEditText;
+    private CheckBox tanqueCheioCheckBox;
+    private Abastecimento abastecimento;
+    private Local local;
+    private float valorGasto;
+    private float valorLitro;
+    private NumberFormat dinheiroGastoFormat;
+    private NumberFormat dinheiroLitroFormat;
+    private ArrayAdapter<Combustivel> adapterCombustivel;
+    private Combustivel escolhaCombustivel;
+    private Combustivel[] itens;
+    private Carro veiculoEscolhido;
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_abastecimento);
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_abastecimento);
 
-		//Toolbae
-		abastecimentoToolbar = (Toolbar) findViewById(R.id.abastecimentoToolbar);
+        //Toolbae
+        abastecimentoToolbar = (Toolbar) findViewById(R.id.abastecimentoToolbar);
 
-		//MaterialEditTexts
-		dataMaterialEditText = (MaterialEditText) findViewById(R.id.dataMaterialEditText);
-		localMaterialEditText = (MaterialAutoCompleteTextView) findViewById(R.id.localMaterialEditText);
-		combustivelMaterialEditText = (MaterialEditText) findViewById(R.id.combustivelMaterialEditText);
-		valorLitroMaterialEditText = (MaterialEditText) findViewById(R.id.valorLitroMaterialEditText);
-		valorGastoMaterialEditText = (MaterialEditText) findViewById(R.id.valorGastoMaterialEditText);
-		hodometroMaterialEditText = (MaterialEditText) findViewById(R.id.hodometroMaterialEditText);
+        //MaterialEditTexts
+        dataMaterialEditText = (MaterialEditText) findViewById(R.id.dataMaterialEditText);
+        valorLitroMaterialEditText = (MaterialEditText) findViewById(R.id.valorLitroMaterialEditText);
+        valorGastoMaterialEditText = (MaterialEditText) findViewById(R.id.valorGastoMaterialEditText);
+        hodometroMaterialEditText = (MaterialEditText) findViewById(R.id.hodometroMaterialEditText);
 
-		//TextViews
-		quantidadeLitrosTextView = (TextView) findViewById(R.id.quantidadeLitrosTextView);
+        //MaterialAutoCcomplete
+        localMaterialAutoComplete = (MaterialAutoCompleteTextView) findViewById(R.id.localMaterialEditText);
+        combustivelBetterSpinner = (MaterialBetterSpinner) findViewById(R.id.combustivelBetterSpinner);
 
-		//CheckBoxs
-		tanqueCheioCheckBox = (CheckBox) findViewById(R.id.tanqueCheioCheckBox);
+        //TextViews
+        quantidadeLitrosTextView = (TextView) findViewById(R.id.quantidadeLitrosTextView);
 
-		dataMaterialEditText.setOnClickListener(this);
-		localMaterialEditText.setOnClickListener(this);
-		//combustivelMaterialEditText.setOnItemSelectedListener(this);
-		applyCustomizingActionBar();
-		onCreateCustomizingFormats();
-		onCarSelected();
-		onFuelSelection();
-		switch (getIntent().getIntExtra("acao", 0)) {
-			case Constantes.EDITAR:
-				onStartVariables();
-				break;
-			case Constantes.INSERIR:
-				abastecimento = new Abastecimento(this);
-				abastecimento.setIdCarro(veiculoEscolhido.getCodigo());
-				dataMaterialEditText.setText(getDateTime());
-				break;
-			case Constantes.VISUALIZAR:
-				onStartVariables();
-				onDisableInputVariables();
-				break;
-		}
-		onSetTextListeners();
-	}
+        //CheckBoxs
+        tanqueCheioCheckBox = (CheckBox) findViewById(R.id.tanqueCheioCheckBox);
 
-	private void onFuelSelection() {
-		List<Combustivel> combustivel = null;
+        dataMaterialEditText.setOnClickListener(this);
+        localMaterialAutoComplete.setOnClickListener(this);
+        combustivelBetterSpinner.setOnItemSelectedListener(this);
 
-		switch (veiculoEscolhido.getComb()) {
-			case Constantes.GASOLINA:
-				combustivel = Combustivel.consultarComb(this, "SELECT *"
-						+ " FROM tb_Combustivel"
-						+ " WHERE idCOMBUSTIVEL = 4"
-						+ " OR idCOMBUSTIVEL = 5;");
-				break;
-			case Constantes.ALCOOL:
-				combustivel = Combustivel.consultarComb(this, "SELECT *"
-						+ " FROM tb_Combustivel"
-						+ " WHERE idCOMBUSTIVEL = 1"
-						+ " OR idCOMBUSTIVEL = 2;");
-				break;
-			case Constantes.FLEX:
-				combustivel = Combustivel.consultarComb(this, "SELECT *"
-						+ " FROM tb_Combustivel"
-						+ " WHERE idCOMBUSTIVEL = 1"
-						+ " OR idCOMBUSTIVEL = 2"
-						+ " OR idCOMBUSTIVEL = 4"
-						+ " OR idCOMBUSTIVEL = 5;");
+        applyCustomizingActionBar();
+        onCreateCustomizingFormats();
+        onCarSelected();
+        onFuelSelection();
+        switch (getIntent().getIntExtra("acao", 0)) {
+            case Constantes.EDITAR:
+                onStartVariables();
+                break;
+            case Constantes.INSERIR:
+                abastecimento = new Abastecimento(this);
+                abastecimento.setIdCarro(veiculoEscolhido.getCodigo());
+                dataMaterialEditText.setText(getDateTime());
+                break;
+            case Constantes.VISUALIZAR:
+                onStartVariables();
+                onDisableInputVariables();
+                break;
+        }
+        onSetTextListeners();
+    }
 
-				break;
-			case Constantes.DIESEL:
-				combustivel = Combustivel.consultarComb(this, "SELECT *"
-						+ " FROM tb_Combustivel"
-						+ " WHERE idCOMBUSTIVEL = 3;");
-				break;
-		}
-		itens = combustivel.toArray(new Combustivel[0]);
-		adapterCombustivel =
-				new ArrayAdapter<>(this, R.layout.spinner_dropdown_list, itens);
-		//combustivelSpinner.setAdapter(adapterCombustivel);
-	}
+    private void onFuelSelection() {
+        List<Combustivel> combustivel = null;
 
-	private void onCarSelected() {
-		veiculoEscolhido = getIntent().getParcelableExtra("veiculo");
-	}
+        switch (veiculoEscolhido.getComb()) {
+            case Constantes.GASOLINA:
+                combustivel = Combustivel.consultarComb(this, "SELECT *"
+                        + " FROM tb_Combustivel"
+                        + " WHERE idCOMBUSTIVEL = 4"
+                        + " OR idCOMBUSTIVEL = 5;");
+                break;
+            case Constantes.ALCOOL:
+                combustivel = Combustivel.consultarComb(this, "SELECT *"
+                        + " FROM tb_Combustivel"
+                        + " WHERE idCOMBUSTIVEL = 1"
+                        + " OR idCOMBUSTIVEL = 2;");
+                break;
+            case Constantes.FLEX:
+                combustivel = Combustivel.consultarComb(this, "SELECT *"
+                        + " FROM tb_Combustivel"
+                        + " WHERE idCOMBUSTIVEL = 1"
+                        + " OR idCOMBUSTIVEL = 2"
+                        + " OR idCOMBUSTIVEL = 4"
+                        + " OR idCOMBUSTIVEL = 5;");
 
-	public void showDatePickerDialog(View v) {
-		DialogFragment newFragment = new DatePickerFragment(0);
-		newFragment.show(getFragmentManager(), "datePicker");
-	}
+                break;
+            case Constantes.DIESEL:
+                combustivel = Combustivel.consultarComb(this, "SELECT *"
+                        + " FROM tb_Combustivel"
+                        + " WHERE idCOMBUSTIVEL = 3;");
+                break;
+        }
+        itens = combustivel.toArray(new Combustivel[0]);
+        adapterCombustivel =
+                new ArrayAdapter<>(this, R.layout.spinner_dropdown_list, itens);
+        combustivelBetterSpinner.setAdapter(adapterCombustivel);
+        combustivelBetterSpinner.setText(itens[0].getNome());
+    }
 
-	@Override
-	public void onClick(View v) {
-		switch (v.getId()) {
-			case R.id.dataMaterialEditText:
-				showDatePickerDialog(v);
-				break;
-			case R.id.localMaterialEditText:
-				Intent i = new Intent(this, LocalListActivity.class);
-				i.putExtra("activity", "Abastecimento");
-				startActivityForResult(i, Constantes.ABASTECIMENTO_CODE);
-				break;
-		}
+    private void onCarSelected() {
+        veiculoEscolhido = getIntent().getParcelableExtra("veiculo");
+    }
 
-	}
+    public void showDatePickerDialog(View v) {
+        DialogFragment newFragment = new DatePickerFragment(0);
+        newFragment.show(getFragmentManager(), "datePicker");
+    }
 
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		switch (item.getItemId()) {
-			case android.R.id.home:
-				finish();
-				return true;
-			case R.id.save_menu:
-				onClickSave();
-				return true;
-		}
-		return super.onOptionsItemSelected(item);
-	}
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.dataMaterialEditText:
+                showDatePickerDialog(v);
+                break;
+            case R.id.localMaterialEditText:
+                Intent i = new Intent(this, LocalListActivity.class);
+                i.putExtra("activity", "Abastecimento");
+                startActivityForResult(i, Constantes.ABASTECIMENTO_CODE);
+                break;
+        }
 
-	@Override
-	public void beforeTextChanged(CharSequence s, int start, int count,
-								  int after) {
-	}
+    }
 
-	@Override
-	public void onTextChanged(CharSequence s, int start, int before, int count) {
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                return true;
+            case R.id.save_menu:
+                onClickSave();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 
-	}
+    @Override
+    public void beforeTextChanged(CharSequence s, int start, int count,
+                                  int after) {
+    }
 
-	@Override
-	public void afterTextChanged(Editable s) {
-		onRemoveTextListeners();
-		String valorMask = null;
-		MaterialEditText selecionadoMaterialEditText = null;
-		try {
-			float valorAnterior = Float.parseFloat(s.toString()
-					.replace("R$", "").replace(".", "").replaceAll(",", "")
-					.replaceFirst(" ", ""));
-			if (valorGastoMaterialEditText.isFocused()) {
-				selecionadoMaterialEditText = valorGastoMaterialEditText;
-				valorGasto = valorAnterior / 100;
-				valorMask = dinheiroGastoFormat.format(valorAnterior / 100);
-				valorGastoMaterialEditText.setText(valorMask);
-			} else if (valorLitroMaterialEditText.isFocused()) {
-				selecionadoMaterialEditText = valorLitroMaterialEditText;
-				valorLitro = valorAnterior / 1000;
-				valorMask = dinheiroLitroFormat.format(valorAnterior / 1000);
-				valorLitroMaterialEditText.setText(valorMask);
-			}
-			onCalculateQuantityLitros(valorLitro, valorGasto);
-			selecionadoMaterialEditText.setSelection(valorMask.length());
-			onSetTextListeners();
-		} catch (NumberFormatException e) {
-		} catch (ArithmeticException e) {
-		}
-	}
+    @Override
+    public void onTextChanged(CharSequence s, int start, int before, int count) {
 
-	@Override
-	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-		if (requestCode == Constantes.ABASTECIMENTO_CODE)
-			if (resultCode == Constantes.LOCAL_LIST) {
-				local = data.getParcelableExtra("parcel");
-				localMaterialEditText.setText(local.getNome());
-			}
+    }
 
-	}
+    @Override
+    public void afterTextChanged(Editable s) {
+        onRemoveTextListeners();
+        String valorMask = null;
+        MaterialEditText selecionadoMaterialEditText = null;
+        try {
+            float valorAnterior = Float.parseFloat(s.toString()
+                    .replace("R$", "").replace(".", "").replaceAll(",", "")
+                    .replaceFirst(" ", ""));
+            if (valorGastoMaterialEditText.isFocused()) {
+                selecionadoMaterialEditText = valorGastoMaterialEditText;
+                valorGasto = valorAnterior / 100;
+                valorMask = dinheiroGastoFormat.format(valorAnterior / 100);
+                valorGastoMaterialEditText.setText(valorMask);
+            } else if (valorLitroMaterialEditText.isFocused()) {
+                selecionadoMaterialEditText = valorLitroMaterialEditText;
+                valorLitro = valorAnterior / 1000;
+                valorMask = dinheiroLitroFormat.format(valorAnterior / 1000);
+                valorLitroMaterialEditText.setText(valorMask);
+            }
+            onCalculateQuantityLitros(valorLitro, valorGasto);
+            selecionadoMaterialEditText.setSelection(valorMask.length());
+            onSetTextListeners();
+        } catch (NumberFormatException e) {
+        } catch (ArithmeticException e) {
+        }
+    }
 
-	private void onCalculateQuantityLitros(float valorLitro, float valorGasto) {
-		float quantidadeLitros;
-		if (valorLitro == 0 || valorGasto == 0) {
-			quantidadeLitros = 0;
-		} else {
-			quantidadeLitros = valorGasto / valorLitro;
-		}
-		quantidadeLitrosTextView.setText(new DecimalFormat("##,###.##L")
-				.format(quantidadeLitros));
-	}
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == Constantes.ABASTECIMENTO_CODE)
+            if (resultCode == Constantes.LOCAL_LIST) {
+                local = data.getParcelableExtra("parcel");
+                localMaterialAutoComplete.setText(local.getNome());
+            }
 
-	private void applyCustomizingActionBar() {
-		setSupportActionBar(abastecimentoToolbar);
-		ActionBar actionBar = getSupportActionBar();
-		actionBar.setHomeButtonEnabled(true);
-		actionBar.setDisplayHomeAsUpEnabled(true);
-		actionBar.setBackgroundDrawable(new ColorDrawable(Color
-				.rgb(3, 103, 221)));
-	}
+    }
 
-	private void onSetTextListeners() {
-		valorLitroMaterialEditText.addTextChangedListener(this);
-		valorGastoMaterialEditText.addTextChangedListener(this);
-	}
+    private void onCalculateQuantityLitros(float valorLitro, float valorGasto) {
+        float quantidadeLitros;
+        if (valorLitro == 0 || valorGasto == 0) {
+            quantidadeLitros = 0;
+        } else {
+            quantidadeLitros = valorGasto / valorLitro;
+        }
+        quantidadeLitrosTextView.setText(new DecimalFormat("##,###.##L")
+                .format(quantidadeLitros));
+    }
 
-	private void onRemoveTextListeners() {
-		valorLitroMaterialEditText.removeTextChangedListener(this);
-		valorGastoMaterialEditText.removeTextChangedListener(this);
-	}
+    private void applyCustomizingActionBar() {
+        setSupportActionBar(abastecimentoToolbar);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setHomeButtonEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setBackgroundDrawable(new ColorDrawable(Color
+                .rgb(3, 103, 221)));
+    }
 
-	private void onCreateCustomizingFormats() {
-		dinheiroGastoFormat = NumberFormat.getCurrencyInstance();
-		dinheiroLitroFormat = NumberFormat.getCurrencyInstance();
-		dinheiroLitroFormat.setMinimumFractionDigits(3);
-		dinheiroLitroFormat.setMaximumFractionDigits(3);
-	}
+    private void onSetTextListeners() {
+        valorLitroMaterialEditText.addTextChangedListener(this);
+        valorGastoMaterialEditText.addTextChangedListener(this);
+    }
 
-	private void onDisableInputVariables() {
-		combustivelMaterialEditText.setEnabled(false);
-		tanqueCheioCheckBox.setEnabled(false);
-		valorLitroMaterialEditText.setEnabled(false);
-		valorGastoMaterialEditText.setEnabled(false);
-		hodometroMaterialEditText.setEnabled(false);
-		localMaterialEditText.setEnabled(false);
-		dataMaterialEditText.setEnabled(false);
-		quantidadeLitrosTextView.setEnabled(false);
+    private void onRemoveTextListeners() {
+        valorLitroMaterialEditText.removeTextChangedListener(this);
+        valorGastoMaterialEditText.removeTextChangedListener(this);
+    }
 
-	}
+    private void onCreateCustomizingFormats() {
+        dinheiroGastoFormat = NumberFormat.getCurrencyInstance();
+        dinheiroLitroFormat = NumberFormat.getCurrencyInstance();
+        dinheiroLitroFormat.setMinimumFractionDigits(3);
+        dinheiroLitroFormat.setMaximumFractionDigits(3);
+    }
 
-	private void onStartVariables() {
-		abastecimento = getIntent().getParcelableExtra("parcel");
-		onSetCombustivel();
-		if (abastecimento.getTanqueCheio().equals("sim"))
-			tanqueCheioCheckBox.setChecked(true);
-		valorLitroMaterialEditText.setText(dinheiroLitroFormat.format(abastecimento.getValorLitro()));
-		valorLitroMaterialEditText.setSelection(valorLitroMaterialEditText.getEditableText().length());
-		valorGastoMaterialEditText.setText(dinheiroGastoFormat.format(abastecimento.getValorGasto()));
-		hodometroMaterialEditText.setText(Integer.toString(abastecimento.getKilometros()));
-		local = Abastecimento.ConsultaLocal(this, "SELECT *"
-				+ " FROM tb_local"
-				+ " WHERE codigoLOCAL = " + abastecimento.getLocalGasto());
-		localMaterialEditText.setText(local.getNome());
-		dataMaterialEditText.setText(abastecimento.tratadata());
-		onCalculateQuantityLitros(abastecimento.getValorLitro(), abastecimento.getValorGasto());
-	}
+    private void onDisableInputVariables() {
+        combustivelBetterSpinner.setEnabled(false);
+        tanqueCheioCheckBox.setEnabled(false);
+        valorLitroMaterialEditText.setEnabled(false);
+        valorGastoMaterialEditText.setEnabled(false);
+        hodometroMaterialEditText.setEnabled(false);
+        localMaterialAutoComplete.setEnabled(false);
+        dataMaterialEditText.setEnabled(false);
+        quantidadeLitrosTextView.setEnabled(false);
 
-	private void onSetCombustivel() {
-		for (int i = 0; i < itens.length; i++) {
-			if (itens[i].getCodigo() == abastecimento.getCombustivel()) {
-				combustivelMaterialEditText.setSelection(i);
-				break;
-			}
-		}
+    }
 
-	}
+    private void onStartVariables() {
+        abastecimento = getIntent().getParcelableExtra("parcel");
+        //onSetCombustivel();
+        if (abastecimento.getTanqueCheio().equals("sim"))
+            tanqueCheioCheckBox.setChecked(true);
+        valorLitroMaterialEditText.setText(dinheiroLitroFormat.format(abastecimento.getValorLitro()));
+        valorLitroMaterialEditText.setSelection(valorLitroMaterialEditText.getEditableText().length());
+        valorGastoMaterialEditText.setText(dinheiroGastoFormat.format(abastecimento.getValorGasto()));
+        hodometroMaterialEditText.setText(Integer.toString(abastecimento.getKilometros()));
+        local = Abastecimento.ConsultaLocal(this, "SELECT *"
+                + " FROM tb_local"
+                + " WHERE codigoLOCAL = " + abastecimento.getLocalGasto());
+        localMaterialAutoComplete.setText(local.getNome());
+        dataMaterialEditText.setText(abastecimento.tratadata());
+        onCalculateQuantityLitros(abastecimento.getValorLitro(), abastecimento.getValorGasto());
+    }
 
-	private String getDateTime() {
-		Date date = new Date();
-		return new SimpleDateFormat("dd/MM/yyyy").format(date);
-	}
+    private String getDateTime() {
+        Date date = new Date();
+        return new SimpleDateFormat("dd/MM/yyyy").format(date);
+    }
 
-	@Override
-	public void onItemSelected(AdapterView<?> parent, View view, int position,
-							   long id) {
-		escolhaCombustivel = adapterCombustivel.getItem(position);
-	}
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position,
+                               long id) {
+        escolhaCombustivel = adapterCombustivel.getItem(position);
+    }
 
-	@Override
-	public void onNothingSelected(AdapterView<?> parent) {
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
 
-	}
+    }
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		getMenuInflater().inflate(R.menu.toolbar_menu, menu);
-		return true;
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.toolbar_menu, menu);
+        return true;
 
-	}
+    }
 
-	public void onClickSave() {
-		if (Integer.parseInt(hodometroMaterialEditText.getEditableText().toString()) <= Abastecimento.getMaxHodometro(this, veiculoEscolhido)) {
-			hodometroMaterialEditText.setError("Valor do hodometro menor que o ultimo inserido");
-		} else if (valorLitroMaterialEditText.getEditableText().toString().equals("") || valorLitroMaterialEditText.getEditableText().toString().equals("R$0,000")) {
-			valorLitroMaterialEditText.setError("Obrigatório preencher campo Valor Litro");
-		} else if (valorGastoMaterialEditText.getEditableText().toString().equals("") || valorGastoMaterialEditText.getEditableText().toString().equals("R$0,00")) {
-			valorGastoMaterialEditText.setError("Obrigatório preencher campo Valor Gasto");
-		} else if (hodometroMaterialEditText.getEditableText().toString().equals("") || hodometroMaterialEditText.getEditableText().toString().equals("0")) {
-			hodometroMaterialEditText.setError("Obrigatório preencher campo Hodometro");
-		} else if (local == null) {
-			localMaterialEditText.setError("Obrigatório preencher campo Local");
-		} else {
-			abastecimento.setCombustivel(escolhaCombustivel.getCodigo());
-			abastecimento.setDataGasto(dataMaterialEditText.getText().toString());
-			abastecimento.setKilometros(Integer.parseInt(hodometroMaterialEditText.getEditableText().toString()));
-			abastecimento.setValorLitro(Float.parseFloat(valorLitroMaterialEditText.getEditableText().toString().replace("R$", "").replace(",", ".")));
-			abastecimento.setValorGasto(Float.parseFloat(valorGastoMaterialEditText.getEditableText().toString().replace("R$", "").replace(",", ".")));
-			abastecimento.setLocalGasto(local.getCodigo());
-			abastecimento.setKmdif(0);
-			if (tanqueCheioCheckBox.isChecked()) {
-				abastecimento.setTanqueCheio("sim");
-			} else {
-				abastecimento.setTanqueCheio("nao");
-			}
-			if (getIntent().getIntExtra("acao", 0) == Constantes.EDITAR) {
-				abastecimento.alteraAbastecimento(this);
-				abastecimento.AtualizakmRodado(this, abastecimento.getIdCarro());
-			} else {
-				abastecimento.insereAbastecimento(this);
-				MainActivity.getNavigationDrawerLeft().updateBadge(2,
-						new StringHolder(Integer.toString(Abastecimento.ContaAbastecimentos(this, veiculoEscolhido.getCodigo()))));
-			}
-			abastecimento.AtualizakmRodado(this, abastecimento.getIdCarro());
-			finish();
-		}
-	}
+    public void onClickSave() {
+            if(checkFields()){
+            abastecimento.setCombustivel(escolhaCombustivel.getCodigo());
+            abastecimento.setDataGasto(dataMaterialEditText.getText().toString());
+            abastecimento.setKilometros(Integer.parseInt(hodometroMaterialEditText.getEditableText().toString()));
+            abastecimento.setValorLitro(Float.parseFloat(valorLitroMaterialEditText.getEditableText().toString().replace("R$", "").replace(",", ".")));
+            abastecimento.setValorGasto(Float.parseFloat(valorGastoMaterialEditText.getEditableText().toString().replace("R$", "").replace(",", ".")));
+            abastecimento.setLocalGasto(local.getCodigo());
+            abastecimento.setKmdif(0);
+            if (tanqueCheioCheckBox.isChecked()) {
+                abastecimento.setTanqueCheio("sim");
+            } else {
+                abastecimento.setTanqueCheio("nao");
+            }
+            if (getIntent().getIntExtra("acao", 0) == Constantes.EDITAR) {
+                abastecimento.alteraAbastecimento(this);
+                abastecimento.AtualizakmRodado(this, abastecimento.getIdCarro());
+            } else {
+                abastecimento.insereAbastecimento(this);
+                MainActivity.getNavigationDrawerLeft().updateBadge(2,
+                        new StringHolder(Integer.toString(Abastecimento.ContaAbastecimentos(this, veiculoEscolhido.getCodigo()))));
+            }
+            abastecimento.AtualizakmRodado(this, abastecimento.getIdCarro());
+            finish();
+        }
+    }
+    private boolean checkFields() {
+        if (valorLitroMaterialEditText.getEditableText().toString().equals("") || valorLitroMaterialEditText.getEditableText().toString().equals("R$0,000")) {
+            valorLitroMaterialEditText.setError("Campo Obrigatório");
+            valorLitroMaterialEditText.requestFocus();
+        } else if (valorGastoMaterialEditText.getEditableText().toString().equals("") || valorGastoMaterialEditText.getEditableText().toString().equals("R$0,00")) {
+            valorGastoMaterialEditText.setError("Campo Obrigatório");
+            valorGastoMaterialEditText.requestFocus();
+        } else if (hodometroMaterialEditText.getEditableText().toString().equals("") || hodometroMaterialEditText.getEditableText().toString().equals("0")) {
+            hodometroMaterialEditText.setError("Campo Obrigatório");
+            hodometroMaterialEditText.requestFocus();
+        } else if (local == null) {
+            localMaterialAutoComplete.setError("Campo Obrigatório");
+        } else if (Integer.parseInt(hodometroMaterialEditText.getEditableText().toString()) <= Abastecimento.getMaxHodometro(this, veiculoEscolhido)) {
+            hodometroMaterialEditText.setError("Valor do hodometro menor que o ultimo inserido");
+        } else {
+            return true;
+        }
+        return false;
+    }
 }

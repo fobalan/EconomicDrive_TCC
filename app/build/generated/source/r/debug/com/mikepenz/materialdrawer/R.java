@@ -788,13 +788,13 @@ public final class R {
         public static final int abc_textfield_search_activated_mtrl_alpha = 0x7f02004f;
         public static final int abc_textfield_search_default_mtrl_alpha = 0x7f020050;
         public static final int abc_textfield_search_material = 0x7f020051;
-        public static final int material_drawer_badge = 0x7f020064;
-        public static final int material_drawer_circle_mask = 0x7f020065;
-        public static final int material_drawer_shadow_bottom = 0x7f020066;
-        public static final int material_drawer_shadow_left = 0x7f020067;
-        public static final int material_drawer_shadow_right = 0x7f020068;
-        public static final int material_drawer_shadow_top = 0x7f020069;
-        public static final int notification_template_icon_bg = 0x7f020078;
+        public static final int material_drawer_badge = 0x7f020065;
+        public static final int material_drawer_circle_mask = 0x7f020066;
+        public static final int material_drawer_shadow_bottom = 0x7f020067;
+        public static final int material_drawer_shadow_left = 0x7f020068;
+        public static final int material_drawer_shadow_right = 0x7f020069;
+        public static final int material_drawer_shadow_top = 0x7f02006a;
+        public static final int notification_template_icon_bg = 0x7f020079;
     }
     public static final class id {
         public static final int action0 = 0x7f0e011d;
