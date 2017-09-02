@@ -9,11 +9,13 @@ import android.os.Bundle;
 import android.widget.DatePicker;
 import android.widget.TextView;
 
+import com.rengwuxian.materialedittext.MaterialEditText;
+
 import br.com.economicdrive.R;
 
 public class DatePickerFragment extends DialogFragment implements
         DatePickerDialog.OnDateSetListener {
-    private TextView dataAbastecimentoTextView;
+    private MaterialEditText dataMaterialEditText;
     private TextView dataDespesaTextView;
     private TextView datainicioTextView;
     private TextView datafimTextView;
@@ -21,8 +23,8 @@ public class DatePickerFragment extends DialogFragment implements
     private TextView datafim2TextView;
     private int operacao = 0;
 
-    public DatePickerFragment(int teste){
-        operacao = teste;
+    public DatePickerFragment(int operacao){
+        this.operacao = operacao;
     }
 
     @Override
@@ -41,9 +43,9 @@ public class DatePickerFragment extends DialogFragment implements
     public void onDateSet(DatePicker view, int year, int month, int day) {
         String data = (String.format("%02d", day) + "/" + String.format("%02d", month + 1) + "/" + Integer.toString(year));
         if (getActivity().getTitle().equals("Abastecimento")){
-            dataAbastecimentoTextView = (TextView) getActivity().findViewById(
-                    R.id.dataAbastecimentoTextView);
-            dataAbastecimentoTextView.setText(data);
+            dataMaterialEditText = (MaterialEditText) getActivity().findViewById(
+                    R.id.dataMaterialEditText);
+            dataMaterialEditText.setText(data);
         }
         else if (getActivity().getTitle().equals("Despesas")){
             dataDespesaTextView = (TextView) getActivity().findViewById(

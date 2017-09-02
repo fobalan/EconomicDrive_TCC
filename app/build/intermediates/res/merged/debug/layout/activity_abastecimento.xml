@@ -1,201 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
 <ScrollView
-    android:id="@+id/scrollView1"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_weight="0.003"
-    tools:context=".AbastecimentoActivity">
+    android:fillViewport="true">
 
-    <LinearLayout
-        android:id="@+id/AbastecimentoContainer"
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+
+        <CheckBox
+            android:id="@+id/tanqueCheioCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Tanque Cheio"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/abastecimentoAppBar" />
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/abastecimentoAppBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
 
             <android.support.v7.widget.Toolbar
-                android:id="@+id/myAbastActivityToolbar"
+                android:id="@+id/abastecimentoToolbar"
                 android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"
-                android:background="?attr/colorPrimary"
-                android:elevation="4dp"
-                android:minHeight="?attr/actionBarSize"
-                app:popupTheme="@style/Theme.MyTheme"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 app:theme="@style/ToolbarColoredBackArrow">
 
-                <ImageButton
-                    android:id="@+id/salvarAbastecimentoButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_marginRight="12dp"
-                    android:contentDescription="Botão de salvar Abastecimento"
-                    android:background="@null"
-                    android:src="@mipmap/ic_save"/>
             </android.support.v7.widget.Toolbar>
 
-        <LinearLayout
-            android:id="@+id/TextInputContainer"
-            android:layout_width="match_parent"
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/combustivelTextInput"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="24dp"
-            android:orientation="vertical">
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:clickable="false"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tanqueCheioCheckBox">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <Spinner
-                    android:id="@+id/combustivelSpinner"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:popupBackground="#FFFFFF"
-                    android:spinnerMode="dropdown"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/combustivelMaterialEditText"
+                style="@style/Widget.AppCompat.AutoCompleteTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:baselineAligned="false"
-                android:gravity="center">
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Combustivel"
+                android:inputType="textAutoComplete"
+                app:met_helperText="Selecione um combustivel"
+                app:met_iconLeft="@mipmap/ic_gas_station" />
+        </android.support.design.widget.TextInputLayout>
 
-                <CheckBox
-                    android:id="@+id/tanqueCheioCheckBox"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Tanque Cheio"/>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/valorLitroTextInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/combustivelTextInput">
 
-            </LinearLayout>
-
-            <android.support.design.widget.TextInputLayout
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/valorLitroMaterialEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingTop="16dp">
+                android:hint="Valor do Litro"
+                app:met_helperText="R$0,00"
+                app:met_iconLeft="@mipmap/ic_money" />
+        </android.support.design.widget.TextInputLayout>
 
-                <EditText
-                    android:id="@+id/valorLitroEditText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Valor do Litro"
-                    android:inputType="number"
-                    android:maxLength="8"
-                    android:paddingBottom="16dp"
-                    android:paddingTop="8dp"/>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/valorGastoTextInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="7dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/valorLitroTextInput">
 
-            </android.support.design.widget.TextInputLayout>
-
-            <android.support.design.widget.TextInputLayout
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/valorGastoMaterialEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingTop="16dp">
+                android:hint="Valor Pago"
+                app:met_helperText="R$0,00"
+                app:met_iconLeft="@mipmap/ic_money" />
+        </android.support.design.widget.TextInputLayout>
 
-                <EditText
-                    android:id="@+id/valorGastoEditText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Valor Gasto"
-                    android:inputType="number"
-                    android:maxLength="8"
-                    android:paddingBottom="16dp"
-                    android:paddingTop="8dp"/>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/hodometroTextInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            app:errorEnabled="false"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/valorGastoTextInput">
 
-            </android.support.design.widget.TextInputLayout>
-
-            <LinearLayout
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/hodometroMaterialEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:hint="Hodometro"
+                app:met_helperText="Selecione um valor maior que o ultimo"
+                app:met_iconLeft="@drawable/ic_camera_timer_black_24dp" />
+        </android.support.design.widget.TextInputLayout>
 
-                <TextView
-                    android:id="@+id/hodometroTextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:ems="6"
-                    android:text="Hodometro:"
-                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/dataTextInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/localTextInput">
 
-                <EditText
-                    android:id="@+id/hodometroEditText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="0001000"
-                    android:inputType="number"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:id="@+id/textView2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:ems="6"
-                    android:text="Local:"
-                    android:textAppearance="?android:attr/textAppearanceLarge"/>
-
-                <TextView
-                    android:id="@+id/localTextView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:drawableRight="@drawable/arrow_textview"
-                    android:gravity="center_vertical"
-                    android:hint="Posto Ipiranga"
-                    android:textAppearance="?android:attr/textAppearanceMedium"/>
-
-            </LinearLayout>
-
-            <LinearLayout
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/dataMaterialEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
+                android:hint="Data"
+                app:met_helperText="00/00/0000"
+                android:focusable="false"
+                app:met_iconLeft="@drawable/ic_event_available_black_24dp" />
+        </android.support.design.widget.TextInputLayout>
 
-                <TextView
-                    android:id="@+id/textView1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="33dp"
-                    android:ems="6"
-                    android:text="Data:"
-                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/localTextInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hodometroTextInput">
 
-                <TextView
-                    android:id="@+id/dataAbastecimentoTextView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="00/00/0000"
-                    android:textAppearance="?android:attr/textAppearanceLarge"/>
-
-            </LinearLayout>
-
-            <LinearLayout
+            <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+                android:id="@+id/localMaterialEditText"
                 android:layout_width="match_parent"
-                android:layout_height="81dp"
-                android:gravity="center"
-                android:orientation="vertical">
+                android:layout_height="wrap_content"
+                android:hint="Endereço"
+                app:met_helperText="Rua XXXX, XX, XXXX "
+                android:focusable="false"
+                app:met_iconLeft="@drawable/ic_location_on_black_24dp" />
+        </android.support.design.widget.TextInputLayout>
 
-                <TextView
-                    android:id="@+id/textView3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Quantidade Litros"/>
+        <TextView
+            android:id="@+id/quantidadeLitrosTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="0L"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/quantidadeTextView" />
 
-                <TextView
-                    android:id="@+id/quantidadeLitrosTextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="0L"
-                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+        <TextView
+            android:id="@+id/quantidadeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Quantidade"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dataTextInput" />
 
-            </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
 </ScrollView>

@@ -19,11 +19,11 @@ public final class R {
         public static final int material_blue_500 = 0x7f0c003b;
     }
     public static final class dimen {
-        public static final int fab_elevation_lollipop = 0x7f08007a;
-        public static final int fab_scroll_threshold = 0x7f08007b;
-        public static final int fab_shadow_size = 0x7f08007c;
-        public static final int fab_size_mini = 0x7f08007d;
-        public static final int fab_size_normal = 0x7f08007e;
+        public static final int fab_elevation_lollipop = 0x7f08007e;
+        public static final int fab_scroll_threshold = 0x7f08007f;
+        public static final int fab_shadow_size = 0x7f080080;
+        public static final int fab_size_mini = 0x7f080081;
+        public static final int fab_size_normal = 0x7f080082;
     }
     public static final class drawable {
         public static final int fab_shadow = 0x7f02005d;
@@ -46,7 +46,7 @@ public final class R {
         public static final int library_FloatingActionButton_repositoryLink = 0x7f070040;
     }
     public static final class styleable {
-        public static final int[] FloatingActionButton = { 0x7f010048, 0x7f0100fb, 0x7f0100fc, 0x7f0100fd, 0x7f0100fe, 0x7f0100ff, 0x7f010100, 0x7f010101, 0x7f010102, 0x7f010103, 0x7f010104, 0x7f010105, 0x7f01017c, 0x7f01017d };
+        public static final int[] FloatingActionButton = { 0x7f010048, 0x7f0100fb, 0x7f0100fc, 0x7f0100fd, 0x7f0100fe, 0x7f0100ff, 0x7f010100, 0x7f010101, 0x7f010102, 0x7f010103, 0x7f010104, 0x7f010105, 0x7f01019b, 0x7f01019c };
         public static final int FloatingActionButton_fab_colorDisabled = 9;
         public static final int FloatingActionButton_fab_colorNormal = 7;
         public static final int FloatingActionButton_fab_colorPressed = 6;
