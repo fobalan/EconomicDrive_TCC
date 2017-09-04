@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -29,18 +28,18 @@
             app:layout_constraintTop_toBottomOf="@+id/abastecimentoToolbar" />
 
 
-            <android.support.v7.widget.Toolbar
-                android:id="@+id/abastecimentoToolbar"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:theme="@style/ToolbarColoredBackArrow"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/abastecimentoToolbar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:theme="@style/ToolbarColoredBackArrow">
 
-            </android.support.v7.widget.Toolbar>
+        </android.support.v7.widget.Toolbar>
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/combustivelTextInput"
@@ -160,9 +159,9 @@
                 android:id="@+id/dataAbastecimentoMaterialEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:focusable="false"
                 android:hint="Data"
                 app:met_helperText="00/00/0000"
-                android:focusable="false"
                 app:met_iconLeft="@drawable/ic_event_available_black_24dp" />
         </android.support.design.widget.TextInputLayout>
 
@@ -181,9 +180,9 @@
                 android:id="@+id/localAbastecimentoMaterialEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:focusable="false"
                 android:hint="Endereço"
                 app:met_helperText="Rua XXXX, XX, XXXX "
-                android:focusable="false"
                 app:met_iconLeft="@drawable/ic_location_on_black_24dp" />
         </android.support.design.widget.TextInputLayout>
 

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+        "outputFile": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "file": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\values-v11\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -33,7 +33,7 @@
                     "endOffset": 603
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -54,7 +54,7 @@
                     "endOffset": 1028
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -75,7 +75,7 @@
                     "endOffset": 1456
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -96,7 +96,7 @@
                     "endOffset": 1882
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -117,7 +117,7 @@
                     "endOffset": 2309
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -138,7 +138,7 @@
                     "endOffset": 2734
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -158,7 +158,7 @@
                     "endOffset": 2823
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
@@ -178,7 +178,7 @@
                     "endOffset": 3069
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
@@ -199,7 +199,7 @@
                     "endOffset": 3318
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 4,
@@ -219,7 +219,7 @@
                     "endOffset": 3419
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 47,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 3671
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 4,
@@ -260,7 +260,7 @@
                     "endOffset": 3926
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 52,
                         "startColumn": 4,
@@ -280,7 +280,7 @@
                     "endOffset": 4029
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 56,
                         "startColumn": 4,
@@ -300,7 +300,7 @@
                     "endOffset": 4282
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 57,
                         "startColumn": 4,
@@ -321,7 +321,7 @@
                     "endOffset": 4690
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 61,
                         "startColumn": 4,
@@ -342,7 +342,7 @@
                     "endOffset": 5110
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 66,
                         "startColumn": 4,
@@ -363,7 +363,7 @@
                     "endOffset": 5532
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 71,
                         "startColumn": 4,
@@ -384,7 +384,7 @@
                     "endOffset": 5639
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 76,
                         "startColumn": 4,
@@ -405,7 +405,7 @@
                     "endOffset": 5768
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 78,
                         "startColumn": 4,
@@ -426,7 +426,7 @@
                     "endOffset": 6044
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\ec2f84443621fcd94d7fe3318b11731d89ca2e97\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\d8d11e0424d24813772d3575d58fd3e53d4090ac\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -447,7 +447,7 @@
                     "endOffset": 6328
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\ec2f84443621fcd94d7fe3318b11731d89ca2e97\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\d8d11e0424d24813772d3575d58fd3e53d4090ac\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -468,7 +468,7 @@
                     "endOffset": 6628
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\ec2f84443621fcd94d7fe3318b11731d89ca2e97\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\d8d11e0424d24813772d3575d58fd3e53d4090ac\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -489,7 +489,7 @@
                     "endOffset": 6928
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\ec2f84443621fcd94d7fe3318b11731d89ca2e97\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\d8d11e0424d24813772d3575d58fd3e53d4090ac\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -510,7 +510,7 @@
                     "endOffset": 7224
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\ec2f84443621fcd94d7fe3318b11731d89ca2e97\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\d8d11e0424d24813772d3575d58fd3e53d4090ac\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -531,7 +531,7 @@
                     "endOffset": 7646
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\ec2f84443621fcd94d7fe3318b11731d89ca2e97\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\d8d11e0424d24813772d3575d58fd3e53d4090ac\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -552,7 +552,7 @@
                     "endOffset": 7958
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\ec2f84443621fcd94d7fe3318b11731d89ca2e97\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\d8d11e0424d24813772d3575d58fd3e53d4090ac\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
@@ -573,7 +573,7 @@
                     "endOffset": 8134
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\ec2f84443621fcd94d7fe3318b11731d89ca2e97\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\d8d11e0424d24813772d3575d58fd3e53d4090ac\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 4,
@@ -594,7 +594,7 @@
                     "endOffset": 8322
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\ec2f84443621fcd94d7fe3318b11731d89ca2e97\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\d8d11e0424d24813772d3575d58fd3e53d4090ac\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 47,
                         "startColumn": 4,
@@ -615,7 +615,7 @@
                     "endOffset": 8534
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\ec2f84443621fcd94d7fe3318b11731d89ca2e97\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\d8d11e0424d24813772d3575d58fd3e53d4090ac\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 51,
                         "startColumn": 4,
@@ -635,7 +635,7 @@
                     "endOffset": 8605
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 80,
                         "startColumn": 4,
@@ -654,7 +654,7 @@
                     "endOffset": 8688
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 81,
                         "startColumn": 4,
@@ -674,7 +674,7 @@
                     "endOffset": 12713
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 82,
                         "startColumn": 4,
@@ -695,7 +695,7 @@
                     "endOffset": 16881
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 136,
                         "startColumn": 4,
@@ -715,7 +715,7 @@
                     "endOffset": 16972
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 191,
                         "startColumn": 4,

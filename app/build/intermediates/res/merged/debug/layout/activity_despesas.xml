@@ -34,7 +34,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="24dp"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -44,7 +44,7 @@
                 android:id="@+id/descricaoDespesaMaterialEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Descrição da Despesa"
+                android:hint="Descrição"
                 android:inputType="text"
                 app:met_helperText="Insira uma descrição para lembrar da despesa"
                 app:met_iconLeft="@mipmap/ic_money" />
@@ -68,8 +68,8 @@
                 android:id="@+id/valorDespesaMaterialEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Valor da Despesa"
-                android:inputType="text"
+                android:hint="Valor"
+                android:inputType="numberDecimal"
                 app:met_helperText="R$0,00"
                 app:met_iconLeft="@mipmap/ic_money" />
         </android.support.design.widget.TextInputLayout>

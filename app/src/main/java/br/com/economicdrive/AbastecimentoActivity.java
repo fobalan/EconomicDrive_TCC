@@ -41,7 +41,7 @@ import br.com.economicdrive.model.Local;
 
 @SuppressLint("SimpleDateFormat")
 public class AbastecimentoActivity extends AppCompatActivity implements OnClickListener,
-		TextWatcher, OnItemSelectedListener {
+		TextWatcher {
     private Toolbar abastecimentoToolbar;
     private MaterialEditText dataMaterialEditText;
     private TextView quantidadeLitrosTextView;
@@ -90,7 +90,6 @@ public class AbastecimentoActivity extends AppCompatActivity implements OnClickL
 
         dataMaterialEditText.setOnClickListener(this);
         localMaterialEditText.setOnClickListener(this);
-        combustivelBetterSpinner.setOnItemSelectedListener(this);
 
         applyCustomizingActionBar();
         onCreateCustomizingFormats();
@@ -306,17 +305,6 @@ public class AbastecimentoActivity extends AppCompatActivity implements OnClickL
     private String getDateTime() {
         Date date = new Date();
         return new SimpleDateFormat("dd/MM/yyyy").format(date);
-    }
-
-    @Override
-    public void onItemSelected(AdapterView<?> parent, View view, int position,
-                               long id) {
-        escolhaCombustivel = adapterCombustivel.getItem(position);
-    }
-
-    @Override
-    public void onNothingSelected(AdapterView<?> parent) {
-
     }
 
     @Override

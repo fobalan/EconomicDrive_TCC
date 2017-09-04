@@ -1,134 +1,151 @@
-<ScrollView
-    android:id="@+id/scrollView1"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<?xml version="1.0" encoding="utf-8"?>
 
-    <LinearLayout
-        android:id="@+id/ManutencaoContainer"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
 
         <android.support.v7.widget.Toolbar
-            android:id="@+id/myManuActivityToolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:layout_alignParentLeft="true"
-            android:background="?attr/colorPrimary"
-            android:elevation="4dp"
-            android:minHeight="?attr/actionBarSize"
-            app:popupTheme="@style/Theme.MyTheme"
+            android:id="@+id/manutencaoToolbar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             app:theme="@style/ToolbarColoredBackArrow">
 
-            <ImageButton
-                android:id="@+id/salvarManutencaoButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:layout_marginRight="12dp"
-                android:background="@null"
-                android:src="@mipmap/ic_save"/>
         </android.support.v7.widget.Toolbar>
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tipoManutencaoTextInput"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:layout_margin="24dp"
-            android:orientation="vertical">
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:clickable="false"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/manutencaoToolbar">
 
-            <Spinner
-                android:id="@+id/tipoManutencaoSpinner"
-                android:layout_width="wrap_content"
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/tipoManutencaoBetterSpinner"
+                style="@style/Widget.AppCompat.AutoCompleteTextView"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:popupBackground="#FFFFFF"/>
+                android:ems="10"
+                android:hint="Tipo"
+                android:inputType="textAutoComplete"
+                app:met_helperText="Selecione tipo de manutenção"
+                app:met_iconLeft="@mipmap/ic_gas_station" />
+        </android.support.design.widget.TextInputLayout>
 
-            <android.support.design.widget.TextInputLayout
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/descricaoManutencaoTextInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tipoManutencaoTextInput">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/descricaoManutencaoMaterialEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingTop="16dp">
+                android:hint="Descrição"
+                android:inputType="text"
+                app:met_helperText="Insira uma descrição para lembrar da despesa"
+                app:met_iconLeft="@mipmap/ic_money" />
+        </android.support.design.widget.TextInputLayout>
 
-                <EditText
-                    android:id="@+id/descricaoManutencaoEditText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Descrição"
-                    android:inputType="textCapSentences"
-                    android:maxLength="30"
-                    android:paddingBottom="16dp"
-                    android:paddingTop="8dp"/>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/valorManutencaoTextInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/descricaoManutencaoTextInput">
 
-            </android.support.design.widget.TextInputLayout>
-
-            <android.support.design.widget.TextInputLayout
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/valorManutencaoMaterialEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingTop="16dp">
+                android:hint="Valor"
+                android:inputType="numberDecimal"
+                app:met_helperText="R$0,00"
+                app:met_iconLeft="@mipmap/ic_money" />
+        </android.support.design.widget.TextInputLayout>
 
-                <EditText
-                    android:id="@+id/valorManutencaoEditText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Valor da Manutenção"
-                    android:inputType="number"
-                    android:maxLength="11"
-                    android:paddingBottom="16dp"
-                    android:paddingTop="8dp"/>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/localManutencaoTextInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/valorManutencaoTextInput">
 
-            </android.support.design.widget.TextInputLayout>
-
-            <LinearLayout
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/localManutencaoMaterialEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
+                android:focusable="false"
+                android:hint="Endereço"
+                app:met_helperText="Rua XXXX, XX, XXXX "
+                app:met_iconLeft="@drawable/ic_location_on_black_24dp" />
+        </android.support.design.widget.TextInputLayout>
 
-                <TextView
-                    android:id="@+id/localoTextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="33dp"
-                    android:ems="6"
-                    android:text="Local:"
-                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/dataManutencaoTextInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/localManutencaoTextInput">
 
-                <TextView
-                    android:id="@+id/localManutencaoTextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="3.32"
-                    android:gravity="center_vertical"
-                    android:drawableRight="@drawable/arrow_textview"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textColor="@color/colorSecondaryText"/>
-
-            </LinearLayout>
-
-            <LinearLayout
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/dataManutencaoMaterialEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
+                android:focusable="false"
+                android:hint="Data"
+                app:met_helperText="00/00/0000"
+                app:met_iconLeft="@drawable/ic_event_available_black_24dp" />
+        </android.support.design.widget.TextInputLayout>
 
-                <TextView
-                    android:id="@+id/dataManuTextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:ems="6"
-                    android:text="Data:"
-                    android:textAppearance="?android:attr/textAppearanceLarge"/>
-
-                <TextView
-                    android:id="@+id/dataManutencaoTextView"
-                    android:layout_width="217dp"
-                    android:layout_height="wrap_content"
-                    android:hint="00/00/0000"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textColor="@color/colorSecondaryText"/>
-
-            </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
 </ScrollView>

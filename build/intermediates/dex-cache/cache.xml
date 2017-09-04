@@ -3,30 +3,93 @@
 
     <item
         is-multidex="true"
-        jar="F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\ITST\.android\build-cache\aaff61457d4848cb773eb560a7a51f76d16a230a\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="988fe30ad047a0e681a0b9afa954b726093cdf2d">
-        <dex dex="F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_750b0b19fed87f6786a1d294ea40451893c50d3f\classes.dex" />
+        sha1="9bb74ff6df9bb866bdd788d4495e91a031582ffc">
+        <dex dex="C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_31367208f4c5fabfb2e15a3c597da82d0f22c9f9\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Flavio\.android\build-cache\69ddd38b8701d4e3ab54da076240a25c5b10b13b\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="8d8c5463a1a50691e2cf66cd7ce4751c8545b584">
-        <dex dex="F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a2dd8b732eb438d5c65f037396297570ea660eeb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_14b40896444b8e6d16abed936e78912fe8dc6ad2\classes.dex" />
+        <dex dex="C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_44a2633cc1c1e99787876432f83fcb315aa6900c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ITST\.android\build-cache\5cda3f2bb21600aed5f23a9e278a56fc095b8fb4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8d8c5463a1a50691e2cf66cd7ce4751c8545b584">
+        <dex dex="C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bd679d2f15b060dab8fc9e17744ee3b4206eaa8c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ITST\.gradle\caches\modules-2\files-2.1\org.achartengine\achartengine\1.1.0\6b9f421d67b60253072003b2b8a1028b12cb916a\achartengine-1.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6b9f421d67b60253072003b2b8a1028b12cb916a">
+        <dex dex="C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\achartengine-1.1.0_e3c579d7420d0977f0ca56ee6a4961d38d0d3391\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4e9d0ec7d8429655b8f46cefe66fa563adc78c6f">
+        <dex dex="C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4e1bb5148de1210bec1be6fa6d8e8b90fd48a43c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ITST\.android\build-cache\d8d11e0424d24813772d3575d58fd3e53d4090ac\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dad684c489525a68656ac3402ec6835abe475cc7">
+        <dex dex="C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0a95e053655025e53ec847c7dd8188f70c7720f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ITST\.android\build-cache\42c59b40714911df68bbfcfa68c713b6a2ae6d91\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8c6ebb7d087d1a30bf84356bd2aecf85309fc024">
+        <dex dex="C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_96c0545404bbf8a6968958076372829c58d5c133\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ITST\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_b38a6296072ad2db73199f873e5a7e845795c1c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ITST\.android\build-cache\605b664bd2710693b98c1d4110fb9e74eedc8832\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2664cbaf9225435c21605e8014c5453652c74c76">
+        <dex dex="C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_67a0e8ee90de989d0a7311dcf408f092953fbb3f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ITST\.android\build-cache\fe0af6e5999ed4eebcd1753cc846071ceca7491e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="288913b440a3c61c30aa171095453a605432277a">
+        <dex dex="C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_41cd82bad8f49b429ff7526a46081c3f74151718\classes.dex" />
     </item>
 
 </items>

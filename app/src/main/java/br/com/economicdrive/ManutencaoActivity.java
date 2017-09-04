@@ -16,6 +16,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -29,6 +30,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.mikepenz.materialdrawer.holder.StringHolder;
+import com.rengwuxian.materialedittext.MaterialEditText;
+import com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner;
 
 import br.com.economicdrive.constantes.Constantes;
 import br.com.economicdrive.fragment.DatePickerFragment;
@@ -39,15 +42,14 @@ import br.com.economicdrive.model.TipoManutencao;
 
 @SuppressLint("SimpleDateFormat")
 public class ManutencaoActivity extends AppCompatActivity implements OnClickListener,
-		TextWatcher, OnItemSelectedListener {
-	private EditText descricaoManutencaoEditText;
-	private EditText valorManutencaoEditText;
-	private TextView localManutencaoTextView;
-	private TextView dataManutencaoTextView;
-	private ImageButton salvarManutencaoButton;
-	private Spinner tipoManutencaoSpinner;
+		TextWatcher {
+	private MaterialEditText descricaoMaterialEditText;
+	private MaterialEditText valorMaterialEditText;
+	private MaterialEditText localMaterialEditText;
+	private MaterialEditText dataMaterialEditText;
+	private MaterialBetterSpinner tipoBetterSpinner;
 	private ArrayAdapter<TipoManutencao> adapterTipoManutencao;
-	private TipoManutencao tipoManutencao;
+	private TipoManutencao tipoEscolhido;
 	private TipoManutencao [] itens;
 	private Manutencao manutencao;
 	private Toolbar toolbar;
@@ -58,19 +60,16 @@ public class ManutencaoActivity extends AppCompatActivity implements OnClickList
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_manutencao);
-		descricaoManutencaoEditText = (EditText) this.findViewById(R.id.descricaoManutencaoEditText);
-		valorManutencaoEditText = (EditText) this.findViewById(R.id.valorManutencaoEditText);
-		localManutencaoTextView = (TextView) this.findViewById(R.id.localManutencaoTextView);
-		dataManutencaoTextView = (TextView) this.findViewById(R.id.dataManutencaoTextView);
-		salvarManutencaoButton = (ImageButton) this.findViewById(R.id.salvarManutencaoButton);
-		tipoManutencaoSpinner = (Spinner) this.findViewById(R.id.tipoManutencaoSpinner);
-		toolbar = (Toolbar) findViewById(R.id.myManuActivityToolbar);
+		descricaoMaterialEditText = (MaterialEditText) this.findViewById(R.id.descricaoManutencaoMaterialEditText);
+		valorMaterialEditText = (MaterialEditText) this.findViewById(R.id.valorManutencaoMaterialEditText);
+		localMaterialEditText= (MaterialEditText) this.findViewById(R.id.localManutencaoMaterialEditText);
+		dataMaterialEditText = (MaterialEditText) this.findViewById(R.id.dataManutencaoMaterialEditText);
+		tipoBetterSpinner = (MaterialBetterSpinner) this.findViewById(R.id.tipoManutencaoBetterSpinner);
+		toolbar = (Toolbar) findViewById(R.id.manutencaoToolbar);
         applyCustomizingActionBar();
 		onInflateSpinner();
-		dataManutencaoTextView.setOnClickListener(this);
-		localManutencaoTextView.setOnClickListener(this);
-		salvarManutencaoButton.setOnClickListener(this);
-		tipoManutencaoSpinner.setOnItemSelectedListener(this);
+		dataMaterialEditText.setOnClickListener(this);
+		localMaterialEditText.setOnClickListener(this);
 		switch(getIntent().getIntExtra("acao", 0)){
 		case Constantes.EDITAR:
 			onStartVariables();
@@ -79,7 +78,7 @@ public class ManutencaoActivity extends AppCompatActivity implements OnClickList
 			manutencao = new Manutencao(this);
 			veiculoEscolhido = getIntent().getParcelableExtra("veiculo");
 			manutencao.setIdCarro(veiculoEscolhido.getCodigo());
-			dataManutencaoTextView.setText(getDateTime());
+			dataMaterialEditText.setText(getDateTime());
 			break;
 		case Constantes.VISUALIZAR:
 			onStartVariables();
@@ -96,49 +95,23 @@ public class ManutencaoActivity extends AppCompatActivity implements OnClickList
 		itens = tipoManutencao.toArray(new TipoManutencao[0]);
 		adapterTipoManutencao = 
 				new ArrayAdapter <> (this, R.layout.spinner_dropdown_list, itens);
-		tipoManutencaoSpinner.setAdapter(adapterTipoManutencao);
+		tipoBetterSpinner.setAdapter(adapterTipoManutencao);
+		tipoBetterSpinner.setText(itens[0].getNome());
 	}
+
 
 	@Override
 	public void onClick(View v) {
 		switch (v.getId()) {
-		case R.id.dataManutencaoTextView:
+		case R.id.dataManutencaoMaterialEditText:
 			showDatePickerDialog(v);
 			break;
-		case R.id.localManutencaoTextView:
+		case R.id.localManutencaoMaterialEditText:
 			Intent i = new Intent(this, LocalListActivity.class);
 			i.putExtra("activity", "Manutencao");
 			startActivityForResult(i, Constantes.MANUTENCAO_CODE);
 			break;
-		case R.id.salvarManutencaoButton:
-			if (descricaoManutencaoEditText.getEditableText().toString().equals("")){
-				Toast.makeText(getApplicationContext(), "Obrigatório preencher campo Descrição", Toast.LENGTH_SHORT).show();
-			}
-			else if(valorManutencaoEditText.getEditableText().toString().equals("") || valorManutencaoEditText.getEditableText().toString().equals("R$0,00")) {
-				Toast.makeText(getApplicationContext(), "Obrigatório preencher campo Valor", Toast.LENGTH_SHORT).show();
-			}
-			else if (local == null){
-				Toast.makeText(getApplicationContext(), "Obrigatório preencher campo Local", Toast.LENGTH_SHORT).show();
-			}
-			else{
-					manutencao.setDescricaoManutencao(descricaoManutencaoEditText.getEditableText().toString());
-					String valorManutencao = valorManutencaoEditText.getEditableText().toString();
-					manutencao.setValorGasto(Float.parseFloat(valorManutencao.replace("R$","").replace(".", "").replace(",", ".")));
-					manutencao.setLocalGasto(local.getCodigo());
-					manutencao.setTipoManutencao(tipoManutencao.getCodigo());
-					manutencao.setDataGasto(dataManutencaoTextView.getText().toString());
-					if (getIntent().getIntExtra("acao", 0) == Constantes.EDITAR){
-						manutencao.alteraManutencao(this);
-					}
-					else{
-						manutencao.insereManutencao(this);
-						MainActivity.getNavigationDrawerLeft().updateBadge(3,
-								new StringHolder(Integer.toString(Manutencao.ContaManutencao(this, veiculoEscolhido.getCodigo()))));
-					}
-				finish();
-			}
-			
-			break;
+
 		}
 		
 	}
@@ -150,19 +123,70 @@ public class ManutencaoActivity extends AppCompatActivity implements OnClickList
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
-		case android.R.id.home:
-			finish();
-			return true;
+			case android.R.id.home:
+				finish();
+				return true;
+			case R.id.save_menu:
+				onClickSave();
+				return true;
 		}
+
+
 		return super.onOptionsItemSelected(item);
 	}
-	
+
+	private void onClickSave() {
+		if(checkFields()) {
+			onTipoSelected();
+			manutencao.setDescricaoManutencao(descricaoMaterialEditText.getEditableText().toString());
+			String valorManutencao = valorMaterialEditText.getEditableText().toString();
+			manutencao.setValorGasto(Float.parseFloat(valorManutencao.replace("R$", "").replace(".", "").replace(",", ".")));
+			manutencao.setLocalGasto(local.getCodigo());
+			manutencao.setTipoManutencao(tipoEscolhido.getCodigo());
+			manutencao.setDataGasto(dataMaterialEditText.getText().toString());
+			if (getIntent().getIntExtra("acao", 0) == Constantes.EDITAR) {
+				manutencao.alteraManutencao(this);
+			} else if (getIntent().getIntExtra("acao", 0) != Constantes.VISUALIZAR) {
+				manutencao.insereManutencao(this);
+				MainActivity.getNavigationDrawerLeft().updateBadge(3,
+						new StringHolder(Integer.toString(Manutencao.ContaManutencao(this, veiculoEscolhido.getCodigo()))));
+			}
+			finish();
+		}
+	}
+
+	private void onTipoSelected() {
+		for (TipoManutencao tipoManutencao : itens) {
+			if(tipoManutencao.getNome().equals(tipoBetterSpinner.getText().toString())){
+				tipoEscolhido = tipoManutencao;
+			}
+		}
+	}
+
+	private boolean checkFields() {
+		if (descricaoMaterialEditText.getEditableText().toString().equals("")){
+			descricaoMaterialEditText.setError("Campo Obrigatório");
+			descricaoMaterialEditText.requestFocus();
+		}
+		else if(valorMaterialEditText.getEditableText().toString().equals("") || valorMaterialEditText.getEditableText().toString().equals("R$0,00")) {
+			valorMaterialEditText.setError("Campo Obrigatório");
+			valorMaterialEditText.requestFocus();
+		}
+		else if (local == null){
+			localMaterialEditText.setError("Campo Obrigatório");
+			localMaterialEditText.requestFocus();
+		} else{
+			return true;
+		}
+		return false;
+	}
+
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		if (requestCode == Constantes.MANUTENCAO_CODE)
 			if (resultCode == Constantes.LOCAL_LIST) {
 				local = data.getParcelableExtra("parcel");
-				localManutencaoTextView.setText(local.getNome());
+				localMaterialEditText.setText(local.getNome());
 			}
 	}
 	
@@ -186,19 +210,19 @@ public class ManutencaoActivity extends AppCompatActivity implements OnClickList
 					.replaceFirst(" ", ""));
 
 		    valorMask = NumberFormat.getCurrencyInstance().format(valorAnterior / 100);
-			valorManutencaoEditText.setText(valorMask);
-			valorManutencaoEditText.setSelection(valorMask.length());
+			valorMaterialEditText.setText(valorMask);
+			valorMaterialEditText.setSelection(valorMask.length());
 			onSetTextListeners();
 		} catch (NumberFormatException e) {
 		} catch (ArithmeticException e) {
 		}
 	}
 	private void onRemoveTextListeners() {
-		valorManutencaoEditText.removeTextChangedListener(this);	
+		valorMaterialEditText.removeTextChangedListener(this);
 	}
 	
 	private void onSetTextListeners() {
-		valorManutencaoEditText.addTextChangedListener(this);
+		valorMaterialEditText.addTextChangedListener(this);
 	}
 	private void applyCustomizingActionBar() {
 		setSupportActionBar(toolbar);
@@ -215,14 +239,14 @@ public class ManutencaoActivity extends AppCompatActivity implements OnClickList
 	private void onStartVariables() {
 		manutencao = getIntent().getParcelableExtra("parcel");
 		onSetTipoManutencao();
-		descricaoManutencaoEditText.setText(manutencao.getDescricaoManutencao());
-		valorManutencaoEditText.setText(NumberFormat.getCurrencyInstance().format(manutencao.getValorGasto()));
+		descricaoMaterialEditText.setText(manutencao.getDescricaoManutencao());
+		valorMaterialEditText.setText(NumberFormat.getCurrencyInstance().format(manutencao.getValorGasto()));
 		local = Manutencao.ConsultaLocal(this, "SELECT *"
 				 + " FROM tb_local"
 				 + " WHERE codigoLOCAL = " + manutencao.getLocalGasto());
-		localManutencaoTextView.setText(local.getNome());
-		dataManutencaoTextView.setText(manutencao.tratadata());
-		tipoManutencaoSpinner.setSelection(posicaoTipoManutencao);
+		localMaterialEditText.setText(local.getNome());
+		dataMaterialEditText.setText(manutencao.tratadata());
+		tipoBetterSpinner.setSelection(posicaoTipoManutencao);
 	}
 	
 	private void onSetTipoManutencao() {
@@ -234,21 +258,17 @@ public class ManutencaoActivity extends AppCompatActivity implements OnClickList
 	}
 
 	private void onDisableInputVariables() {
-		descricaoManutencaoEditText.setEnabled(false);
-		valorManutencaoEditText.setEnabled(false);
-		localManutencaoTextView.setEnabled(false);
-		dataManutencaoTextView.setEnabled(false);
-		tipoManutencaoSpinner.setEnabled(false);
-		salvarManutencaoButton.setVisibility(View.INVISIBLE);
+		descricaoMaterialEditText.setEnabled(false);
+		valorMaterialEditText.setEnabled(false);
+		localMaterialEditText.setEnabled(false);
+		dataMaterialEditText.setEnabled(false);
+		tipoBetterSpinner.setEnabled(false);
 		
 	}
 
-	@Override
-	public void onItemSelected(AdapterView<?> parent, View view, int position,
-			long id) {
-		tipoManutencao = adapterTipoManutencao.getItem(position);
-		
+	public boolean onCreateOptionsMenu(Menu menu) {
+		getMenuInflater().inflate(R.menu.toolbar_menu, menu);
+		return true;
+
 	}
-	@Override
-	public void onNothingSelected(AdapterView<?> parent) {}
 }
