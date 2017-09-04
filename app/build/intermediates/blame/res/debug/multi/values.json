@@ -20940,9 +20940,9 @@
                     "startLine": 2896,
                     "startColumn": 4,
                     "startOffset": 204079,
-                    "endLine": 2900,
+                    "endLine": 2901,
                     "endColumn": 12,
-                    "endOffset": 204350
+                    "endOffset": 204437
                 },
                 "from": {
                     "file": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\values\\themes.xml",
@@ -20950,20 +20950,20 @@
                         "startLine": 29,
                         "startColumn": 4,
                         "startOffset": 1705,
-                        "endLine": 33,
+                        "endLine": 34,
                         "endColumn": 12,
-                        "endOffset": 1980
+                        "endOffset": 2068
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 2901,
+                    "startLine": 2902,
                     "startColumn": 4,
-                    "startOffset": 204355,
-                    "endLine": 2902,
+                    "startOffset": 204442,
+                    "endLine": 2903,
                     "endColumn": 12,
-                    "endOffset": 204450
+                    "endOffset": 204537
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -20979,12 +20979,12 @@
             },
             {
                 "to": {
-                    "startLine": 2903,
+                    "startLine": 2904,
                     "startColumn": 4,
-                    "startOffset": 204455,
-                    "endLine": 2904,
+                    "startOffset": 204542,
+                    "endLine": 2905,
                     "endColumn": 12,
-                    "endOffset": 204562
+                    "endOffset": 204649
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21000,12 +21000,12 @@
             },
             {
                 "to": {
-                    "startLine": 2905,
+                    "startLine": 2906,
                     "startColumn": 4,
-                    "startOffset": 204567,
-                    "endLine": 2906,
+                    "startOffset": 204654,
+                    "endLine": 2907,
                     "endColumn": 12,
-                    "endOffset": 204676
+                    "endOffset": 204763
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21021,12 +21021,12 @@
             },
             {
                 "to": {
-                    "startLine": 2907,
+                    "startLine": 2908,
                     "startColumn": 4,
-                    "startOffset": 204681,
-                    "endLine": 2908,
+                    "startOffset": 204768,
+                    "endLine": 2909,
                     "endColumn": 12,
-                    "endOffset": 204792
+                    "endOffset": 204879
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21042,12 +21042,12 @@
             },
             {
                 "to": {
-                    "startLine": 2909,
+                    "startLine": 2910,
                     "startColumn": 4,
-                    "startOffset": 204797,
-                    "endLine": 2910,
+                    "startOffset": 204884,
+                    "endLine": 2911,
                     "endColumn": 12,
-                    "endOffset": 204908
+                    "endOffset": 204995
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21063,11 +21063,11 @@
             },
             {
                 "to": {
-                    "startLine": 2911,
+                    "startLine": 2912,
                     "startColumn": 4,
-                    "startOffset": 204913,
+                    "startOffset": 205000,
                     "endColumn": 93,
-                    "endOffset": 205002
+                    "endOffset": 205089
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21082,11 +21082,11 @@
             },
             {
                 "to": {
-                    "startLine": 2912,
+                    "startLine": 2913,
                     "startColumn": 4,
-                    "startOffset": 205007,
+                    "startOffset": 205094,
                     "endColumn": 113,
-                    "endOffset": 205116
+                    "endOffset": 205203
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21101,11 +21101,11 @@
             },
             {
                 "to": {
-                    "startLine": 2913,
+                    "startLine": 2914,
                     "startColumn": 4,
-                    "startOffset": 205121,
+                    "startOffset": 205208,
                     "endColumn": 111,
-                    "endOffset": 205228
+                    "endOffset": 205315
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21120,12 +21120,12 @@
             },
             {
                 "to": {
-                    "startLine": 2914,
+                    "startLine": 2915,
                     "startColumn": 4,
-                    "startOffset": 205233,
-                    "endLine": 2915,
+                    "startOffset": 205320,
+                    "endLine": 2916,
                     "endColumn": 12,
-                    "endOffset": 205330
+                    "endOffset": 205417
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21141,12 +21141,12 @@
             },
             {
                 "to": {
-                    "startLine": 2916,
+                    "startLine": 2917,
                     "startColumn": 4,
-                    "startOffset": 205335,
-                    "endLine": 2917,
+                    "startOffset": 205422,
+                    "endLine": 2918,
                     "endColumn": 12,
-                    "endOffset": 205450
+                    "endOffset": 205537
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21162,12 +21162,12 @@
             },
             {
                 "to": {
-                    "startLine": 2918,
+                    "startLine": 2919,
                     "startColumn": 4,
-                    "startOffset": 205455,
-                    "endLine": 2919,
+                    "startOffset": 205542,
+                    "endLine": 2920,
                     "endColumn": 12,
-                    "endOffset": 205572
+                    "endOffset": 205659
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21183,11 +21183,11 @@
             },
             {
                 "to": {
-                    "startLine": 2920,
+                    "startLine": 2921,
                     "startColumn": 4,
-                    "startOffset": 205577,
+                    "startOffset": 205664,
                     "endColumn": 81,
-                    "endOffset": 205654
+                    "endOffset": 205741
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21202,11 +21202,11 @@
             },
             {
                 "to": {
-                    "startLine": 2921,
+                    "startLine": 2922,
                     "startColumn": 4,
-                    "startOffset": 205659,
+                    "startOffset": 205746,
                     "endColumn": 103,
-                    "endOffset": 205758
+                    "endOffset": 205845
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21221,11 +21221,11 @@
             },
             {
                 "to": {
-                    "startLine": 2922,
+                    "startLine": 2923,
                     "startColumn": 4,
-                    "startOffset": 205763,
+                    "startOffset": 205850,
                     "endColumn": 119,
-                    "endOffset": 205878
+                    "endOffset": 205965
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21240,11 +21240,11 @@
             },
             {
                 "to": {
-                    "startLine": 2923,
+                    "startLine": 2924,
                     "startColumn": 4,
-                    "startOffset": 205883,
+                    "startOffset": 205970,
                     "endColumn": 125,
-                    "endOffset": 206004
+                    "endOffset": 206091
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21259,11 +21259,11 @@
             },
             {
                 "to": {
-                    "startLine": 2924,
+                    "startLine": 2925,
                     "startColumn": 4,
-                    "startOffset": 206009,
+                    "startOffset": 206096,
                     "endColumn": 97,
-                    "endOffset": 206102
+                    "endOffset": 206189
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21278,11 +21278,11 @@
             },
             {
                 "to": {
-                    "startLine": 2925,
+                    "startLine": 2926,
                     "startColumn": 4,
-                    "startOffset": 206107,
+                    "startOffset": 206194,
                     "endColumn": 93,
-                    "endOffset": 206196
+                    "endOffset": 206283
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21297,11 +21297,11 @@
             },
             {
                 "to": {
-                    "startLine": 2926,
+                    "startLine": 2927,
                     "startColumn": 4,
-                    "startOffset": 206201,
+                    "startOffset": 206288,
                     "endColumn": 87,
-                    "endOffset": 206284
+                    "endOffset": 206371
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21316,11 +21316,11 @@
             },
             {
                 "to": {
-                    "startLine": 2927,
+                    "startLine": 2928,
                     "startColumn": 4,
-                    "startOffset": 206289,
+                    "startOffset": 206376,
                     "endColumn": 111,
-                    "endOffset": 206396
+                    "endOffset": 206483
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21335,11 +21335,11 @@
             },
             {
                 "to": {
-                    "startLine": 2928,
+                    "startLine": 2929,
                     "startColumn": 4,
-                    "startOffset": 206401,
+                    "startOffset": 206488,
                     "endColumn": 115,
-                    "endOffset": 206512
+                    "endOffset": 206599
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21354,11 +21354,11 @@
             },
             {
                 "to": {
-                    "startLine": 2929,
+                    "startLine": 2930,
                     "startColumn": 4,
-                    "startOffset": 206517,
+                    "startOffset": 206604,
                     "endColumn": 121,
-                    "endOffset": 206634
+                    "endOffset": 206721
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21373,11 +21373,11 @@
             },
             {
                 "to": {
-                    "startLine": 2930,
+                    "startLine": 2931,
                     "startColumn": 4,
-                    "startOffset": 206639,
+                    "startOffset": 206726,
                     "endColumn": 111,
-                    "endOffset": 206746
+                    "endOffset": 206833
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21392,12 +21392,12 @@
             },
             {
                 "to": {
-                    "startLine": 2931,
+                    "startLine": 2932,
                     "startColumn": 4,
-                    "startOffset": 206751,
-                    "endLine": 2933,
+                    "startOffset": 206838,
+                    "endLine": 2934,
                     "endColumn": 12,
-                    "endOffset": 206921
+                    "endOffset": 207008
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21413,11 +21413,11 @@
             },
             {
                 "to": {
-                    "startLine": 2934,
+                    "startLine": 2935,
                     "startColumn": 4,
-                    "startOffset": 206926,
+                    "startOffset": 207013,
                     "endColumn": 115,
-                    "endOffset": 207037
+                    "endOffset": 207124
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21432,11 +21432,11 @@
             },
             {
                 "to": {
-                    "startLine": 2935,
+                    "startLine": 2936,
                     "startColumn": 4,
-                    "startOffset": 207042,
+                    "startOffset": 207129,
                     "endColumn": 85,
-                    "endOffset": 207123
+                    "endOffset": 207210
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21451,11 +21451,11 @@
             },
             {
                 "to": {
-                    "startLine": 2936,
+                    "startLine": 2937,
                     "startColumn": 4,
-                    "startOffset": 207128,
+                    "startOffset": 207215,
                     "endColumn": 91,
-                    "endOffset": 207215
+                    "endOffset": 207302
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21470,12 +21470,12 @@
             },
             {
                 "to": {
-                    "startLine": 2937,
+                    "startLine": 2938,
                     "startColumn": 4,
-                    "startOffset": 207220,
-                    "endLine": 2938,
+                    "startOffset": 207307,
+                    "endLine": 2939,
                     "endColumn": 12,
-                    "endOffset": 207327
+                    "endOffset": 207414
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21491,12 +21491,12 @@
             },
             {
                 "to": {
-                    "startLine": 2939,
+                    "startLine": 2940,
                     "startColumn": 4,
-                    "startOffset": 207332,
-                    "endLine": 2940,
+                    "startOffset": 207419,
+                    "endLine": 2941,
                     "endColumn": 12,
-                    "endOffset": 207451
+                    "endOffset": 207538
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21512,11 +21512,11 @@
             },
             {
                 "to": {
-                    "startLine": 2941,
+                    "startLine": 2942,
                     "startColumn": 4,
-                    "startOffset": 207456,
+                    "startOffset": 207543,
                     "endColumn": 66,
-                    "endOffset": 207518
+                    "endOffset": 207605
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21531,12 +21531,12 @@
             },
             {
                 "to": {
-                    "startLine": 2942,
+                    "startLine": 2943,
                     "startColumn": 4,
-                    "startOffset": 207523,
-                    "endLine": 2943,
+                    "startOffset": 207610,
+                    "endLine": 2944,
                     "endColumn": 12,
-                    "endOffset": 207644
+                    "endOffset": 207731
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21552,11 +21552,11 @@
             },
             {
                 "to": {
-                    "startLine": 2944,
+                    "startLine": 2945,
                     "startColumn": 4,
-                    "startOffset": 207649,
+                    "startOffset": 207736,
                     "endColumn": 67,
-                    "endOffset": 207712
+                    "endOffset": 207799
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21571,12 +21571,12 @@
             },
             {
                 "to": {
-                    "startLine": 2945,
+                    "startLine": 2946,
                     "startColumn": 4,
-                    "startOffset": 207717,
-                    "endLine": 2946,
+                    "startOffset": 207804,
+                    "endLine": 2947,
                     "endColumn": 12,
-                    "endOffset": 207840
+                    "endOffset": 207927
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21592,12 +21592,12 @@
             },
             {
                 "to": {
-                    "startLine": 2947,
+                    "startLine": 2948,
                     "startColumn": 4,
-                    "startOffset": 207845,
-                    "endLine": 2948,
+                    "startOffset": 207932,
+                    "endLine": 2949,
                     "endColumn": 12,
-                    "endOffset": 207984
+                    "endOffset": 208071
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21613,12 +21613,12 @@
             },
             {
                 "to": {
-                    "startLine": 2949,
+                    "startLine": 2950,
                     "startColumn": 4,
-                    "startOffset": 207989,
-                    "endLine": 2950,
+                    "startOffset": 208076,
+                    "endLine": 2951,
                     "endColumn": 12,
-                    "endOffset": 208112
+                    "endOffset": 208199
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21634,11 +21634,11 @@
             },
             {
                 "to": {
-                    "startLine": 2951,
+                    "startLine": 2952,
                     "startColumn": 4,
-                    "startOffset": 208117,
+                    "startOffset": 208204,
                     "endColumn": 68,
-                    "endOffset": 208181
+                    "endOffset": 208268
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21653,11 +21653,11 @@
             },
             {
                 "to": {
-                    "startLine": 2952,
+                    "startLine": 2953,
                     "startColumn": 4,
-                    "startOffset": 208186,
+                    "startOffset": 208273,
                     "endColumn": 94,
-                    "endOffset": 208276
+                    "endOffset": 208363
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21672,11 +21672,11 @@
             },
             {
                 "to": {
-                    "startLine": 2953,
+                    "startLine": 2954,
                     "startColumn": 4,
-                    "startOffset": 208281,
+                    "startOffset": 208368,
                     "endColumn": 114,
-                    "endOffset": 208391
+                    "endOffset": 208478
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21691,11 +21691,11 @@
             },
             {
                 "to": {
-                    "startLine": 2954,
+                    "startLine": 2955,
                     "startColumn": 4,
-                    "startOffset": 208396,
+                    "startOffset": 208483,
                     "endColumn": 112,
-                    "endOffset": 208504
+                    "endOffset": 208591
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21710,11 +21710,11 @@
             },
             {
                 "to": {
-                    "startLine": 2955,
+                    "startLine": 2956,
                     "startColumn": 4,
-                    "startOffset": 208509,
+                    "startOffset": 208596,
                     "endColumn": 98,
-                    "endOffset": 208603
+                    "endOffset": 208690
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21729,11 +21729,11 @@
             },
             {
                 "to": {
-                    "startLine": 2956,
+                    "startLine": 2957,
                     "startColumn": 4,
-                    "startOffset": 208608,
+                    "startOffset": 208695,
                     "endColumn": 108,
-                    "endOffset": 208712
+                    "endOffset": 208799
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21748,11 +21748,11 @@
             },
             {
                 "to": {
-                    "startLine": 2957,
+                    "startLine": 2958,
                     "startColumn": 4,
-                    "startOffset": 208717,
+                    "startOffset": 208804,
                     "endColumn": 110,
-                    "endOffset": 208823
+                    "endOffset": 208910
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21767,11 +21767,11 @@
             },
             {
                 "to": {
-                    "startLine": 2958,
+                    "startLine": 2959,
                     "startColumn": 4,
-                    "startOffset": 208828,
+                    "startOffset": 208915,
                     "endColumn": 110,
-                    "endOffset": 208934
+                    "endOffset": 209021
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21786,11 +21786,11 @@
             },
             {
                 "to": {
-                    "startLine": 2959,
+                    "startLine": 2960,
                     "startColumn": 4,
-                    "startOffset": 208939,
+                    "startOffset": 209026,
                     "endColumn": 100,
-                    "endOffset": 209035
+                    "endOffset": 209122
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21805,11 +21805,11 @@
             },
             {
                 "to": {
-                    "startLine": 2960,
+                    "startLine": 2961,
                     "startColumn": 4,
-                    "startOffset": 209040,
+                    "startOffset": 209127,
                     "endColumn": 104,
-                    "endOffset": 209140
+                    "endOffset": 209227
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21824,11 +21824,11 @@
             },
             {
                 "to": {
-                    "startLine": 2961,
+                    "startLine": 2962,
                     "startColumn": 4,
-                    "startOffset": 209145,
+                    "startOffset": 209232,
                     "endColumn": 99,
-                    "endOffset": 209240
+                    "endOffset": 209327
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21843,12 +21843,12 @@
             },
             {
                 "to": {
-                    "startLine": 2962,
+                    "startLine": 2963,
                     "startColumn": 4,
-                    "startOffset": 209245,
-                    "endLine": 2963,
+                    "startOffset": 209332,
+                    "endLine": 2964,
                     "endColumn": 12,
-                    "endOffset": 209370
+                    "endOffset": 209457
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21864,11 +21864,11 @@
             },
             {
                 "to": {
-                    "startLine": 2964,
+                    "startLine": 2965,
                     "startColumn": 4,
-                    "startOffset": 209375,
+                    "startOffset": 209462,
                     "endColumn": 90,
-                    "endOffset": 209461
+                    "endOffset": 209548
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21883,11 +21883,11 @@
             },
             {
                 "to": {
-                    "startLine": 2965,
+                    "startLine": 2966,
                     "startColumn": 4,
-                    "startOffset": 209466,
+                    "startOffset": 209553,
                     "endColumn": 122,
-                    "endOffset": 209584
+                    "endOffset": 209671
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21902,11 +21902,11 @@
             },
             {
                 "to": {
-                    "startLine": 2966,
+                    "startLine": 2967,
                     "startColumn": 4,
-                    "startOffset": 209589,
+                    "startOffset": 209676,
                     "endColumn": 93,
-                    "endOffset": 209678
+                    "endOffset": 209765
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21921,12 +21921,12 @@
             },
             {
                 "to": {
-                    "startLine": 2967,
+                    "startLine": 2968,
                     "startColumn": 4,
-                    "startOffset": 209683,
-                    "endLine": 2968,
+                    "startOffset": 209770,
+                    "endLine": 2969,
                     "endColumn": 12,
-                    "endOffset": 209790
+                    "endOffset": 209877
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21942,11 +21942,11 @@
             },
             {
                 "to": {
-                    "startLine": 2969,
+                    "startLine": 2970,
                     "startColumn": 4,
-                    "startOffset": 209795,
+                    "startOffset": 209882,
                     "endColumn": 85,
-                    "endOffset": 209876
+                    "endOffset": 209963
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21961,11 +21961,11 @@
             },
             {
                 "to": {
-                    "startLine": 2970,
+                    "startLine": 2971,
                     "startColumn": 4,
-                    "startOffset": 209881,
+                    "startOffset": 209968,
                     "endColumn": 103,
-                    "endOffset": 209980
+                    "endOffset": 210067
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21980,11 +21980,11 @@
             },
             {
                 "to": {
-                    "startLine": 2971,
+                    "startLine": 2972,
                     "startColumn": 4,
-                    "startOffset": 209985,
+                    "startOffset": 210072,
                     "endColumn": 95,
-                    "endOffset": 210076
+                    "endOffset": 210163
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -21999,11 +21999,11 @@
             },
             {
                 "to": {
-                    "startLine": 2972,
+                    "startLine": 2973,
                     "startColumn": 4,
-                    "startOffset": 210081,
+                    "startOffset": 210168,
                     "endColumn": 74,
-                    "endOffset": 210151
+                    "endOffset": 210238
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -22018,11 +22018,11 @@
             },
             {
                 "to": {
-                    "startLine": 2973,
+                    "startLine": 2974,
                     "startColumn": 4,
-                    "startOffset": 210156,
+                    "startOffset": 210243,
                     "endColumn": 69,
-                    "endOffset": 210221
+                    "endOffset": 210308
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -22037,11 +22037,11 @@
             },
             {
                 "to": {
-                    "startLine": 2974,
+                    "startLine": 2975,
                     "startColumn": 4,
-                    "startOffset": 210226,
+                    "startOffset": 210313,
                     "endColumn": 87,
-                    "endOffset": 210309
+                    "endOffset": 210396
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -22056,12 +22056,12 @@
             },
             {
                 "to": {
-                    "startLine": 2975,
+                    "startLine": 2976,
                     "startColumn": 4,
-                    "startOffset": 210314,
-                    "endLine": 2976,
+                    "startOffset": 210401,
+                    "endLine": 2977,
                     "endColumn": 12,
-                    "endOffset": 210427
+                    "endOffset": 210514
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -22077,12 +22077,12 @@
             },
             {
                 "to": {
-                    "startLine": 2977,
+                    "startLine": 2978,
                     "startColumn": 4,
-                    "startOffset": 210432,
-                    "endLine": 2978,
+                    "startOffset": 210519,
+                    "endLine": 2979,
                     "endColumn": 12,
-                    "endOffset": 210531
+                    "endOffset": 210618
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -22098,12 +22098,12 @@
             },
             {
                 "to": {
-                    "startLine": 2979,
+                    "startLine": 2980,
                     "startColumn": 4,
-                    "startOffset": 210536,
-                    "endLine": 2980,
+                    "startOffset": 210623,
+                    "endLine": 2981,
                     "endColumn": 12,
-                    "endOffset": 210635
+                    "endOffset": 210722
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -22119,12 +22119,12 @@
             },
             {
                 "to": {
-                    "startLine": 2981,
+                    "startLine": 2982,
                     "startColumn": 4,
-                    "startOffset": 210640,
-                    "endLine": 2982,
+                    "startOffset": 210727,
+                    "endLine": 2983,
                     "endColumn": 12,
-                    "endOffset": 210761
+                    "endOffset": 210848
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -22140,11 +22140,11 @@
             },
             {
                 "to": {
-                    "startLine": 2983,
+                    "startLine": 2984,
                     "startColumn": 4,
-                    "startOffset": 210766,
+                    "startOffset": 210853,
                     "endColumn": 87,
-                    "endOffset": 210849
+                    "endOffset": 210936
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -22159,11 +22159,11 @@
             },
             {
                 "to": {
-                    "startLine": 2984,
+                    "startLine": 2985,
                     "startColumn": 4,
-                    "startOffset": 210854,
+                    "startOffset": 210941,
                     "endColumn": 107,
-                    "endOffset": 210957
+                    "endOffset": 211044
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -22178,11 +22178,11 @@
             },
             {
                 "to": {
-                    "startLine": 2985,
+                    "startLine": 2986,
                     "startColumn": 4,
-                    "startOffset": 210962,
+                    "startOffset": 211049,
                     "endColumn": 99,
-                    "endOffset": 211057
+                    "endOffset": 211144
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -22197,11 +22197,11 @@
             },
             {
                 "to": {
-                    "startLine": 2986,
+                    "startLine": 2987,
                     "startColumn": 4,
-                    "startOffset": 211062,
+                    "startOffset": 211149,
                     "endColumn": 89,
-                    "endOffset": 211147
+                    "endOffset": 211234
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -22216,11 +22216,11 @@
             },
             {
                 "to": {
-                    "startLine": 2987,
+                    "startLine": 2988,
                     "startColumn": 4,
-                    "startOffset": 211152,
+                    "startOffset": 211239,
                     "endColumn": 109,
-                    "endOffset": 211257
+                    "endOffset": 211344
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -22235,11 +22235,11 @@
             },
             {
                 "to": {
-                    "startLine": 2988,
+                    "startLine": 2989,
                     "startColumn": 4,
-                    "startOffset": 211262,
+                    "startOffset": 211349,
                     "endColumn": 83,
-                    "endOffset": 211341
+                    "endOffset": 211428
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -22254,11 +22254,11 @@
             },
             {
                 "to": {
-                    "startLine": 2989,
+                    "startLine": 2990,
                     "startColumn": 4,
-                    "startOffset": 211346,
+                    "startOffset": 211433,
                     "endColumn": 101,
-                    "endOffset": 211443
+                    "endOffset": 211530
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -22273,11 +22273,11 @@
             },
             {
                 "to": {
-                    "startLine": 2990,
+                    "startLine": 2991,
                     "startColumn": 4,
-                    "startOffset": 211448,
+                    "startOffset": 211535,
                     "endColumn": 83,
-                    "endOffset": 211527
+                    "endOffset": 211614
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -22292,11 +22292,11 @@
             },
             {
                 "to": {
-                    "startLine": 2991,
+                    "startLine": 2992,
                     "startColumn": 4,
-                    "startOffset": 211532,
+                    "startOffset": 211619,
                     "endColumn": 53,
-                    "endOffset": 211581
+                    "endOffset": 211668
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -22311,11 +22311,11 @@
             },
             {
                 "to": {
-                    "startLine": 2992,
+                    "startLine": 2993,
                     "startColumn": 4,
-                    "startOffset": 211586,
+                    "startOffset": 211673,
                     "endColumn": 63,
-                    "endOffset": 211645
+                    "endOffset": 211732
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -22330,11 +22330,11 @@
             },
             {
                 "to": {
-                    "startLine": 2993,
+                    "startLine": 2994,
                     "startColumn": 4,
-                    "startOffset": 211650,
+                    "startOffset": 211737,
                     "endColumn": 105,
-                    "endOffset": 211751
+                    "endOffset": 211838
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -22349,11 +22349,11 @@
             },
             {
                 "to": {
-                    "startLine": 2994,
+                    "startLine": 2995,
                     "startColumn": 4,
-                    "startOffset": 211756,
+                    "startOffset": 211843,
                     "endColumn": 109,
-                    "endOffset": 211861
+                    "endOffset": 211948
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -22368,11 +22368,11 @@
             },
             {
                 "to": {
-                    "startLine": 2995,
+                    "startLine": 2996,
                     "startColumn": 4,
-                    "startOffset": 211866,
+                    "startOffset": 211953,
                     "endColumn": 83,
-                    "endOffset": 211945
+                    "endOffset": 212032
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -22387,11 +22387,11 @@
             },
             {
                 "to": {
-                    "startLine": 2996,
+                    "startLine": 2997,
                     "startColumn": 4,
-                    "startOffset": 211950,
+                    "startOffset": 212037,
                     "endColumn": 119,
-                    "endOffset": 212065
+                    "endOffset": 212152
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values\\values.xml",
@@ -22406,12 +22406,12 @@
             },
             {
                 "to": {
-                    "startLine": 2997,
+                    "startLine": 2998,
                     "startColumn": 4,
-                    "startOffset": 212070,
-                    "endLine": 2998,
+                    "startOffset": 212157,
+                    "endLine": 2999,
                     "endColumn": 12,
-                    "endOffset": 212165
+                    "endOffset": 212252
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\values\\values.xml",
@@ -22427,12 +22427,12 @@
             },
             {
                 "to": {
-                    "startLine": 2999,
+                    "startLine": 3000,
                     "startColumn": 4,
-                    "startOffset": 212170,
-                    "endLine": 3002,
+                    "startOffset": 212257,
+                    "endLine": 3003,
                     "endColumn": 12,
-                    "endOffset": 212406
+                    "endOffset": 212493
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\values\\values.xml",
@@ -22448,12 +22448,12 @@
             },
             {
                 "to": {
-                    "startLine": 3003,
+                    "startLine": 3004,
                     "startColumn": 4,
-                    "startOffset": 212411,
-                    "endLine": 3009,
+                    "startOffset": 212498,
+                    "endLine": 3010,
                     "endColumn": 12,
-                    "endOffset": 212841
+                    "endOffset": 212928
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\values\\values.xml",
@@ -22469,12 +22469,12 @@
             },
             {
                 "to": {
-                    "startLine": 3010,
+                    "startLine": 3011,
                     "startColumn": 4,
-                    "startOffset": 212846,
-                    "endLine": 3013,
+                    "startOffset": 212933,
+                    "endLine": 3014,
                     "endColumn": 12,
-                    "endOffset": 213048
+                    "endOffset": 213135
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\values\\values.xml",
@@ -22490,12 +22490,12 @@
             },
             {
                 "to": {
-                    "startLine": 3014,
+                    "startLine": 3015,
                     "startColumn": 4,
-                    "startOffset": 213053,
-                    "endLine": 3016,
+                    "startOffset": 213140,
+                    "endLine": 3017,
                     "endColumn": 12,
-                    "endOffset": 213207
+                    "endOffset": 213294
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\values\\values.xml",
@@ -22511,12 +22511,12 @@
             },
             {
                 "to": {
-                    "startLine": 3017,
+                    "startLine": 3018,
                     "startColumn": 4,
-                    "startOffset": 213212,
-                    "endLine": 3025,
+                    "startOffset": 213299,
+                    "endLine": 3026,
                     "endColumn": 12,
-                    "endOffset": 213772
+                    "endOffset": 213859
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\values\\values.xml",
@@ -22532,12 +22532,12 @@
             },
             {
                 "to": {
-                    "startLine": 3026,
+                    "startLine": 3027,
                     "startColumn": 4,
-                    "startOffset": 213777,
-                    "endLine": 3031,
+                    "startOffset": 213864,
+                    "endLine": 3032,
                     "endColumn": 12,
-                    "endOffset": 214133
+                    "endOffset": 214220
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\values\\values.xml",
@@ -22553,12 +22553,12 @@
             },
             {
                 "to": {
-                    "startLine": 3032,
+                    "startLine": 3033,
                     "startColumn": 4,
-                    "startOffset": 214138,
-                    "endLine": 3034,
+                    "startOffset": 214225,
+                    "endLine": 3035,
                     "endColumn": 12,
-                    "endOffset": 214262
+                    "endOffset": 214349
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\values\\values.xml",
@@ -22574,12 +22574,12 @@
             },
             {
                 "to": {
-                    "startLine": 3035,
+                    "startLine": 3036,
                     "startColumn": 4,
-                    "startOffset": 214267,
-                    "endLine": 3043,
+                    "startOffset": 214354,
+                    "endLine": 3044,
                     "endColumn": 12,
-                    "endOffset": 214929
+                    "endOffset": 215016
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\values\\values.xml",
@@ -22595,12 +22595,12 @@
             },
             {
                 "to": {
-                    "startLine": 3044,
+                    "startLine": 3045,
                     "startColumn": 4,
-                    "startOffset": 214934,
-                    "endLine": 3047,
+                    "startOffset": 215021,
+                    "endLine": 3048,
                     "endColumn": 12,
-                    "endOffset": 215109
+                    "endOffset": 215196
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\values\\values.xml",
@@ -22616,12 +22616,12 @@
             },
             {
                 "to": {
-                    "startLine": 3048,
+                    "startLine": 3049,
                     "startColumn": 4,
-                    "startOffset": 215114,
-                    "endLine": 3056,
+                    "startOffset": 215201,
+                    "endLine": 3057,
                     "endColumn": 12,
-                    "endOffset": 215818
+                    "endOffset": 215905
                 },
                 "from": {
                     "file": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\values\\values.xml",

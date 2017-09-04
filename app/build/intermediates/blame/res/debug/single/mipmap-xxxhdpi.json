@@ -24,12 +24,12 @@
         "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_paste.png"
     },
     {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_header_plus.png",
-        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_header_plus.png"
-    },
-    {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_build.png",
         "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_build.png"
+    },
+    {
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_header_plus.png",
+        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_header_plus.png"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_gas_station.png",

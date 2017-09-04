@@ -45,7 +45,7 @@ public class AbastecimentoActivity extends AppCompatActivity implements OnClickL
     private Toolbar abastecimentoToolbar;
     private MaterialEditText dataMaterialEditText;
     private TextView quantidadeLitrosTextView;
-    private MaterialAutoCompleteTextView localMaterialAutoComplete;
+    private MaterialEditText localMaterialEditText;
     private MaterialBetterSpinner combustivelBetterSpinner;
     private MaterialEditText valorLitroMaterialEditText;
     private MaterialEditText valorGastoMaterialEditText;
@@ -61,23 +61,25 @@ public class AbastecimentoActivity extends AppCompatActivity implements OnClickL
     private Combustivel escolhaCombustivel;
     private Combustivel[] itens;
     private Carro veiculoEscolhido;
+    private int acao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_abastecimento);
 
-        //Toolbae
+        acao = getIntent().getIntExtra("acao", 0);
+        //Toolbar
         abastecimentoToolbar = (Toolbar) findViewById(R.id.abastecimentoToolbar);
 
         //MaterialEditTexts
-        dataMaterialEditText = (MaterialEditText) findViewById(R.id.dataMaterialEditText);
+        dataMaterialEditText = (MaterialEditText) findViewById(R.id.dataAbastecimentoMaterialEditText);
         valorLitroMaterialEditText = (MaterialEditText) findViewById(R.id.valorLitroMaterialEditText);
         valorGastoMaterialEditText = (MaterialEditText) findViewById(R.id.valorGastoMaterialEditText);
         hodometroMaterialEditText = (MaterialEditText) findViewById(R.id.hodometroMaterialEditText);
+        localMaterialEditText = (MaterialEditText) findViewById(R.id.localAbastecimentoMaterialEditText);
 
-        //MaterialAutoCcomplete
-        localMaterialAutoComplete = (MaterialAutoCompleteTextView) findViewById(R.id.localMaterialEditText);
+        //Material Better Spinner
         combustivelBetterSpinner = (MaterialBetterSpinner) findViewById(R.id.combustivelBetterSpinner);
 
         //TextViews
@@ -87,14 +89,14 @@ public class AbastecimentoActivity extends AppCompatActivity implements OnClickL
         tanqueCheioCheckBox = (CheckBox) findViewById(R.id.tanqueCheioCheckBox);
 
         dataMaterialEditText.setOnClickListener(this);
-        localMaterialAutoComplete.setOnClickListener(this);
+        localMaterialEditText.setOnClickListener(this);
         combustivelBetterSpinner.setOnItemSelectedListener(this);
 
         applyCustomizingActionBar();
         onCreateCustomizingFormats();
         onCarSelected();
         onFuelSelection();
-        switch (getIntent().getIntExtra("acao", 0)) {
+        switch (acao) {
             case Constantes.EDITAR:
                 onStartVariables();
                 break;
@@ -147,6 +149,7 @@ public class AbastecimentoActivity extends AppCompatActivity implements OnClickL
                 new ArrayAdapter<>(this, R.layout.spinner_dropdown_list, itens);
         combustivelBetterSpinner.setAdapter(adapterCombustivel);
         combustivelBetterSpinner.setText(itens[0].getNome());
+        escolhaCombustivel = itens[0];
     }
 
     private void onCarSelected() {
@@ -161,10 +164,10 @@ public class AbastecimentoActivity extends AppCompatActivity implements OnClickL
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.dataMaterialEditText:
+            case R.id.dataAbastecimentoMaterialEditText:
                 showDatePickerDialog(v);
                 break;
-            case R.id.localMaterialEditText:
+            case R.id.localAbastecimentoMaterialEditText:
                 Intent i = new Intent(this, LocalListActivity.class);
                 i.putExtra("activity", "Abastecimento");
                 startActivityForResult(i, Constantes.ABASTECIMENTO_CODE);
@@ -229,7 +232,7 @@ public class AbastecimentoActivity extends AppCompatActivity implements OnClickL
         if (requestCode == Constantes.ABASTECIMENTO_CODE)
             if (resultCode == Constantes.LOCAL_LIST) {
                 local = data.getParcelableExtra("parcel");
-                localMaterialAutoComplete.setText(local.getNome());
+                localMaterialEditText.setText(local.getNome());
             }
 
     }
@@ -277,7 +280,7 @@ public class AbastecimentoActivity extends AppCompatActivity implements OnClickL
         valorLitroMaterialEditText.setEnabled(false);
         valorGastoMaterialEditText.setEnabled(false);
         hodometroMaterialEditText.setEnabled(false);
-        localMaterialAutoComplete.setEnabled(false);
+        localMaterialEditText.setEnabled(false);
         dataMaterialEditText.setEnabled(false);
         quantidadeLitrosTextView.setEnabled(false);
 
@@ -295,7 +298,7 @@ public class AbastecimentoActivity extends AppCompatActivity implements OnClickL
         local = Abastecimento.ConsultaLocal(this, "SELECT *"
                 + " FROM tb_local"
                 + " WHERE codigoLOCAL = " + abastecimento.getLocalGasto());
-        localMaterialAutoComplete.setText(local.getNome());
+        localMaterialEditText.setText(local.getNome());
         dataMaterialEditText.setText(abastecimento.tratadata());
         onCalculateQuantityLitros(abastecimento.getValorLitro(), abastecimento.getValorGasto());
     }
@@ -360,8 +363,9 @@ public class AbastecimentoActivity extends AppCompatActivity implements OnClickL
             hodometroMaterialEditText.setError("Campo Obrigatório");
             hodometroMaterialEditText.requestFocus();
         } else if (local == null) {
-            localMaterialAutoComplete.setError("Campo Obrigatório");
-        } else if (Integer.parseInt(hodometroMaterialEditText.getEditableText().toString()) <= Abastecimento.getMaxHodometro(this, veiculoEscolhido)) {
+            localMaterialEditText.setError("Campo Obrigatório");
+        } else if (Integer.parseInt(hodometroMaterialEditText.getEditableText().toString()) <= Abastecimento.getMaxHodometro(this, veiculoEscolhido)
+                && acao != Constantes.EDITAR && acao != Constantes.VISUALIZAR) {
             hodometroMaterialEditText.setError("Valor do hodometro menor que o ultimo inserido");
         } else {
             return true;

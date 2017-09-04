@@ -2898,6 +2898,7 @@
         <item name="android:textColorPrimary">@color/colorTextIcons</item>
         <item name="colorControlNormal">@color/colorTextIcons</item>
         <item name="android:background">@null</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
     </style>
     <style name="Widget.AppCompat.ActionBar" parent="Base.Widget.AppCompat.ActionBar">
     </style>

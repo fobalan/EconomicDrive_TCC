@@ -1,4 +1,4 @@
-#Sat Sep 02 16:12:43 BRT 2017
+#Mon Sep 04 01:14:41 BRT 2017
 file.2=F\:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\library-2.4.0_5d15dfd6f6cc876b953281332df7cbb649ba0c8b\\classes.dex
 base.2=F\:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\library-2.4.0_5d15dfd6f6cc876b953281332df7cbb649ba0c8b
 file.1=F\:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_0a17a44df236a4d4fa9d404ce8b3a8ae52a707ae\\classes.dex

@@ -26,29 +26,21 @@
             android:text="Tanque Cheio"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/abastecimentoAppBar" />
-
-        <android.support.design.widget.AppBarLayout
-            android:id="@+id/abastecimentoAppBar"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toBottomOf="@+id/abastecimentoToolbar" />
 
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/abastecimentoToolbar"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:theme="@style/ToolbarColoredBackArrow">
+                app:theme="@style/ToolbarColoredBackArrow"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
             </android.support.v7.widget.Toolbar>
-
-
-        </android.support.design.widget.AppBarLayout>
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/combustivelTextInput"
@@ -151,7 +143,7 @@
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
-            android:id="@+id/dataTextInput"
+            android:id="@+id/dataAbastecimentoTextInput"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
@@ -162,10 +154,10 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/localTextInput">
+            app:layout_constraintTop_toBottomOf="@+id/localAbastecimentoTextInput">
 
             <com.rengwuxian.materialedittext.MaterialEditText
-                android:id="@+id/dataMaterialEditText"
+                android:id="@+id/dataAbastecimentoMaterialEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Data"
@@ -175,7 +167,7 @@
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
-            android:id="@+id/localTextInput"
+            android:id="@+id/localAbastecimentoTextInput"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
@@ -185,8 +177,8 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/hodometroTextInput">
 
-            <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
-                android:id="@+id/localMaterialEditText"
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/localAbastecimentoMaterialEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Endereço"
@@ -223,7 +215,7 @@
             android:textSize="16sp"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/dataTextInput" />
+            app:layout_constraintTop_toBottomOf="@+id/dataAbastecimentoTextInput" />
 
     </android.support.constraint.ConstraintLayout>
 </ScrollView>

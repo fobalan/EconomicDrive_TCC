@@ -44,12 +44,12 @@ public class DatePickerFragment extends DialogFragment implements
         String data = (String.format("%02d", day) + "/" + String.format("%02d", month + 1) + "/" + Integer.toString(year));
         if (getActivity().getTitle().equals("Abastecimento")){
             dataMaterialEditText = (MaterialEditText) getActivity().findViewById(
-                    R.id.dataMaterialEditText);
+                    R.id.dataAbastecimentoMaterialEditText);
             dataMaterialEditText.setText(data);
         }
         else if (getActivity().getTitle().equals("Despesas")){
             dataDespesaTextView = (TextView) getActivity().findViewById(
-                    R.id.dataDespesaTextView);
+                    R.id.dataDespesaMaterialEditText);
             dataDespesaTextView.setText(data);
         }
         else if (getActivity().getTitle().equals("Opções do relatório") && operacao == 0){

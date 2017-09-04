@@ -24,6 +24,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.mikepenz.materialdrawer.holder.StringHolder;
+import com.rengwuxian.materialedittext.MaterialEditText;
 
 import br.com.economicdrive.constantes.Constantes;
 import br.com.economicdrive.fragment.DatePickerFragment;
@@ -34,10 +35,10 @@ import br.com.economicdrive.model.Local;
 @SuppressLint("SimpleDateFormat")
 public class DespesasActivity extends AppCompatActivity implements OnClickListener,
 		TextWatcher {
-	private EditText descricaoDespesaEditText;
-	private EditText valorDespesaEditText;
-	private TextView localDespesaTextView;
-	private TextView dataDespesaTextView;
+	private MaterialEditText descricaoMaterialEditText;
+	private MaterialEditText valorMaterialEditText;
+	private MaterialEditText localMaterialEditText;
+	private MaterialEditText dataMaterialEditText;
 	private ImageButton salvarDespesaButton;
 	private Despesas despesa;
 	private Intent i;
@@ -49,15 +50,14 @@ public class DespesasActivity extends AppCompatActivity implements OnClickListen
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_despesas);
-		descricaoDespesaEditText = (EditText) this.findViewById(R.id.descricaoDespesaEditText);
-		valorDespesaEditText = (EditText) this.findViewById(R.id.valorDepesaEditText);
-		localDespesaTextView = (TextView) this.findViewById(R.id.localDespesaTextView);
-		dataDespesaTextView = (TextView) this.findViewById(R.id.dataDespesaTextView);
-		salvarDespesaButton = (ImageButton) this.findViewById(R.id.salvarDespesasButton);
-		toolbar = (Toolbar) findViewById(R.id.myDespActivityToolbar);
-		dataDespesaTextView.setOnClickListener(this);
-		localDespesaTextView.setOnClickListener(this);
-		salvarDespesaButton.setOnClickListener(this);
+		descricaoMaterialEditText = (MaterialEditText) this.findViewById(R.id.descricaoDespesaMaterialEditText);
+		valorMaterialEditText = (MaterialEditText) this.findViewById(R.id.valorDespesaMaterialEditText);
+		localMaterialEditText = (MaterialEditText) this.findViewById(R.id.localDespesaMaterialEditText);
+		dataMaterialEditText = (MaterialEditText) this.findViewById(R.id.dataDespesaMaterialEditText);
+		toolbar = (Toolbar) findViewById(R.id.despesaToolbar);
+		dataMaterialEditText.setOnClickListener(this);
+		localMaterialEditText.setOnClickListener(this);
+	//	salvarDespesaButton.setOnClickListener(this);
         applyCustomizingActionBar();
 		switch(getIntent().getIntExtra("acao", 0)){
 		case Constantes.EDITAR:
@@ -67,7 +67,7 @@ public class DespesasActivity extends AppCompatActivity implements OnClickListen
 			despesa = new Despesas(this);
 			veiculoEscolhido = getIntent().getParcelableExtra("veiculo");
 			despesa.setIdCarro(veiculoEscolhido.getCodigo());
-			dataDespesaTextView.setText(getDateTime());
+			dataMaterialEditText.setText(getDateTime());
 			break;
 		case Constantes.VISUALIZAR:
 			onStartVariables();
@@ -81,43 +81,43 @@ public class DespesasActivity extends AppCompatActivity implements OnClickListen
 	@Override
 	public void onClick(View v) {
 		switch (v.getId()) {
-		case R.id.dataDespesaTextView:
+		case R.id.dataDespesaMaterialEditText:
 			showDatePickerDialog(v);
 			break;
-		case R.id.localDespesaTextView:
+		case R.id.localDespesaMaterialEditText:
 			i = new Intent(this, LocalListActivity.class);
 			i.putExtra("activity", "Despesas");
 			startActivityForResult(i, Constantes.DESPESAS_CODE);
 			break;
-		case R.id.salvarDespesasButton:
-			if (descricaoDespesaEditText.getEditableText().toString().equals("")){
-				Toast.makeText(getApplicationContext(), "Obrigatório preencher campo Descrição", Toast.LENGTH_SHORT).show();
-			}
-			else if(valorDespesaEditText.getEditableText().toString().equals("") || valorDespesaEditText.getEditableText().toString().equals("R$0,00")) {
-				Toast.makeText(getApplicationContext(), "Obrigatório preencher campo Valor", Toast.LENGTH_SHORT).show();
-			}
+	//	case R.id.salvarDespesasButton:
+	//		if (descricaoDespesaEditText.getEditableText().toString().equals("")){
+	//			Toast.makeText(getApplicationContext(), "Obrigatório preencher campo Descrição", Toast.LENGTH_SHORT).show();
+	//		}
+	//		else if(valorDespesaEditText.getEditableText().toString().equals("") || valorDespesaEditText.getEditableText().toString().equals("R$0,00")) {
+	//			Toast.makeText(getApplicationContext(), "Obrigatório preencher campo Valor", Toast.LENGTH_SHORT).show();
+	//		}
 
-			else if (local == null){
-				Toast.makeText(getApplicationContext(), "Obrigatório preencher campo Local", Toast.LENGTH_SHORT).show();
-			}
-			else{
-				despesa.setDescricaoDespesa(descricaoDespesaEditText.getEditableText().toString());
-				despesa.setValorGasto(Float.parseFloat(valorDespesaEditText.getEditableText().toString().replace("R$","").replace(".", "").replace(",", ".")));
-				despesa.setLocalGasto(local.getCodigo());
-				despesa.setDataGasto(dataDespesaTextView.getText().toString());
-				if (getIntent().getIntExtra("acao", 0) == Constantes.EDITAR){
-					despesa.alteraDespesas(this);
-				}
-				else{
-					despesa.insereDespesas(this);
-					MainActivity.getNavigationDrawerLeft().updateBadge(1,
-							new StringHolder(Integer.toString(Despesas.ContaDespesas(this, veiculoEscolhido.getCodigo()))));
-				}
-				finish();
-			}
-			break;
+	//		else if (local == null){
+	//			Toast.makeText(getApplicationContext(), "Obrigatório preencher campo Local", Toast.LENGTH_SHORT).show();
+	//		}
+	//		else{
+	//			despesa.setDescricaoDespesa(descricaoDespesaEditText.getEditableText().toString());
+	//			despesa.setValorGasto(Float.parseFloat(valorDespesaEditText.getEditableText().toString().replace("R$","").replace(".", "").replace(",", ".")));
+	//			despesa.setLocalGasto(local.getCodigo());
+	//			despesa.setDataGasto(dataDespesaTextView.getText().toString());
+	//			if (getIntent().getIntExtra("acao", 0) == Constantes.EDITAR){
+	//				despesa.alteraDespesas(this);
+	//			}
+	//			else{
+	//				despesa.insereDespesas(this);
+	//				MainActivity.getNavigationDrawerLeft().updateBadge(1,
+	//						new StringHolder(Integer.toString(Despesas.ContaDespesas(this, veiculoEscolhido.getCodigo()))));
+	//			}
+	//			finish();
+	//		}
+	//		break;
 		}
-		
+
 	}
 	public void showDatePickerDialog(View v) {
 		DialogFragment newFragment = new DatePickerFragment(0);
@@ -139,7 +139,7 @@ public class DespesasActivity extends AppCompatActivity implements OnClickListen
 		if (requestCode == Constantes.DESPESAS_CODE)
 			if (resultCode == Constantes.LOCAL_LIST) {
 				local = data.getParcelableExtra("parcel");
-				localDespesaTextView.setText(local.getNome());
+				localMaterialEditText.setText(local.getNome());
 			}
 
 	}
@@ -164,19 +164,19 @@ public class DespesasActivity extends AppCompatActivity implements OnClickListen
 					.replaceFirst(" ", ""));
 
 		    valorMask = NumberFormat.getCurrencyInstance().format(valorAnterior / 100);
-			valorDespesaEditText.setText(valorMask);
-			valorDespesaEditText.setSelection(valorMask.length());
+			valorMaterialEditText.setText(valorMask);
+			valorMaterialEditText.setSelection(valorMask.length());
 			onSetTextListeners();
 		} catch (NumberFormatException e) {
 		} catch (ArithmeticException e) {
 		}
 	}
 	private void onRemoveTextListeners() {
-		valorDespesaEditText.removeTextChangedListener(this);	
+		valorMaterialEditText.removeTextChangedListener(this);
 	}
 	
 	private void onSetTextListeners() {
-		valorDespesaEditText.addTextChangedListener(this);
+		valorMaterialEditText.addTextChangedListener(this);
 	}
 	private void applyCustomizingActionBar() {
 		setSupportActionBar(toolbar);
@@ -192,21 +192,21 @@ public class DespesasActivity extends AppCompatActivity implements OnClickListen
 	}
 	private void onStartVariables() {
 		despesa = getIntent().getParcelableExtra("parcel");
-		descricaoDespesaEditText.setText(despesa.getDescricaoDespesa());
-		valorDespesaEditText.setText(NumberFormat.getCurrencyInstance().format(despesa.getValorGasto()));
+		descricaoMaterialEditText.setText(despesa.getDescricaoDespesa());
+		valorMaterialEditText.setText(NumberFormat.getCurrencyInstance().format(despesa.getValorGasto()));
 		local = Despesas.ConsultaLocal(this, "SELECT *"
 				+ " FROM tb_local"
 				+ " WHERE codigoLOCAL = " + despesa.getLocalGasto());
-		localDespesaTextView.setText(local.getNome());
-		dataDespesaTextView.setText(despesa.tratadata());	
+		localMaterialEditText.setText(local.getNome());
+		dataMaterialEditText.setText(despesa.tratadata());
 	}
 	
 	private void onDisableInputVariables() {
-		descricaoDespesaEditText.setEnabled(false);
-		valorDespesaEditText.setEnabled(false);
-		localDespesaTextView.setEnabled(false);
-		dataDespesaTextView.setEnabled(false);
-		salvarDespesaButton.setVisibility(View.INVISIBLE);
+		descricaoMaterialEditText.setEnabled(false);
+		valorMaterialEditText.setEnabled(false);
+		localMaterialEditText.setEnabled(false);
+		dataMaterialEditText.setEnabled(false);
+	//	salvarDespesaButton.setVisibility(View.INVISIBLE);
 	}
 
 }
