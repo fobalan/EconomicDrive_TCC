@@ -1,11 +1,5 @@
 package br.com.economicdrive;
 
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.List;
-
 import android.annotation.SuppressLint;
 import android.app.DialogFragment;
 import android.content.Intent;
@@ -21,16 +15,19 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
 import com.mikepenz.materialdrawer.holder.StringHolder;
-import com.rengwuxian.materialedittext.MaterialAutoCompleteTextView;
 import com.rengwuxian.materialedittext.MaterialEditText;
 import com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner;
+
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
 
 import br.com.economicdrive.constantes.Constantes;
 import br.com.economicdrive.fragment.DatePickerFragment;
@@ -287,7 +284,7 @@ public class AbastecimentoActivity extends AppCompatActivity implements OnClickL
 
     private void onStartVariables() {
         abastecimento = getIntent().getParcelableExtra("parcel");
-        //onSetCombustivel();
+        onSetCombustivel();
         if (abastecimento.getTanqueCheio().equals("sim"))
             tanqueCheioCheckBox.setChecked(true);
         valorLitroMaterialEditText.setText(dinheiroLitroFormat.format(abastecimento.getValorLitro()));
@@ -300,6 +297,14 @@ public class AbastecimentoActivity extends AppCompatActivity implements OnClickL
         localMaterialEditText.setText(local.getNome());
         dataMaterialEditText.setText(abastecimento.tratadata());
         onCalculateQuantityLitros(abastecimento.getValorLitro(), abastecimento.getValorGasto());
+    }
+
+    private void onSetCombustivel() {
+        for (Combustivel combustivel : itens) {
+            if (combustivel.getCodigo() == abastecimento.getCombustivel()) {
+                combustivelBetterSpinner.setText(combustivel.getNome());
+            }
+        }
     }
 
     private String getDateTime() {
@@ -316,13 +321,14 @@ public class AbastecimentoActivity extends AppCompatActivity implements OnClickL
 
     public void onClickSave() {
             if(checkFields()){
-            abastecimento.setCombustivel(escolhaCombustivel.getCodigo());
-            abastecimento.setDataGasto(dataMaterialEditText.getText().toString());
-            abastecimento.setKilometros(Integer.parseInt(hodometroMaterialEditText.getEditableText().toString()));
-            abastecimento.setValorLitro(Float.parseFloat(valorLitroMaterialEditText.getEditableText().toString().replace("R$", "").replace(",", ".")));
-            abastecimento.setValorGasto(Float.parseFloat(valorGastoMaterialEditText.getEditableText().toString().replace("R$", "").replace(",", ".")));
-            abastecimento.setLocalGasto(local.getCodigo());
-            abastecimento.setKmdif(0);
+                onCombustivelSelected();
+                abastecimento.setCombustivel(escolhaCombustivel.getCodigo());
+                abastecimento.setDataGasto(dataMaterialEditText.getText().toString());
+                abastecimento.setKilometros(Integer.parseInt(hodometroMaterialEditText.getEditableText().toString()));
+                abastecimento.setValorLitro(Float.parseFloat(valorLitroMaterialEditText.getEditableText().toString().replace("R$", "").replace(",", ".")));
+                abastecimento.setValorGasto(Float.parseFloat(valorGastoMaterialEditText.getEditableText().toString().replace("R$", "").replace(",", ".")));
+                abastecimento.setLocalGasto(local.getCodigo());
+                abastecimento.setKmdif(0);
             if (tanqueCheioCheckBox.isChecked()) {
                 abastecimento.setTanqueCheio("sim");
             } else {
@@ -340,6 +346,15 @@ public class AbastecimentoActivity extends AppCompatActivity implements OnClickL
             finish();
         }
     }
+
+    private void onCombustivelSelected() {
+        for (Combustivel combustivel : itens) {
+            if (combustivel.getNome().equals(combustivelBetterSpinner.getText().toString())) {
+                escolhaCombustivel = combustivel;
+            }
+        }
+    }
+
     private boolean checkFields() {
         if (valorLitroMaterialEditText.getEditableText().toString().equals("") || valorLitroMaterialEditText.getEditableText().toString().equals("R$0,000")) {
             valorLitroMaterialEditText.setError("Campo Obrigatório");

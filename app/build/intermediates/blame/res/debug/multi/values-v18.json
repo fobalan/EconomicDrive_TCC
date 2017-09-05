@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+        "outputFile": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-v18\\values-v18.xml",
+                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-v18\\values-v18.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

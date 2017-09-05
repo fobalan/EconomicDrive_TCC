@@ -238,7 +238,7 @@ public class ManutencaoActivity extends AppCompatActivity implements OnClickList
 	}
 	private void onStartVariables() {
 		manutencao = getIntent().getParcelableExtra("parcel");
-		onSetTipoManutencao();
+		onSetTipo();
 		descricaoMaterialEditText.setText(manutencao.getDescricaoManutencao());
 		valorMaterialEditText.setText(NumberFormat.getCurrencyInstance().format(manutencao.getValorGasto()));
 		local = Manutencao.ConsultaLocal(this, "SELECT *"
@@ -246,15 +246,15 @@ public class ManutencaoActivity extends AppCompatActivity implements OnClickList
 				 + " WHERE codigoLOCAL = " + manutencao.getLocalGasto());
 		localMaterialEditText.setText(local.getNome());
 		dataMaterialEditText.setText(manutencao.tratadata());
-		tipoBetterSpinner.setSelection(posicaoTipoManutencao);
+
 	}
-	
-	private void onSetTipoManutencao() {
-		for(int i = 0; i< itens.length; i++){
-			if (itens[i].getCodigo() == manutencao.getTipoManutencao())
-				posicaoTipoManutencao = i;
+
+	private void onSetTipo() {
+		for (TipoManutencao tipoManutencao: itens) {
+			if(tipoManutencao.getCodigo() == manutencao.getTipoManutencao()){
+				tipoBetterSpinner.setText(tipoManutencao.getNome());
+			}
 		}
-		
 	}
 
 	private void onDisableInputVariables() {
