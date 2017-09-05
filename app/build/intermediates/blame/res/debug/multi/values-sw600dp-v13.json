@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+        "outputFile": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 119
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 188
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 258
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 332
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 408
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 467
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 538
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 606
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\279f52b86ac6fc3208bba188524381052da25684\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 666
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 736
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 807
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 879
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 937
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 995
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1101
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1165
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 1229
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\\output\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\aaff61457d4848cb773eb560a7a51f76d16a230a\\output\\res\\values-sw600dp\\values-sw600dp.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 1292
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -354,7 +354,7 @@
                     "endOffset": 1474
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio\\.android\\build-cache\\965c158e6cf8683823d0aa863e009629d51d0724\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "C:\\Users\\ITST\\.android\\build-cache\\3edc5701e3a2abad10d1ef568fb1254b47010497\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,

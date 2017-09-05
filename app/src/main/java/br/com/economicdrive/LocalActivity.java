@@ -8,21 +8,19 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.Toast;
+
+import com.rengwuxian.materialedittext.MaterialEditText;
 
 import br.com.economicdrive.constantes.Constantes;
 import br.com.economicdrive.model.Local;
 
-public class LocalActivity extends AppCompatActivity implements Button.OnClickListener{
+public class LocalActivity extends AppCompatActivity {
 
-	private EditText localEditText;
-	private EditText endeEditText;
-	private ImageButton salvarLocalButton;
+	private MaterialEditText nomeMaterialEditText;
+	private MaterialEditText enderecoMaterialEditText;
 	private int intCodigo;
 	private Toolbar toolbar;
 	private Local local;
@@ -33,22 +31,25 @@ public class LocalActivity extends AppCompatActivity implements Button.OnClickLi
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_local);
-		localEditText = (EditText) findViewById(R.id.LocalEditText);
-		endeEditText = (EditText) findViewById(R.id.EndeeditText);
-		salvarLocalButton = (ImageButton) findViewById(R.id.salvarLocalButton);
-        toolbar  = (Toolbar) findViewById(R.id.myLocalActivityToolbar);
-		salvarLocalButton.setOnClickListener(this);
+
+		//Toolbar
+		toolbar  = (Toolbar) findViewById(R.id.localToolbar);
+
+		//MaterialEditText
+		nomeMaterialEditText = (MaterialEditText) findViewById(R.id.nomeLocalMaterialEditText);
+		enderecoMaterialEditText = (MaterialEditText) findViewById(R.id.enderecoLocalMaterialEditText);
+
 		onActionBar();
 		intAcao = getIntent().getIntExtra("acao",0);
 		local = getIntent().getParcelableExtra("parcel");
 		if (intAcao == Constantes.EDITAR){
-			localEditText.setText(local.getNome());
-			endeEditText.setText(local.getEndereco());
+			nomeMaterialEditText.setText(local.getNome());
+			enderecoMaterialEditText.setText(local.getEndereco());
 			intCodigo = local.getCodigo();
 		}
 		else if (intAcao == Constantes.VISUALIZAR){
-			localEditText.setText(local.getNome());
-			endeEditText.setText(local.getEndereco());
+			nomeMaterialEditText.setText(local.getNome());
+			enderecoMaterialEditText.setText(local.getEndereco());
 			intCodigo = local.getCodigo();
 			OnDisableVariables();
 		}
@@ -63,68 +64,74 @@ public class LocalActivity extends AppCompatActivity implements Button.OnClickLi
 	}
 
 	private void OnDisableVariables() {
-		localEditText.setEnabled(false);
-		endeEditText.setEnabled(false);
-		salvarLocalButton.setVisibility(View.INVISIBLE);
+		nomeMaterialEditText.setEnabled(false);
+		enderecoMaterialEditText.setEnabled(false);
 		
 	}
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
-		finish();
+		switch (item.getItemId()) {
+			case android.R.id.home:
+				finish();
+				return true;
+			case R.id.save_menu:
+				onClickSave();
+				return true;
+		}
 		return super.onOptionsItemSelected(item);
 	}
-	@Override
-	public void onClick(View v) {
-		try{
+
+	private void onClickSave() {
+		try {
 			//Variavel que receber qual acao esta sendo executada, edicao ou inclusao
-			String strLocal = localEditText.getEditableText().toString();
-			String strEnde = endeEditText.getEditableText().toString();
+			String strLocal = nomeMaterialEditText.getEditableText().toString();
+			String strEnde = enderecoMaterialEditText.getEditableText().toString();
 			if (strLocal.equals("")) {
-				Toast.makeText(getApplicationContext(), "Nome não pode estar em branco",Toast.LENGTH_SHORT).show();
-			}
-			else{
-				if (strEnde.equals("")){
-					Toast.makeText(getApplicationContext(), "Endereço não pode estar em branco",Toast.LENGTH_SHORT).show();
-				}
-				else{
-					if (intAcao == Constantes.INSERIR){
+				Toast.makeText(getApplicationContext(), "Nome não pode estar em branco", Toast.LENGTH_SHORT).show();
+			} else {
+				if (strEnde.equals("")) {
+					Toast.makeText(getApplicationContext(), "Endereço não pode estar em branco", Toast.LENGTH_SHORT).show();
+				} else {
+					if (intAcao == Constantes.INSERIR) {
 						local = new Local(strEnde, strLocal);
 						List<Information> local2 = Local.ConsultaLocais(this, "SELECT * FROM tb_local WHERE enderecoLOCAL = '" + local.getEndereco() + "'");
 						Local[] itens = local2.toArray(new Local[0]);
-						if (itens.length > 0){
-							Toast.makeText(getApplicationContext(), "Já existe um local cadastrado com esse endereço",Toast.LENGTH_SHORT).show();
-						}else{
-							local.insereLocal(this); 
-							Toast.makeText(getApplicationContext(), "Local cadastrado com sucesso",Toast.LENGTH_SHORT).show();
-							localEditText.setText("");
-							endeEditText.setText("");
+						if (itens.length > 0) {
+							Toast.makeText(getApplicationContext(), "Já existe um local cadastrado com esse endereço", Toast.LENGTH_SHORT).show();
+						} else {
+							local.insereLocal(this);
+							Toast.makeText(getApplicationContext(), "Local cadastrado com sucesso", Toast.LENGTH_SHORT).show();
+							nomeMaterialEditText.setText("");
+							enderecoMaterialEditText.setText("");
 							finish();
 						}
-					}
-					else if (intAcao == Constantes.EDITAR){
+					} else if (intAcao == Constantes.EDITAR) {
 						local = new Local(intCodigo, strEnde, strLocal);
 						List<Information> local2 = Local.ConsultaLocais(this, "SELECT * FROM tb_local WHERE enderecoLOCAL = '" + local.getEndereco() + "'");
 						Local[] itens = local2.toArray(new Local[0]);
-						if (itens.length > 0 && itens[0].getCodigo() != local.getCodigo()){
-							Toast.makeText(getApplicationContext(), "Já existe um local cadastrado com esse endereço",Toast.LENGTH_SHORT).show();
-						}else{
+						if (itens.length > 0 && itens[0].getCodigo() != local.getCodigo()) {
+							Toast.makeText(getApplicationContext(), "Já existe um local cadastrado com esse endereço", Toast.LENGTH_SHORT).show();
+						} else {
 							local.alteraLocal(this);
-							Toast.makeText(getApplicationContext(), "Local alterado com sucesso",Toast.LENGTH_SHORT).show();
-							localEditText.setText("");
-							endeEditText.setText("");
+							Toast.makeText(getApplicationContext(), "Local alterado com sucesso", Toast.LENGTH_SHORT).show();
+							nomeMaterialEditText.setText("");
+							enderecoMaterialEditText.setText("");
 							finish();
 						}
-					}
-					else{
-						Toast.makeText(getApplicationContext(), "Operação inválida",Toast.LENGTH_SHORT).show();
+					} else {
+						Toast.makeText(getApplicationContext(), "Operação inválida", Toast.LENGTH_SHORT).show();
 					}
 				}
 			}
-		}
-		catch(Error e){
-			Toast.makeText(getApplicationContext(), "Erro ao gerenciar local",Toast.LENGTH_SHORT).show();
+		} catch (Error e) {
+			Toast.makeText(getApplicationContext(), "Erro ao gerenciar local", Toast.LENGTH_SHORT).show();
 		}
 	}
 
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		getMenuInflater().inflate(R.menu.toolbar_menu, menu);
+		return true;
+	}
 }

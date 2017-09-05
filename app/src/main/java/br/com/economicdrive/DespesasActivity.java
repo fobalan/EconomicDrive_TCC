@@ -47,11 +47,16 @@ public class DespesasActivity extends AppCompatActivity implements OnClickListen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_despesas);
+
+        //Toolbar
+        toolbar = (Toolbar) findViewById(R.id.despesaToolbar);
+
+        //Material EditText
         descricaoMaterialEditText = (MaterialEditText) this.findViewById(R.id.descricaoDespesaMaterialEditText);
         valorMaterialEditText = (MaterialEditText) this.findViewById(R.id.valorDespesaMaterialEditText);
         localMaterialEditText = (MaterialEditText) this.findViewById(R.id.localDespesaMaterialEditText);
         dataMaterialEditText = (MaterialEditText) this.findViewById(R.id.dataDespesaMaterialEditText);
-        toolbar = (Toolbar) findViewById(R.id.despesaToolbar);
+
         dataMaterialEditText.setOnClickListener(this);
         localMaterialEditText.setOnClickListener(this);
         applyCustomizingActionBar();
