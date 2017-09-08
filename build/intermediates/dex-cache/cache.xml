@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="D:\Documentos\AndroidStudioProjects\EconomicDrive_TCC\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="631598cc2356c9bdf9a640b570b68b315a24f3b6">
+        <dex dex="D:\Documentos\AndroidStudioProjects\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_b9ead76e82da3e078ed4c11bb4169e420db82cb8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documentos\AndroidStudioProjects\EconomicDrive_TCC\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_44a2633cc1c1e99787876432f83fcb315aa6900c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="4aafaa3b20877785397673b2edf55d10a9b2d2f8">
-        <dex dex="C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4e1bb5148de1210bec1be6fa6d8e8b90fd48a43c\classes.dex" />
+        <dex dex="D:\Documentos\AndroidStudioProjects\EconomicDrive_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_4d6e5ae6ce3c63df2058837fcb8b066e511c9aca\classes.dex" />
     </item>
 
 </items>

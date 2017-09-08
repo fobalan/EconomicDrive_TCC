@@ -47,7 +47,7 @@
                 android:hint="Nome"
                 android:inputType="text"
                 app:met_helperText="Digite o nome do Local"
-                app:met_iconLeft="@drawable/ic_location_on_black_24dp" />
+                app:met_iconLeft="@drawable/ic_rename_box_white_24dp" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout

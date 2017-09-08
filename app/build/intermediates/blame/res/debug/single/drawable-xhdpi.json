@@ -1,34 +1,42 @@
 [
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_abas.png",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\drawable-xhdpi\\ic_abas.png"
+        "merged": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_event_available_black_24dp.png",
+        "source": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\drawable-xhdpi\\ic_event_available_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_location_on_black_24dp.png",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\drawable-xhdpi\\ic_location_on_black_24dp.png"
+        "merged": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_location_on_black_24dp.png",
+        "source": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\drawable-xhdpi\\ic_location_on_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_expand_more_black_18dp.png",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\5cda3f2bb21600aed5f23a9e278a56fc095b8fb4\\output\\res\\drawable-xhdpi\\ic_expand_more_black_18dp.png"
+        "merged": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_expand_more_black_18dp.png",
+        "source": "C:\\Users\\Samurai\\.android\\build-cache\\01463ef10004dadb47463e816e551e3d9ee42837\\output\\res\\drawable-xhdpi\\ic_expand_more_black_18dp.png"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_event_available_black_24dp.png",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\drawable-xhdpi\\ic_event_available_black_24dp.png"
+        "merged": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_abas.png",
+        "source": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\drawable-xhdpi\\ic_abas.png"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\met_ic_clear.png",
-        "source": "C:\\Users\\ITST\\.android\\build-cache\\fe0af6e5999ed4eebcd1753cc846071ceca7491e\\output\\res\\drawable-xhdpi\\met_ic_clear.png"
+        "merged": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_rename_box_white_24dp.png",
+        "source": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\drawable-xhdpi\\ic_rename_box_white_24dp.png"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\arrow_textview.png",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\drawable-xhdpi\\arrow_textview.png"
+        "merged": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_camera_timer_black_24dp.png",
+        "source": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\drawable-xhdpi\\ic_camera_timer_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher_3.png",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher_3.png"
+        "merged": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_file_powerpoint_box_white_24dp.png",
+        "source": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\drawable-xhdpi\\ic_file_powerpoint_box_white_24dp.png"
     },
     {
-        "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_camera_timer_black_24dp.png",
-        "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\drawable-xhdpi\\ic_camera_timer_black_24dp.png"
+        "merged": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\met_ic_clear.png",
+        "source": "C:\\Users\\Samurai\\.android\\build-cache\\fef18a044ba49ce5fa2ab416a3b044aa892f4fe0\\output\\res\\drawable-xhdpi\\met_ic_clear.png"
+    },
+    {
+        "merged": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\arrow_textview.png",
+        "source": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\drawable-xhdpi\\arrow_textview.png"
+    },
+    {
+        "merged": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher_3.png",
+        "source": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher_3.png"
     }
 ]

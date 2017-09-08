@@ -51,7 +51,7 @@
                 android:hint="Tipo"
                 android:inputType="textAutoComplete"
                 app:met_helperText="Selecione tipo de manutenção"
-                app:met_iconLeft="@mipmap/ic_gas_station" />
+                app:met_iconLeft="@mipmap/ic_build" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -75,7 +75,7 @@
                 android:hint="Descrição"
                 android:inputType="text"
                 app:met_helperText="Insira uma descrição para lembrar da despesa"
-                app:met_iconLeft="@mipmap/ic_money" />
+                app:met_iconLeft="@drawable/ic_rename_box_white_24dp" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
