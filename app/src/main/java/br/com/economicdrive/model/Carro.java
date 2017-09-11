@@ -21,22 +21,23 @@ public class Carro implements Parcelable, Information {
 	private int modelo;
 	private int comb;
 	private String ativo;
-	
+
+    public Carro () {}
 	public Carro (Parcel in){
 		this.codigo = in.readInt();
 		this.nome 	= in.readString();
-		this.km 	= in.readInt();
 		this.placa 	= in.readString();
+		this.km 	= in.readInt();
 		this.marca 	= in.readInt();
 		this.modelo = in.readInt();
 		this.comb 	= in.readInt();
 	}
 	
-	public Carro(int i, String strNome, int intKm, String strPlaca, int intMarca, int intModelo, int intComb, String ativo) {
+	public Carro(int i, String strNome, String strPlaca,int intKm, int intMarca, int intModelo, int intComb, String ativo) {
 		this.codigo = i;
 		this.nome = strNome;
-		this.km = intKm;
 		this.placa = strPlaca;
+		this.km = intKm;
 		this.marca = intMarca;
 		this.modelo = intModelo;
 		this.comb = intComb;
@@ -48,7 +49,6 @@ public class Carro implements Parcelable, Information {
 	public String getAtivo() {
 		return ativo;
 	}
-
 	public String getPlaca() {
 		return placa;
 	}
@@ -98,7 +98,7 @@ public class Carro implements Parcelable, Information {
 		List <Information> carro = new ArrayList <>();
 		cursor.moveToFirst();
 		while (!cursor.isAfterLast()){
-			Carro carro2 = new Carro(cursor.getInt(0), cursor.getString(1),cursor.getInt(2),cursor.getString(3), cursor.getInt(4),cursor.getInt(5),cursor.getInt(6), cursor.getString(7));
+			Carro carro2 = new Carro(cursor.getInt(0), cursor.getString(1),cursor.getString(2),cursor.getInt(3), cursor.getInt(4),cursor.getInt(5),cursor.getInt(6), cursor.getString(7));
 			carro.add(carro2);
 			cursor.moveToNext();
 		}
@@ -119,7 +119,7 @@ public class Carro implements Parcelable, Information {
 		Cursor cursor = database.consulta(sql01);
 		cursor.moveToFirst();
 		while (!cursor.isAfterLast()){
-			carro = new Carro(cursor.getInt(0), cursor.getString(1),cursor.getInt(2),cursor.getString(3), cursor.getInt(4),cursor.getInt(5),cursor.getInt(6), cursor.getString(7));
+			carro = new Carro(cursor.getInt(0), cursor.getString(1),cursor.getString(2),cursor.getInt(3), cursor.getInt(4),cursor.getInt(5),cursor.getInt(6), cursor.getString(7));
 			cursor.moveToNext();
 		}
 		
@@ -134,9 +134,9 @@ public class Carro implements Parcelable, Information {
 	@Override
 	public void writeToParcel(Parcel dest, int flags) {
 		dest.writeInt(getCodigo()); 
-		dest.writeString(getNome()); 	
-		dest.writeInt(getKm()); 	
-		dest.writeString(getPlaca()); 
+		dest.writeString(getNome());
+		dest.writeString(getPlaca());
+		dest.writeInt(getKm());
 		dest.writeInt(getMarca());
 		dest.writeInt(getModelo()); 
 		dest.writeInt(getComb()); 	

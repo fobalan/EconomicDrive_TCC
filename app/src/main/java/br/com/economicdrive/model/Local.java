@@ -17,9 +17,8 @@ public class Local implements Parcelable, Information {
 	private String endereco;
 	private String nome;
 	
-	public Local (){
-		
-	}
+	public Local (){}
+
 	public Local(int codigo, String strEnde, String strLocal) {
 		this.codigo = codigo;
 		this.endereco = strEnde;
@@ -67,7 +66,7 @@ public class Local implements Parcelable, Information {
 		Sqlite database = new Sqlite(context);
 		String sql01 = sql;
 		Cursor cursor = database.consulta(sql01);
-		List <Information> local = new ArrayList <Information>();
+		List <Information> local = new ArrayList <>();
 		cursor.moveToFirst();
 		while (!cursor.isAfterLast()){
 			Local local2 = new Local(cursor.getInt(0), cursor.getString(2), cursor.getString(1));
