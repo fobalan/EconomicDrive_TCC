@@ -11,6 +11,7 @@ import java.util.List;
 
 import br.com.economicdrive.Information;
 import br.com.economicdrive.model.Carro;
+import br.com.economicdrive.model.Despesas;
 
 /**
  * Created by ITST on 11/09/2017.
@@ -34,8 +35,7 @@ public class CarroDAO extends SQLiteOpenHelper {
                 "marca int," +
                 "modelo int," +
                 "combustivel INT," +
-                "ativo VARCHAR(3)" +
-                ")");
+                "ativo VARCHAR(3))");
     }
 
     @Override
@@ -117,6 +117,61 @@ public class CarroDAO extends SQLiteOpenHelper {
         }
         cursor.close();
         return carro;
+    }
+
+    public List<Information> getDespesas(int idCarro){
+        SQLiteDatabase db = getWritableDatabase();
+        String sql = "SELECT * FROM despesas WHERE idCarro = ?";
+        String[] args = {String.valueOf(idCarro)};
+        Cursor cursor = db.rawQuery(sql, args);
+        List <Information> despesas = new ArrayList<>();
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()){
+            Despesas newDespesa = new Despesas();
+            newDespesa.setCodigoGasto(cursor.getInt(0));
+            newDespesa.setIdCarro(cursor.getInt(1));
+            newDespesa.setValorGasto(cursor.getFloat(2));
+            newDespesa.setLocalGasto(cursor.getInt(3));
+            newDespesa.setDataGasto(cursor.getString(4));
+            newDespesa.setDescricaoDespesa(cursor.getString(5));
+            despesas.add(newDespesa);
+            cursor.moveToNext();
+        }
+        cursor.close();
+        return despesas;
+    }
+
+    public int countDespesas(Carro carro){
+        SQLiteDatabase db = getWritableDatabase();
+        String sql = "SELECT COUNT (*) FROM despesas WHERE idCarro = ?";
+        String[] args = {String.valueOf(carro.getCodigo())};
+        Cursor cursor = db.rawQuery(sql, args);
+        cursor.moveToFirst();
+        int count = cursor.getInt(0);
+        cursor.close();
+        return count;
+    }
+
+    public int countManutencao(Carro carro){
+        SQLiteDatabase db = getReadableDatabase();
+        String sql = "SELECT COUNT (*) FROM manutencao WHERE idCarro = ?";
+        String[] args = {String.valueOf(carro.getCodigo())};
+        Cursor cursor = db.rawQuery(sql, args);
+        cursor.moveToFirst();
+        int count = cursor.getInt(0);
+        cursor.close();
+        return count;
+    }
+
+    public int countAbastecimento(Carro carro){
+        SQLiteDatabase db = getReadableDatabase();
+        String sql = "SELECT COUNT (*) FROM abastecimento WHERE idCarro = ?";
+        String[] where = {String.valueOf(carro.getCodigo())};
+        Cursor cursor = db.rawQuery(sql, where);
+        cursor.moveToFirst();
+        int count = cursor.getInt(0);
+        cursor.close();
+        return count;
     }
 
     private ContentValues getContentValues(Carro carro) {

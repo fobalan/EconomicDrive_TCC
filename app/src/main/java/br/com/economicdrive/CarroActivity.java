@@ -205,9 +205,9 @@ public class CarroActivity extends AppCompatActivity implements Button.OnClickLi
                 if (intAcao == Constantes.INSERIR) {
                     Carro carro = null;
                     if (Carro.consultaCarroAtivo(this) == null)
-                        carro = new Carro(0, apelido, 0, placa, escolhaMarca.getCodigo(), escolhaModelo.getCodigo(), escolhaComb.getCodigo(), "sim");
+                        carro = new Carro(0, apelido, placa, 0, escolhaMarca.getCodigo(), escolhaModelo.getCodigo(), escolhaComb.getCodigo(), "sim");
                     else
-                        carro = new Carro(0, apelido, 0, placa, escolhaMarca.getCodigo(), escolhaModelo.getCodigo(), escolhaComb.getCodigo(), "nao");
+                        carro = new Carro(0, apelido, placa, 0, escolhaMarca.getCodigo(), escolhaModelo.getCodigo(), escolhaComb.getCodigo(), "nao");
                     String sql = "SELECT idCARRO,nomeCARRO, kmCARRO, placaCARRO, idMARCA, idMODELO, idTPCOMBUSTIVEL, ativo " +
                             "FROM tb_carro " +
                             "INNER JOIN tb_modelos ON idMODELO = modeloCARRO " +
@@ -237,7 +237,7 @@ public class CarroActivity extends AppCompatActivity implements Button.OnClickLi
                     }
 
                 } else {
-                    Carro carro = new Carro(codcarro, apelido, 0, placa, escolhaMarca.getCodigo(), escolhaModelo.getCodigo(), escolhaComb.getCodigo(), ativo);
+                    Carro carro = new Carro(codcarro, apelido, placa, 0, escolhaMarca.getCodigo(), escolhaModelo.getCodigo(), escolhaComb.getCodigo(), ativo);
                     String sql = "SELECT idCARRO,nomeCARRO, kmCARRO, placaCARRO, idMARCA, idMODELO, idTPCOMBUSTIVEL, ativo " +
                             "FROM tb_carro " +
                             "INNER JOIN tb_modelos ON idMODELO = modeloCARRO " +

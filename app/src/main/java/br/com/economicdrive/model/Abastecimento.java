@@ -21,6 +21,7 @@ public class Abastecimento extends Gastos {
 	private int kmdif;
 	private float litros;
 
+	public Abastecimento (){}
 	public Abastecimento (Context context){
 		super(context);
 	}

@@ -29,8 +29,7 @@ public class LocalDAO extends SQLiteOpenHelper {
         db.execSQL("CREATE TABLE local(" +
                 "id INTEGER PRIMARY KEY AUTOINCREMENT," +
                 "nome VARCHAR(100)," +
-                "endereco VARCHAR(100)" +
-                ")");
+                "endereco VARCHAR(100))");
     }
 
     @Override
