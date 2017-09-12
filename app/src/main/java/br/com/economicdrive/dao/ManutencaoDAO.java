@@ -4,21 +4,21 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import br.com.economicdrive.constantes.Constantes;
+
 /**
  * Created by ITST on 11/09/2017.
  */
 
 public class ManutencaoDAO extends SQLiteOpenHelper {
 
-    private static final int DATABASE_VERSION = 1;
-
     public ManutencaoDAO(Context context) {
-        super(context, "EconomicDrive.sqlite", null, DATABASE_VERSION);
+        super(context, "EconomicDrive.sqlite", null, Constantes.DATABASE_VERSION);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("CREATE TABLE manutencao("
+        String sql = "CREATE TABLE manutencao("
                 + "id INTEGER PRIMARY KEY AUTOINCREMENT,"
                 + "idCarro INTEGER,"
                 + "valor NUMERIC(18,2),"
@@ -26,7 +26,8 @@ public class ManutencaoDAO extends SQLiteOpenHelper {
                 + "dataG DATE,"
                 + "tipo VARCHAR(100),"
                 + "descricao VARCHAR(100),"
-                + "FOREIGN KEY(idCarro) REFERENCES carro (idCarro))");
+                + "FOREIGN KEY(idCarro) REFERENCES carro (idCarro))";
+        db.execSQL(sql);
     }
 
     @Override

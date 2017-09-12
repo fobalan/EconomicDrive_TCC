@@ -12,7 +12,9 @@ public class Combustivel {
 	
 	private int codigo;
 	private String nome;
-	
+
+	public Combustivel() {}
+
 	public Combustivel(int i, String strNome){
 		this.codigo = i;
 		this.nome = strNome;

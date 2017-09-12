@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.com.economicdrive.Information;
+import br.com.economicdrive.constantes.Constantes;
 import br.com.economicdrive.model.Local;
 
 /**
@@ -18,18 +19,17 @@ import br.com.economicdrive.model.Local;
 
 public class LocalDAO extends SQLiteOpenHelper {
 
-    private static final int DATABASE_VERSION = 1;
-
     public LocalDAO(Context context) {
-        super(context, "EconomicDrive.sqlite", null, DATABASE_VERSION);
+        super(context, "EconomicDrive.sqlite", null, Constantes.DATABASE_VERSION);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("CREATE TABLE local(" +
+        String sql = "CREATE TABLE local(" +
                 "id INTEGER PRIMARY KEY AUTOINCREMENT," +
                 "nome VARCHAR(100)," +
-                "endereco VARCHAR(100))");
+                "endereco VARCHAR(100))";
+        db.execSQL(sql);
     }
 
     @Override

@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.com.economicdrive.Information;
+import br.com.economicdrive.constantes.Constantes;
 import br.com.economicdrive.model.Abastecimento;
 import br.com.economicdrive.model.Carro;
 import br.com.economicdrive.model.Local;
@@ -20,10 +21,8 @@ import br.com.economicdrive.model.Local;
 
 public class AbastecimentoDAO extends SQLiteOpenHelper {
 
-    private static final int DATABASE_VERSION = 1;
-
     public AbastecimentoDAO(Context context) {
-        super(context, "EconomicDrive.sqlite", null, DATABASE_VERSION);
+        super(context, "EconomicDrive.sqlite", null, Constantes.DATABASE_VERSION);
     }
 
     @Override
@@ -42,7 +41,7 @@ public class AbastecimentoDAO extends SQLiteOpenHelper {
                 + "litrosGastos NUMERIC(9,2),"
                 + "FOREIGN KEY(idCarro) REFERENCES Carro (id),"
                 + "FOREIGN KEY(idCombustivel) REFERENCES Combustivel (id),"
-                + "FOREIGN KEY(idLocal) REFERENCES tb_LOVSL (codigoLOCAL))";
+                + "FOREIGN KEY(idLocal) REFERENCES local (id))";
         db.execSQL(sql);
     }
 
@@ -62,14 +61,14 @@ public class AbastecimentoDAO extends SQLiteOpenHelper {
     public void update(Abastecimento abastecimento){
         SQLiteDatabase db = getWritableDatabase();
         ContentValues values = getContentValues(abastecimento);
-        String[] where = {String.valueOf(abastecimento.getCodigoGasto())};
-        db.update("abastecimento", values, "id = ?", where);
+        String[] args = {String.valueOf(abastecimento.getCodigoGasto())};
+        db.update("abastecimento", values, "id = ?", args);
     }
 
     public void delete(Abastecimento abastecimento){
         SQLiteDatabase db = getWritableDatabase();
-        String[] where = {String.valueOf(abastecimento.getCodigoGasto())};
-        db.delete("abastecimento", "id = ?", where);
+        String[] args = {String.valueOf(abastecimento.getCodigoGasto())};
+        db.delete("abastecimento", "id = ?", args);
     }
 
     public List<Information> getList(){
@@ -169,9 +168,9 @@ public class AbastecimentoDAO extends SQLiteOpenHelper {
         String[] where = {String.valueOf(carro.getCodigo())};
         Cursor cursor = db.rawQuery(sql, where);
         cursor.moveToFirst();
-        int idCarro = cursor.getInt(cursor.getColumnIndex("idCarro"));
+        int max = cursor.getInt(0);
         cursor.close();
-        return idCarro;
+        return max;
     }
 
     public ContentValues getContentValues(Abastecimento abastecimento){

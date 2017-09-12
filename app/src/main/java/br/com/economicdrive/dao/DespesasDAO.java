@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.com.economicdrive.Information;
+import br.com.economicdrive.constantes.Constantes;
 import br.com.economicdrive.model.Despesas;
 import br.com.economicdrive.model.Local;
 
@@ -19,15 +20,13 @@ import br.com.economicdrive.model.Local;
 
 public class DespesasDAO extends SQLiteOpenHelper {
 
-    private static final int DATABASE_VERSION = 1;
-
     public DespesasDAO(Context context) {
-        super(context, "EconomicDrive.sqlite", null, DATABASE_VERSION);
+        super(context, "EconomicDrive.sqlite", null, Constantes.DATABASE_VERSION);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("CREATE TABLE despesas("
+        String sql = "CREATE TABLE despesas("
                 + "id INTEGER PRIMARY KEY AUTOINCREMENT,"
                 + "idCarro INTEGER,"
                 + "idLocal INT,"
@@ -35,7 +34,8 @@ public class DespesasDAO extends SQLiteOpenHelper {
                 + "data DATE,"
                 + "descricao VARCHAR(100),"
                 + "FOREIGN KEY(idCarro) REFERENCES carro (id),"
-                + "FOREIGN KEY(idLocal) REFERENCES local (id))");
+                + "FOREIGN KEY(idLocal) REFERENCES local (id))";
+        db.execSQL(sql);
     }
 
     @Override

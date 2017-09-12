@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.com.economicdrive.Information;
+import br.com.economicdrive.constantes.Constantes;
 import br.com.economicdrive.model.Carro;
 import br.com.economicdrive.model.Despesas;
 
@@ -19,15 +20,13 @@ import br.com.economicdrive.model.Despesas;
 
 public class CarroDAO extends SQLiteOpenHelper {
 
-    private static final int DATABASE_VERSION = 1;
-
     public CarroDAO(Context context) {
-        super(context, "EconomicDrive.sqlite", null, DATABASE_VERSION);
+        super(context, "EconomicDrive.sqlite", null, Constantes.DATABASE_VERSION);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("CREATE TABLE carro(" +
+        String sql = "CREATE TABLE carro(" +
                 "id INTEGER PRIMARY KEY AUTOINCREMENT," +
                 "nome VARCHAR(100)," +
                 "placa VARCHAR(100)," +
@@ -35,7 +34,8 @@ public class CarroDAO extends SQLiteOpenHelper {
                 "marca int," +
                 "modelo int," +
                 "combustivel INT," +
-                "ativo VARCHAR(3))");
+                "ativo VARCHAR(3))";
+        db.execSQL(sql);
     }
 
     @Override

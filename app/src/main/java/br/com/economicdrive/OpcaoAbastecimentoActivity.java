@@ -26,7 +26,6 @@ import android.widget.Toast;
 
 import br.com.economicdrive.constantes.Constantes;
 import br.com.economicdrive.fragment.DatePickerFragment;
-import br.com.economicdrive.holder.Combustivel;
 
 public class OpcaoAbastecimentoActivity extends AppCompatActivity implements OnClickListener{
 	private Spinner tpcombustiveSpinner;

@@ -1,195 +1,195 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:2:1-87:12
+ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:2:1-87:12
 	package
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:3:5-35
-		INJECTED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Flavio\.android\build-cache\a38ef3aed7d5b848adb091092b3b02ddbce0d7d8\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.melnykov:floatingactionbutton:1.3.0] C:\Users\Flavio\.android\build-cache\f56e2a51323e03ad4aad9d14a786486f27376b65\output\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:design:25.3.1] C:\Users\Flavio\.android\build-cache\965c158e6cf8683823d0aa863e009629d51d0724\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Flavio\.android\build-cache\2949b0b3ae69b4e6a564ba318935ec03a591109b\output\AndroidManifest.xml:20:5-44
-MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] C:\Users\Flavio\.android\build-cache\69ddd38b8701d4e3ab54da076240a25c5b10b13b\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Flavio\.android\build-cache\dabc89f520a1267dd6e1971a32b2da11491ff6bf\output\AndroidManifest.xml:6:5-8:41
-MERGED from [com.mikepenz:materialdrawer:4.0.2] C:\Users\Flavio\.android\build-cache\06a4a3c027a4e35b81d0e2f76848e2a9723ab028\output\AndroidManifest.xml:8:5-10:41
-MERGED from [com.mikepenz:iconics-core:1.7.4] C:\Users\Flavio\.android\build-cache\18809e357e9128ff601f0f418fc05d72ac4d7689\output\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Flavio\.android\build-cache\bb680bdeed861b805157b2c4859be723cf9295f4\output\AndroidManifest.xml:20:5-43
-MERGED from [com.mikepenz:materialize:0.2.0] C:\Users\Flavio\.android\build-cache\ec2f84443621fcd94d7fe3318b11731d89ca2e97\output\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Flavio\.android\build-cache\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Flavio\.android\build-cache\126da8c3b5b8353d23899d23bc22f4c65f1caca2\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Flavio\.android\build-cache\02e79cc8381cec36cc84386bd5e4fb878e2e9a9e\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Flavio\.android\build-cache\372373b46fd8d2d06dd90508a332a19a4f5eb66a\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Flavio\.android\build-cache\675eba88178c0f149a7f1d8a713ddbdedba12591\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Flavio\.android\build-cache\fea7077a5e2857cd30fe0a2c7865777f45926471\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Flavio\.android\build-cache\1737512f0882ad40a17de30f4c6c7acc11212b80\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Flavio\.android\build-cache\4284ab97074f962b8f9efa84d1604abc75a7bbe5\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Flavio\.android\build-cache\2772174769412955c28d7ec01e0a77df4c3a15b3\output\AndroidManifest.xml:21:5-23:58
+ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ITST\.android\build-cache\592445ae2f0ac3aa1ddcb5ca6a7d905ed2b5283d\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.melnykov:floatingactionbutton:1.3.0] C:\Users\ITST\.android\build-cache\42c59b40714911df68bbfcfa68c713b6a2ae6d91\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\ITST\.android\build-cache\3edc5701e3a2abad10d1ef568fb1254b47010497\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ITST\.android\build-cache\731572eff4f2580471e9ddf35a2fa4e81446fcba\output\AndroidManifest.xml:20:5-44
+MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] C:\Users\ITST\.android\build-cache\5cda3f2bb21600aed5f23a9e278a56fc095b8fb4\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\ITST\.android\build-cache\fe0af6e5999ed4eebcd1753cc846071ceca7491e\output\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mikepenz:materialdrawer:4.0.2] C:\Users\ITST\.android\build-cache\aaff61457d4848cb773eb560a7a51f76d16a230a\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:iconics-core:1.7.4] C:\Users\ITST\.android\build-cache\605b664bd2710693b98c1d4110fb9e74eedc8832\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ITST\.android\build-cache\056bc342fdb4fe3dda77a4321b22933f50c948f2\output\AndroidManifest.xml:20:5-43
+MERGED from [com.mikepenz:materialize:0.2.0] C:\Users\ITST\.android\build-cache\d8d11e0424d24813772d3575d58fd3e53d4090ac\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ITST\.android\build-cache\279f52b86ac6fc3208bba188524381052da25684\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ITST\.android\build-cache\67a15b013d4994696511a4f7b37c103ab9691c4b\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ITST\.android\build-cache\e5c5fa4128ab3585292128655dd3de8e328219c1\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ITST\.android\build-cache\4bfdb189cd6bad51e60449d0cda10859565d04f1\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ITST\.android\build-cache\5af0499912af3fb78181a335014a2711775445b4\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ITST\.android\build-cache\2fe08581f0f11b7f5574d5048b2f92a89b8c3699\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ITST\.android\build-cache\8156cba897dfa528a2b47663efd1b879e82f7abf\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ITST\.android\build-cache\e2280f39e19265a2c5ba7b4c01bef527d256f420\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ITST\.android\build-cache\e2bf861f8feab68e2996aa191c4ec06f876d9b53\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Flavio\.android\build-cache\965c158e6cf8683823d0aa863e009629d51d0724\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] C:\Users\ITST\.android\build-cache\3edc5701e3a2abad10d1ef568fb1254b47010497\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:8:9-35
-		INJECTED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml
 application
-ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:11:5-85:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Flavio\.android\build-cache\a38ef3aed7d5b848adb091092b3b02ddbce0d7d8\output\AndroidManifest.xml:9:5-20
-MERGED from [com.melnykov:floatingactionbutton:1.3.0] C:\Users\Flavio\.android\build-cache\f56e2a51323e03ad4aad9d14a786486f27376b65\output\AndroidManifest.xml:12:5-20
-MERGED from [com.android.support:design:25.3.1] C:\Users\Flavio\.android\build-cache\965c158e6cf8683823d0aa863e009629d51d0724\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Flavio\.android\build-cache\2949b0b3ae69b4e6a564ba318935ec03a591109b\output\AndroidManifest.xml:26:5-20
-MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] C:\Users\Flavio\.android\build-cache\69ddd38b8701d4e3ab54da076240a25c5b10b13b\output\AndroidManifest.xml:11:5-14:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Flavio\.android\build-cache\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Flavio\.android\build-cache\126da8c3b5b8353d23899d23bc22f4c65f1caca2\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Flavio\.android\build-cache\02e79cc8381cec36cc84386bd5e4fb878e2e9a9e\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Flavio\.android\build-cache\372373b46fd8d2d06dd90508a332a19a4f5eb66a\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Flavio\.android\build-cache\675eba88178c0f149a7f1d8a713ddbdedba12591\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Flavio\.android\build-cache\fea7077a5e2857cd30fe0a2c7865777f45926471\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Flavio\.android\build-cache\1737512f0882ad40a17de30f4c6c7acc11212b80\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Flavio\.android\build-cache\4284ab97074f962b8f9efa84d1604abc75a7bbe5\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Flavio\.android\build-cache\2772174769412955c28d7ec01e0a77df4c3a15b3\output\AndroidManifest.xml:29:5-20
+ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:11:5-85:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ITST\.android\build-cache\592445ae2f0ac3aa1ddcb5ca6a7d905ed2b5283d\output\AndroidManifest.xml:9:5-20
+MERGED from [com.melnykov:floatingactionbutton:1.3.0] C:\Users\ITST\.android\build-cache\42c59b40714911df68bbfcfa68c713b6a2ae6d91\output\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\ITST\.android\build-cache\3edc5701e3a2abad10d1ef568fb1254b47010497\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ITST\.android\build-cache\731572eff4f2580471e9ddf35a2fa4e81446fcba\output\AndroidManifest.xml:26:5-20
+MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] C:\Users\ITST\.android\build-cache\5cda3f2bb21600aed5f23a9e278a56fc095b8fb4\output\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ITST\.android\build-cache\279f52b86ac6fc3208bba188524381052da25684\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ITST\.android\build-cache\67a15b013d4994696511a4f7b37c103ab9691c4b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ITST\.android\build-cache\e5c5fa4128ab3585292128655dd3de8e328219c1\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ITST\.android\build-cache\4bfdb189cd6bad51e60449d0cda10859565d04f1\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ITST\.android\build-cache\5af0499912af3fb78181a335014a2711775445b4\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ITST\.android\build-cache\2fe08581f0f11b7f5574d5048b2f92a89b8c3699\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ITST\.android\build-cache\8156cba897dfa528a2b47663efd1b879e82f7abf\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ITST\.android\build-cache\e2280f39e19265a2c5ba7b4c01bef527d256f420\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ITST\.android\build-cache\e2bf861f8feab68e2996aa191c4ec06f876d9b53\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:14:9-41
 	android:allowBackup
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:12:9-35
 	android:icon
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:13:9-47
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:13:9-47
 	android:theme
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:15:9-45
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:15:9-45
 activity#br.com.economicdrive.MainActivity
-ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:16:9-19:20
+ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:16:9-19:20
 	android:label
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:18:13-45
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:18:13-45
 	android:name
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:17:13-41
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:17:13-41
 activity#br.com.economicdrive.LocalActivity
-ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:20:9-23:20
+ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:20:9-23:20
 	android:label
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:22:13-34
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:22:13-34
 	android:name
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:21:13-42
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:21:13-42
 activity#br.com.economicdrive.LocalListActivity
-ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:24:9-27:20
+ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:24:9-27:20
 	android:label
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:26:13-44
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:26:13-44
 	android:name
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:25:13-46
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:25:13-46
 activity#br.com.economicdrive.SplashActivity
-ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:28:9-36:20
+ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:28:9-36:20
 	android:label
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:30:13-45
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:30:13-45
 	android:name
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:29:13-43
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:29:13-43
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:31:13-35:29
+ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:32:17-69
+ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:32:25-66
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:34:17-77
+ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:34:27-74
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:34:27-74
 activity#br.com.economicdrive.UsuarioActivity
-ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:37:9-40:20
+ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:37:9-40:20
 	android:label
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:39:13-34
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:39:13-34
 	android:name
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:38:13-44
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:38:13-44
 activity#br.com.economicdrive.LoginActivity
-ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:41:9-44:20
+ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:41:9-44:20
 	android:label
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:43:13-34
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:43:13-34
 	android:name
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:42:13-42
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:42:13-42
 activity#br.com.economicdrive.AbastecimentoActivity
-ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:45:9-48:20
+ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:45:9-48:20
 	android:label
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:47:13-42
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:47:13-42
 	android:name
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:46:13-50
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:46:13-50
 activity#br.com.economicdrive.CarroActivity
-ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:49:9-52:20
+ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:49:9-52:20
 	android:label
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:51:13-36
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:51:13-36
 	android:name
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:50:13-42
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:50:13-42
 activity#br.com.economicdrive.CarroListActivity
-ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:53:9-56:20
+ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:53:9-56:20
 	android:label
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:55:13-46
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:55:13-46
 	android:name
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:54:13-46
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:54:13-46
 activity#br.com.economicdrive.DespesasActivity
-ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:57:9-60:20
+ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:57:9-60:20
 	android:label
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:59:13-37
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:59:13-37
 	android:name
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:58:13-45
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:58:13-45
 activity#br.com.economicdrive.RelatorioListActivity
-ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:61:9-64:20
+ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:61:9-64:20
 	android:label
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:63:13-39
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:63:13-39
 	android:name
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:62:13-50
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:62:13-50
 activity#br.com.economicdrive.OpcaoAbastecimentoActivity
-ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:65:9-68:20
+ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:65:9-68:20
 	android:label
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:67:13-48
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:67:13-48
 	android:name
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:66:13-55
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:66:13-55
 activity#br.com.economicdrive.AbastecimentoChartActivity
-ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:69:9-72:20
+ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:69:9-72:20
 	android:label
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:71:13-53
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:71:13-53
 	android:name
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:70:13-55
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:70:13-55
 activity#br.com.economicdrive.OpcaoGastoActivity
-ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:73:9-76:20
+ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:73:9-76:20
 	android:label
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:75:13-48
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:75:13-48
 	android:name
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:74:13-47
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:74:13-47
 activity#br.com.economicdrive.GastoChartActivity
-ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:77:9-80:20
+ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:77:9-80:20
 	android:label
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:79:13-63
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:79:13-63
 	android:name
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:78:13-47
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:78:13-47
 activity#br.com.economicdrive.ManutencaoActivity
-ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:81:17-84:20
+ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:81:17-84:20
 	android:label
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:83:13-39
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:83:13-39
 	android:name
-		ADDED from F:\Mobile\Projetos\AndroidStudioProjects\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:82:13-47
+		ADDED from C:\Users\ITST\Desktop\AndroidStudio\EconomicDrive_TCC\app\src\main\AndroidManifest.xml:82:13-47
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] C:\Users\Flavio\.android\build-cache\965c158e6cf8683823d0aa863e009629d51d0724\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Flavio\.android\build-cache\2949b0b3ae69b4e6a564ba318935ec03a591109b\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Flavio\.android\build-cache\bb680bdeed861b805157b2c4859be723cf9295f4\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Flavio\.android\build-cache\cf7ef1a491c7a8da92dcb4c444d5858e4d1d9c5e\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Flavio\.android\build-cache\126da8c3b5b8353d23899d23bc22f4c65f1caca2\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Flavio\.android\build-cache\02e79cc8381cec36cc84386bd5e4fb878e2e9a9e\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Flavio\.android\build-cache\372373b46fd8d2d06dd90508a332a19a4f5eb66a\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Flavio\.android\build-cache\675eba88178c0f149a7f1d8a713ddbdedba12591\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Flavio\.android\build-cache\fea7077a5e2857cd30fe0a2c7865777f45926471\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Flavio\.android\build-cache\1737512f0882ad40a17de30f4c6c7acc11212b80\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Flavio\.android\build-cache\4284ab97074f962b8f9efa84d1604abc75a7bbe5\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Flavio\.android\build-cache\2772174769412955c28d7ec01e0a77df4c3a15b3\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] C:\Users\ITST\.android\build-cache\3edc5701e3a2abad10d1ef568fb1254b47010497\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ITST\.android\build-cache\731572eff4f2580471e9ddf35a2fa4e81446fcba\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ITST\.android\build-cache\056bc342fdb4fe3dda77a4321b22933f50c948f2\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ITST\.android\build-cache\279f52b86ac6fc3208bba188524381052da25684\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ITST\.android\build-cache\67a15b013d4994696511a4f7b37c103ab9691c4b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ITST\.android\build-cache\e5c5fa4128ab3585292128655dd3de8e328219c1\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ITST\.android\build-cache\4bfdb189cd6bad51e60449d0cda10859565d04f1\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ITST\.android\build-cache\5af0499912af3fb78181a335014a2711775445b4\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ITST\.android\build-cache\2fe08581f0f11b7f5574d5048b2f92a89b8c3699\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ITST\.android\build-cache\8156cba897dfa528a2b47663efd1b879e82f7abf\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ITST\.android\build-cache\e2280f39e19265a2c5ba7b4c01bef527d256f420\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ITST\.android\build-cache\e2bf861f8feab68e2996aa191c4ec06f876d9b53\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Flavio\.android\build-cache\965c158e6cf8683823d0aa863e009629d51d0724\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] C:\Users\ITST\.android\build-cache\3edc5701e3a2abad10d1ef568fb1254b47010497\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Flavio\.android\build-cache\965c158e6cf8683823d0aa863e009629d51d0724\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] C:\Users\ITST\.android\build-cache\3edc5701e3a2abad10d1ef568fb1254b47010497\output\AndroidManifest.xml:26:9-47

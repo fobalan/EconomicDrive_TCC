@@ -36,12 +36,12 @@
         "source": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\drawable-xxhdpi\\ic_rename_box_white_24dp.png"
     },
     {
-        "merged": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_location_on_black_24dp.png",
-        "source": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\drawable-xxhdpi\\ic_location_on_black_24dp.png"
-    },
-    {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\arrow_textview.png",
         "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\drawable-xxhdpi\\arrow_textview.png"
+    },
+    {
+        "merged": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_location_on_black_24dp.png",
+        "source": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\drawable-xxhdpi\\ic_location_on_black_24dp.png"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_camera_timer_black_24dp.png",

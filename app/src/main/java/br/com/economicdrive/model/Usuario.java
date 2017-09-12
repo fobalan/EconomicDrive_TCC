@@ -8,10 +8,16 @@ import br.com.economicdrive.database.Sqlite;
 
 public class Usuario {
 
+    private int id;
     private String senha;
 
-    public Usuario(String strSenha) {
-        this.senha = strSenha;
+    public Usuario(int id, String senha) {
+        this.id = id;
+        this.senha = senha;
+    }
+
+    public Usuario(String senha){
+        this.senha = senha;
     }
 
     public String getSenha() {
@@ -20,6 +26,10 @@ public class Usuario {
 
     public void setSenha(String senha) {
         this.senha = senha;
+    }
+
+    public int getId() {
+        return id;
     }
 
     public void insereSenha(Context context){

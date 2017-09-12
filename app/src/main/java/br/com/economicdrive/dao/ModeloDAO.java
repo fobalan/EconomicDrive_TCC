@@ -4,23 +4,25 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import br.com.economicdrive.constantes.Constantes;
+
 /**
  * Created by Flavio on 12/09/2017.
  */
 
 public class ModeloDAO extends SQLiteOpenHelper{
-    private static final int DATABASE_VERSION = 1;
 
     public ModeloDAO(Context context) {
-        super(context, "EconomicDrive.sqlite", null, DATABASE_VERSION);
+        super(context, "EconomicDrive.sqlite", null, Constantes.DATABASE_VERSION);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("CREATE TABLE modelo(" +
+        String sql = "CREATE TABLE modelo(" +
                 "id INTEGER PRIMARY KEY AUTOINCREMENT," +
                 "nome VARCHAR(100), "+
-                "idMarca INTEGER)");
+                "idMarca INTEGER)";
+        db.execSQL(sql);
     }
 
     @Override

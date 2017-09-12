@@ -8,6 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import java.util.ArrayList;
 import java.util.List;
 
+import br.com.economicdrive.constantes.Constantes;
 import br.com.economicdrive.model.Marca;
 import br.com.economicdrive.model.Modelo;
 
@@ -17,17 +18,16 @@ import br.com.economicdrive.model.Modelo;
 
 public class MarcaDAO extends SQLiteOpenHelper {
 
-    private static final int DATABASE_VERSION = 1;
-
     public MarcaDAO(Context context) {
-        super(context, "EconomicDrive.sqlite", null, DATABASE_VERSION);
+        super(context, "EconomicDrive.sqlite", null, Constantes.DATABASE_VERSION);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("CREATE TABLE marca(" +
+        String sql = "CREATE TABLE marca(" +
                 "id INTEGER PRIMARY KEY AUTOINCREMENT," +
-                "nome VARCHAR(100))");
+                "nome VARCHAR(100))";
+        db.execSQL(sql);
     }
 
     @Override
