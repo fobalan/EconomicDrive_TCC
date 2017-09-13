@@ -11,8 +11,11 @@ import java.util.List;
 
 import br.com.economicdrive.Information;
 import br.com.economicdrive.constantes.Constantes;
+import br.com.economicdrive.database.Sqlite;
+import br.com.economicdrive.model.Abastecimento;
 import br.com.economicdrive.model.Carro;
 import br.com.economicdrive.model.Despesas;
+import br.com.economicdrive.model.Manutencao;
 
 /**
  * Created by ITST on 11/09/2017.
@@ -119,10 +122,10 @@ public class CarroDAO extends SQLiteOpenHelper {
         return carro;
     }
 
-    public List<Information> getDespesas(int idCarro){
+    public List<Information> getDespesas(Carro carro){
         SQLiteDatabase db = getWritableDatabase();
         String sql = "SELECT * FROM despesas WHERE idCarro = ?";
-        String[] args = {String.valueOf(idCarro)};
+        String[] args = {String.valueOf(carro.getCodigo())};
         Cursor cursor = db.rawQuery(sql, args);
         List <Information> despesas = new ArrayList<>();
         cursor.moveToFirst();
@@ -139,6 +142,56 @@ public class CarroDAO extends SQLiteOpenHelper {
         }
         cursor.close();
         return despesas;
+    }
+
+    public List<Information> getAbastecimento(Carro carro){
+        SQLiteDatabase db = getReadableDatabase();
+        String sql = "SELECT * FROM abastecimento WHERE idCarro = ? ORDER BY data, id";
+        String[] where = {String.valueOf(carro.getCodigo())};
+        Cursor cursor = db.rawQuery(sql, where);
+        List <Information> abastecimentoList = new ArrayList<>();
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()){
+            Abastecimento newAbastecimento = new Abastecimento();
+            newAbastecimento.setCodigoGasto(cursor.getInt(cursor.getColumnIndex("id")));
+            newAbastecimento.setIdCarro(cursor.getInt(cursor.getColumnIndex("idCarro")));
+            newAbastecimento.setCombustivel(cursor.getInt(cursor.getColumnIndex("idCombustivel")));
+            newAbastecimento.setLocalGasto(cursor.getInt(cursor.getColumnIndex("idLocal")));
+            newAbastecimento.setValorGasto(cursor.getFloat(cursor.getColumnIndex("valorGasto")));
+            newAbastecimento.setValorLitro(cursor.getFloat(cursor.getColumnIndex("valorLitro")));
+            newAbastecimento.setDataGasto(cursor.getString(cursor.getColumnIndex("data")));
+            newAbastecimento.setKilometros(cursor.getInt(cursor.getColumnIndex("kilometros")));
+            newAbastecimento.setTanqueCheio(cursor.getString(cursor.getColumnIndex("tanqueCheio")));
+            newAbastecimento.setKmdif(cursor.getInt(cursor.getColumnIndex("kilometrosRodados")));
+            newAbastecimento.setLitros(cursor.getFloat(cursor.getColumnIndex("litrosGastos")));
+            abastecimentoList.add(newAbastecimento);
+            cursor.moveToNext();
+        }
+        cursor.close();
+        return abastecimentoList;
+    }
+
+    public List <Information> getManutencao (Carro carro){
+        SQLiteDatabase db = getReadableDatabase();
+        String sql = "SELECT * FROM manutencao WHERE idCarro = ?";
+        String[] args = {String.valueOf(carro.getCodigo())};
+        Cursor cursor = db.rawQuery(sql, args);
+        List <Information> manutencaoList = new ArrayList <>();
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()){
+            Manutencao newManutencao = new Manutencao();
+            newManutencao.setCodigoGasto(cursor.getInt(cursor.getColumnIndex("id")));
+            newManutencao.setIdCarro(cursor.getInt(cursor.getColumnIndex("idCarro")));
+            newManutencao.setValorGasto(cursor.getFloat(cursor.getColumnIndex("valor")));
+            newManutencao.setLocalGasto(cursor.getInt(cursor.getColumnIndex("local")));
+            newManutencao.setDataGasto(cursor.getString(cursor.getColumnIndex("data")));
+            newManutencao.setTipoManutencao(cursor.getInt(cursor.getColumnIndex("tipo")));
+            newManutencao.setDescricaoManutencao(cursor.getString(cursor.getColumnIndex("descricao")));
+            manutencaoList.add(newManutencao);
+            cursor.moveToNext();
+        }
+        cursor.close();
+        return manutencaoList;
     }
 
     public int countDespesas(Carro carro){
@@ -186,5 +239,31 @@ public class CarroDAO extends SQLiteOpenHelper {
         contentValues.put("ativo", carro.getAtivo());
 
         return contentValues;
+    }
+
+    public void updateKmRodado (Context context, Carro carro){
+        AbastecimentoDAO dao = new AbastecimentoDAO(context);
+        List<Information> abastecimentoList = getAbastecimento(carro);
+        Abastecimento[] itens = abastecimentoList.toArray(new Abastecimento[0]);
+        if (itens.length > 0 ){
+            int i = itens.length - 1;
+            for(int t = 0; t < itens.length; t++){
+                if (t < i){
+                    itens[t].setKmdif(itens[t + 1].getKilometros() - itens[t].getKilometros());
+                    itens[t].setLitros(itens[t + 1].getValorGasto()/itens[t + 1].getValorLitro());
+                    if (itens[t+1].getTanqueCheio().equals("sim")){
+                        dao.update(itens[t]);
+                        dao.close();
+                    }
+                }
+            }
+            //limpa o ultima abastecimento
+            if (itens[itens.length - 1].getKmdif() > 0 || itens[itens.length - 1].getLitros() > 0){
+                itens[itens.length - 1].setKmdif(0);
+                itens[itens.length - 1].setLitros(0);
+                dao.update(itens[itens.length - 1]);
+                dao.close();
+            }
+        }
     }
 }

@@ -40,12 +40,12 @@
         "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_build.png"
     },
     {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_plus.png",
-        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_plus.png"
-    },
-    {
         "merged": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_trash.png",
         "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_trash.png"
+    },
+    {
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_plus.png",
+        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_plus.png"
     },
     {
         "merged": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_car_white.png",

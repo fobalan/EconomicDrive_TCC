@@ -8,16 +8,16 @@
         "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_gas_station.png"
     },
     {
-        "merged": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_config.png",
-        "source": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_config.png"
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_car_white.png",
+        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_car_white.png"
     },
     {
         "merged": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_cancel.png",
         "source": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_cancel.png"
     },
     {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_car_white.png",
-        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_car_white.png"
+        "merged": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_config.png",
+        "source": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_config.png"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_plus.png",
@@ -116,12 +116,12 @@
         "source": "C:\\Users\\ITST\\Desktop\\AndroidStudio\\EconomicDrive_TCC\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_lock.png"
     },
     {
-        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_gas_station.png",
-        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_gas_station.png"
-    },
-    {
         "merged": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_money.png",
         "source": "D:\\Documentos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_money.png"
+    },
+    {
+        "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_gas_station.png",
+        "source": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_gas_station.png"
     },
     {
         "merged": "F:\\Mobile\\Projetos\\AndroidStudioProjects\\EconomicDrive_TCC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_spinner_triangle.png",

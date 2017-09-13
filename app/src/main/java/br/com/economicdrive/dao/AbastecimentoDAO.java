@@ -96,33 +96,6 @@ public class AbastecimentoDAO extends SQLiteOpenHelper {
         return abastecimentoList;
     }
 
-    public List<Information> getListByIdCar( int idCarro){
-        SQLiteDatabase db = getReadableDatabase();
-        String sql = "SELECT * FROM abastecimento WHERE idCarro = ? ORDER BY data, id";
-        String[] where = {String.valueOf(idCarro)};
-        Cursor cursor = db.rawQuery(sql, where);
-        List <Information> abastecimentoList = new ArrayList<>();
-        cursor.moveToFirst();
-        while (!cursor.isAfterLast()){
-            Abastecimento newAbastecimento = new Abastecimento();
-            newAbastecimento.setCodigoGasto(cursor.getInt(cursor.getColumnIndex("id")));
-            newAbastecimento.setIdCarro(cursor.getInt(cursor.getColumnIndex("idCarro")));
-            newAbastecimento.setCombustivel(cursor.getInt(cursor.getColumnIndex("idCombustivel")));
-            newAbastecimento.setLocalGasto(cursor.getInt(cursor.getColumnIndex("idLocal")));
-            newAbastecimento.setValorGasto(cursor.getFloat(cursor.getColumnIndex("valorGasto")));
-            newAbastecimento.setValorLitro(cursor.getFloat(cursor.getColumnIndex("valorLitro")));
-            newAbastecimento.setDataGasto(cursor.getString(cursor.getColumnIndex("data")));
-            newAbastecimento.setKilometros(cursor.getInt(cursor.getColumnIndex("kilometros")));
-            newAbastecimento.setTanqueCheio(cursor.getString(cursor.getColumnIndex("tanqueCheio")));
-            newAbastecimento.setKmdif(cursor.getInt(cursor.getColumnIndex("kilometrosRodados")));
-            newAbastecimento.setLitros(cursor.getFloat(cursor.getColumnIndex("litrosGastos")));
-            abastecimentoList.add(newAbastecimento);
-            cursor.moveToNext();
-        }
-        cursor.close();
-        return abastecimentoList;
-    }
-
     public Local getLocal (Abastecimento abastecimento){
         SQLiteDatabase db = getReadableDatabase();
         String sql = "SELECT * FROM local WHERE id = ?";
@@ -139,28 +112,7 @@ public class AbastecimentoDAO extends SQLiteOpenHelper {
         cursor.close();
         return local;
     }
-    public void updateKmRodado (int idCarro){
-        List<Information> abastecimentoList = getListByIdCar(idCarro);
-        Abastecimento[] itens = abastecimentoList.toArray(new Abastecimento[0]);
-        if (itens.length > 0 ){
-            int i = itens.length - 1;
-            for(int t = 0; t < itens.length; t++){
-                if (t < i){
-                    itens[t].setKmdif(itens[t + 1].getKilometros() - itens[t].getKilometros());
-                    itens[t].setLitros(itens[t + 1].getValorGasto()/itens[t + 1].getValorLitro());
-                    if (itens[t+1].getTanqueCheio().equals("sim")){
-                        update(itens[t]);
-                    }
-                }
-            }
-            //limpa o ultima abastecimento
-            if (itens[itens.length - 1].getKmdif() > 0 || itens[itens.length - 1].getLitros() > 0){
-                itens[itens.length - 1].setKmdif(0);
-                itens[itens.length - 1].setLitros(0);
-                update(itens[itens.length - 1]);
-            }
-        }
-    }
+
 
     public int getMaxHodometro(Carro carro) {
         SQLiteDatabase db = getReadableDatabase();
