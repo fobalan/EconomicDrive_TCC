@@ -30,11 +30,16 @@ import java.util.Date;
 import java.util.List;
 
 import br.com.economicdrive.constantes.Constantes;
+import br.com.economicdrive.dao.AbastecimentoDAO;
+import br.com.economicdrive.dao.CarroDAO;
+import br.com.economicdrive.dao.CombustivelDAO;
+import br.com.economicdrive.dao.TipoCombustivelDAO;
 import br.com.economicdrive.fragment.DatePickerFragment;
 import br.com.economicdrive.model.Abastecimento;
 import br.com.economicdrive.model.Carro;
 import br.com.economicdrive.model.Combustivel;
 import br.com.economicdrive.model.Local;
+import br.com.economicdrive.model.TipoCombustivel;
 
 @SuppressLint("SimpleDateFormat")
 public class AbastecimentoActivity extends AppCompatActivity implements OnClickListener,
@@ -54,16 +59,20 @@ public class AbastecimentoActivity extends AppCompatActivity implements OnClickL
     private float valorLitro;
     private NumberFormat dinheiroGastoFormat;
     private NumberFormat dinheiroLitroFormat;
-    private ArrayAdapter<Combustivel> adapterCombustivel;
     private Combustivel escolhaCombustivel;
     private Combustivel[] itens;
     private Carro veiculoEscolhido;
     private int acao;
+    private CarroDAO carroDAO;
+    private AbastecimentoDAO abastecimentoDAO;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_abastecimento);
+
+        carroDAO = new CarroDAO(this);
+        abastecimentoDAO = new AbastecimentoDAO(this);
 
         acao = getIntent().getIntExtra("acao", 0);
         //Toolbar
@@ -110,39 +119,38 @@ public class AbastecimentoActivity extends AppCompatActivity implements OnClickL
     }
 
     private void onFuelSelection() {
-        List<Combustivel> combustivel = null;
+        List<Combustivel> combustivel = carroDAO.getCombustivel(veiculoEscolhido);
 
-        switch (veiculoEscolhido.getComb()) {
-            case Constantes.GASOLINA:
-                combustivel = Combustivel.consultarComb(this, "SELECT *"
-                        + " FROM tb_Combustivel"
-                        + " WHERE idCOMBUSTIVEL = 4"
-                        + " OR idCOMBUSTIVEL = 5;");
-                break;
-            case Constantes.ALCOOL:
-                combustivel = Combustivel.consultarComb(this, "SELECT *"
-                        + " FROM tb_Combustivel"
-                        + " WHERE idCOMBUSTIVEL = 1"
-                        + " OR idCOMBUSTIVEL = 2;");
-                break;
-            case Constantes.FLEX:
-                combustivel = Combustivel.consultarComb(this, "SELECT *"
-                        + " FROM tb_Combustivel"
-                        + " WHERE idCOMBUSTIVEL = 1"
-                        + " OR idCOMBUSTIVEL = 2"
-                        + " OR idCOMBUSTIVEL = 4"
-                        + " OR idCOMBUSTIVEL = 5;");
+     //   switch (veiculoEscolhido.getComb()) {
+     //       case Constantes.GASOLINA:
+     //           combustivel = Combustivel.consultarComb(this, "SELECT *"
+     //                   + " FROM tb_Combustivel"
+     //                   + " WHERE idCOMBUSTIVEL = 4"
+     //                   + " OR idCOMBUSTIVEL = 5;");
+     //           break;
+     //       case Constantes.ALCOOL:
+     //           combustivel = Combustivel.consultarComb(this, "SELECT *"
+     //                   + " FROM tb_Combustivel"
+     //                   + " WHERE idCOMBUSTIVEL = 1"
+     //                   + " OR idCOMBUSTIVEL = 2;");
+     //           break;
+     //       case Constantes.FLEX:
+     //           combustivel = Combustivel.consultarComb(this, "SELECT *"
+     //                   + " FROM tb_Combustivel"
+     //                   + " WHERE idCOMBUSTIVEL = 1"
+     //                   + " OR idCOMBUSTIVEL = 2"
+     //                   + " OR idCOMBUSTIVEL = 4"
+     //                   + " OR idCOMBUSTIVEL = 5;");
 
-                break;
-            case Constantes.DIESEL:
-                combustivel = Combustivel.consultarComb(this, "SELECT *"
-                        + " FROM tb_Combustivel"
-                        + " WHERE idCOMBUSTIVEL = 3;");
-                break;
-        }
+     //           break;
+     //       case Constantes.DIESEL:
+     //           combustivel = Combustivel.consultarComb(this, "SELECT *"
+     //                   + " FROM tb_Combustivel"
+     //                   + " WHERE idCOMBUSTIVEL = 3;");
+     //           break;
+     //   }
         itens = combustivel.toArray(new Combustivel[0]);
-        adapterCombustivel =
-                new ArrayAdapter<>(this, R.layout.spinner_dropdown_list, itens);
+        ArrayAdapter<Combustivel> adapterCombustivel = new ArrayAdapter<>(this, R.layout.spinner_dropdown_list, itens);
         combustivelBetterSpinner.setAdapter(adapterCombustivel);
         combustivelBetterSpinner.setText(itens[0].getNome());
         escolhaCombustivel = itens[0];
@@ -220,6 +228,8 @@ public class AbastecimentoActivity extends AppCompatActivity implements OnClickL
             onSetTextListeners();
         } catch (NumberFormatException e) {
         } catch (ArithmeticException e) {
+        } catch (NullPointerException e){
+
         }
     }
 
@@ -290,10 +300,8 @@ public class AbastecimentoActivity extends AppCompatActivity implements OnClickL
         valorLitroMaterialEditText.setText(dinheiroLitroFormat.format(abastecimento.getValorLitro()));
         valorLitroMaterialEditText.setSelection(valorLitroMaterialEditText.getEditableText().length());
         valorGastoMaterialEditText.setText(dinheiroGastoFormat.format(abastecimento.getValorGasto()));
-        hodometroMaterialEditText.setText(Integer.toString(abastecimento.getKilometros()));
-        local = Abastecimento.ConsultaLocal(this, "SELECT *"
-                + " FROM tb_local"
-                + " WHERE codigoLOCAL = " + abastecimento.getLocalGasto());
+        hodometroMaterialEditText.setText(abastecimento.getKilometros());
+        local = abastecimentoDAO.getLocal(abastecimento);
         localMaterialEditText.setText(local.getNome());
         dataMaterialEditText.setText(abastecimento.tratadata());
         onCalculateQuantityLitros(abastecimento.getValorLitro(), abastecimento.getValorGasto());

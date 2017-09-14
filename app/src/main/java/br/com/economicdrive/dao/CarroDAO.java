@@ -14,8 +14,10 @@ import br.com.economicdrive.constantes.Constantes;
 import br.com.economicdrive.database.Sqlite;
 import br.com.economicdrive.model.Abastecimento;
 import br.com.economicdrive.model.Carro;
+import br.com.economicdrive.model.Combustivel;
 import br.com.economicdrive.model.Despesas;
 import br.com.economicdrive.model.Manutencao;
+import br.com.economicdrive.model.TipoCombustivel;
 
 /**
  * Created by ITST on 11/09/2017.
@@ -23,8 +25,19 @@ import br.com.economicdrive.model.Manutencao;
 
 public class CarroDAO extends SQLiteOpenHelper {
 
+    private DespesasDAO despesasDAO;
+    private ManutencaoDAO manutencaoDAO;
+    private AbastecimentoDAO abastecimentoDAO;
+    private CombustivelDAO combustivelDAO;
+    private TipoCombustivelDAO tipoCombustivelDAO;
+
     public CarroDAO(Context context) {
         super(context, "EconomicDrive.sqlite", null, Constantes.DATABASE_VERSION);
+        despesasDAO = new DespesasDAO(context);
+        manutencaoDAO = new ManutencaoDAO(context);
+        abastecimentoDAO = new AbastecimentoDAO(context);
+        combustivelDAO = new CombustivelDAO(context);
+        tipoCombustivelDAO = new TipoCombustivelDAO(context);
     }
 
     @Override
@@ -192,6 +205,25 @@ public class CarroDAO extends SQLiteOpenHelper {
         }
         cursor.close();
         return manutencaoList;
+    }
+
+    public List<Combustivel> getCombustivel(Carro carro) {
+        SQLiteDatabase db = getReadableDatabase();
+        String sql = "SELECT *"
+                + " FROM combustivel"
+                + " WHERE idTipo = ?";
+        String[] args = {String.valueOf(carro.getComb())};
+        Cursor cursor = db.rawQuery(sql, args);
+        List<Combustivel> gasolineList = new ArrayList<>();
+        while (cursor.isAfterLast()) {
+            Combustivel combustivel = new Combustivel();
+            combustivel.setCodigo(cursor.getInt(cursor.getColumnIndex("id")));
+            combustivel.setNome(cursor.getString(cursor.getColumnIndex("nome")));
+            gasolineList.add(combustivel);
+            cursor.moveToFirst();
+        }
+        cursor.close();
+        return gasolineList;
     }
 
     public int countDespesas(Carro carro){

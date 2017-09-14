@@ -55,24 +55,4 @@ public class TipoCombustivelDAO extends SQLiteOpenHelper{
         return tipoComvustivelList;
     }
 
-    public List<Combustivel> getCombustivel(TipoCombustivel tipoCombustivel) {
-        SQLiteDatabase db = getReadableDatabase();
-        String sql = "SELECT *"
-                + " FROM combustivel"
-                + " WHERE idTipo = ?";
-        String[] args = {String.valueOf(tipoCombustivel.getCodigo())};
-        Cursor cursor = db.rawQuery(sql, args);
-        List<Combustivel> gasolineList = new ArrayList<>();
-        while (cursor.isAfterLast()) {
-            Combustivel combustivel = new Combustivel();
-            combustivel.setCodigo(cursor.getInt(cursor.getColumnIndex("id")));
-            combustivel.setNome(cursor.getString(cursor.getColumnIndex("nome")));
-            gasolineList.add(combustivel);
-            cursor.moveToFirst();
-        }
-        cursor.close();
-        return gasolineList;
-    }
-
-
 }
