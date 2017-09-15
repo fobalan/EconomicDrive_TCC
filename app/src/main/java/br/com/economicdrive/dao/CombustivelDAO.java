@@ -24,6 +24,7 @@ public class CombustivelDAO extends SQLiteOpenHelper {
                 "nome VARCHAR(50)," +
                 "FOREIGN KEY (idTipo) REFERENCES tipo_combustivel (id))";
         db.execSQL(sql);
+        insertData(db);
     }
 
     @Override
@@ -32,4 +33,13 @@ public class CombustivelDAO extends SQLiteOpenHelper {
         db.execSQL(sql);
         onCreate(db);
     }
+
+    private void insertData(SQLiteDatabase db) {
+        db.execSQL("INSERT INTO combustivel (idTipo, nome) SELECT ('2', 'Álcool')");
+        db.execSQL("INSERT INTO combustivel (idTipo, nome) SELECT ('2', 'Álcool Aditivado')");
+        db.execSQL("INSERT INTO combustivel (idTipo, nome) SELECT ('4', 'Diesel')");
+        db.execSQL("INSERT INTO combustivel (idTipo, nome) SELECT ('1', 'Gasolina')");
+        db.execSQL("INSERT INTO combustivel (idTipo, nome) SELECT ('1', 'Gasolina Aditivada')");
+    }
+
 }

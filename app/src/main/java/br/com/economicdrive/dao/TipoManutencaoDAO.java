@@ -26,6 +26,7 @@ public class TipoManutencaoDAO extends SQLiteOpenHelper {
                 + "id INTEGER PRIMARY KEY AUTOINCREMENT,"
                 + "tipo VARCHAR(100))";
         db.execSQL(sql);
+        insertData(db);
     }
 
     @Override
@@ -50,5 +51,10 @@ public class TipoManutencaoDAO extends SQLiteOpenHelper {
         }
         cursor.close();
         return tipoManutencaoList;
+    }
+
+    private void insertData(SQLiteDatabase db) {
+        db.execSQL("INSERT INTO tipo_manutencao (tipo) SELECT ('Preventiva')");
+        db.execSQL("INSERT INTO tipo_manutencao (tipo) SELECT ('Corretiva')");
     }
 }

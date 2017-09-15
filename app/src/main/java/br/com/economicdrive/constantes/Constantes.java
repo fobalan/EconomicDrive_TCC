@@ -21,5 +21,5 @@ public class Constantes {
 	public static final int LOCAL = 1007;
 	public static final String GERAR_RELATORIO = "Relatórios" ;
 	public static final String GERENCIAR_VEICULOS = "Gerenciar Veículos";
-	public static final int DATABASE_VERSION = 1;
+	public static final int DATABASE_VERSION = 2;
 }

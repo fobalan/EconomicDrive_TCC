@@ -1,13 +1,13 @@
 package br.com.economicdrive.model;
 
-import java.text.NumberFormat;
-import java.util.ArrayList;
-import java.util.List;
-
 import android.content.Context;
 import android.database.Cursor;
 import android.os.Parcel;
 import android.os.Parcelable;
+
+import java.text.NumberFormat;
+import java.util.ArrayList;
+import java.util.List;
 
 import br.com.economicdrive.Information;
 import br.com.economicdrive.database.Sqlite;
@@ -82,6 +82,25 @@ public class Manutencao extends Gastos {
         database.execBanco(sql01);
     }
 
+    public static List<Information> ConsultaManutencao(Context context, String sql) {
+        Sqlite database = new Sqlite(context);
+        Cursor cursor = database.consulta(sql);
+        List<Information> manutencao = new ArrayList<>();
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()) {
+            Manutencao newManutencao = new Manutencao(context);
+            newManutencao.setCodigoGasto(cursor.getInt(0));
+            newManutencao.setIdCarro(cursor.getInt(1));
+            newManutencao.setValorGasto(cursor.getFloat(2));
+            newManutencao.setLocalGasto(cursor.getInt(3));
+            newManutencao.setDataGasto(cursor.getString(4));
+            newManutencao.setTipoManutencao(cursor.getInt(5));
+            newManutencao.setDescricaoManutencao(cursor.getString(6));
+            manutencao.add(newManutencao);
+            cursor.moveToNext();
+        }
+        return manutencao;
+    }
 
     @Override
     public int describeContents() {

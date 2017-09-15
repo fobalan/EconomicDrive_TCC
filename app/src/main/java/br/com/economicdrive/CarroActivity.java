@@ -10,7 +10,9 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.Editable;
+import android.text.InputType;
 import android.text.TextWatcher;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
@@ -29,7 +31,7 @@ import br.com.economicdrive.model.Marca;
 import br.com.economicdrive.model.Modelo;
 import br.com.economicdrive.model.TipoCombustivel;
 
-public class CarroActivity extends AppCompatActivity implements Button.OnClickListener {
+public class CarroActivity extends AppCompatActivity {
 
     private int marcabd;
     private int modelobd;
@@ -128,15 +130,31 @@ public class CarroActivity extends AppCompatActivity implements Button.OnClickLi
             }
         });
         //Cria o objeto com o tipo de combustivel escolhido
-        combustivelBetterSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-
+        combustivelBetterSpinner.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 escolhaComb = adapterTpCombustivel.getItem(position);
+            }
+        });
+
+        placaEditText.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
             }
 
             @Override
-            public void onNothingSelected(AdapterView<?> parent) {
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
+                if(editable.length() < 3){
+                    placaEditText.setInputType(InputType.TYPE_CLASS_TEXT);
+                } else {
+                    placaEditText.setInputType(InputType.TYPE_CLASS_NUMBER);
+                }
             }
         });
 
@@ -176,29 +194,16 @@ public class CarroActivity extends AppCompatActivity implements Button.OnClickLi
             case android.R.id.home:
                 finish();
                 return true;
+            case R.id.save_menu:
+                onClickSave();
+                return true;
         }
         return super.onOptionsItemSelected(item);
     }
 
-    @Override
-    public void onClick(View v) {
+    private void onClickSave() {
         try {
-            if (apelidoEditText.getEditableText().toString().equals("")) {
-                apelidoEditText.setError("Campo Obrigatório");
-                apelidoEditText.requestFocus();
-            } else if (placaEditText.getEditableText().equals("")) {
-                placaEditText.setError("Campo Obrigatório");
-                placaEditText.requestFocus();
-            } else if (escolhaComb == null) {
-                combustivelBetterSpinner.setError("Campo Obrigatório");
-                combustivelBetterSpinner.requestFocus();
-            } else if(escolhaMarca == null){
-                marcaBetterSpinner.setError("Campo Obrigatório");
-                marcaBetterSpinner.requestFocus();
-            } else if ( escolhaModelo == null) {
-                modeloBetterSpinner.setError("Campo Obrigatório");
-                modeloBetterSpinner.requestFocus();
-            } else{
+                if(checkFields()){
                 String apelido = apelidoEditText.getEditableText().toString();
                 String placa = placaEditText.getEditableText().toString();
                 //validar se o veiculo ja existe para garantir que não exitirá duplicidade no banco de dados
@@ -260,6 +265,35 @@ public class CarroActivity extends AppCompatActivity implements Button.OnClickLi
         } catch (Error e) {
             Toast.makeText(getApplicationContext(), "Erro ao gerenciar veículo", Toast.LENGTH_SHORT).show();
         }
+    }
+
+    private boolean checkFields() {
+        if (apelidoEditText.getEditableText().toString().equals("")) {
+            apelidoEditText.setError("Campo Obrigatório");
+            apelidoEditText.requestFocus();
+        } else if (placaEditText.getEditableText().equals("")) {
+            placaEditText.setError("Campo Obrigatório");
+            placaEditText.requestFocus();
+        } else if (escolhaComb == null) {
+            combustivelBetterSpinner.setError("Campo Obrigatório");
+            combustivelBetterSpinner.requestFocus();
+        } else if(escolhaMarca == null){
+            marcaBetterSpinner.setError("Campo Obrigatório");
+            marcaBetterSpinner.requestFocus();
+        } else if ( escolhaModelo == null) {
+            modeloBetterSpinner.setError("Campo Obrigatório");
+            modeloBetterSpinner.requestFocus();
+        } else{
+            return true;
+        }
+        return false;
+    }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.toolbar_menu, menu);
+        return true;
 
     }
 

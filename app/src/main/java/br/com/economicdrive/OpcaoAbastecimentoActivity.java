@@ -26,6 +26,7 @@ import android.widget.Toast;
 
 import br.com.economicdrive.constantes.Constantes;
 import br.com.economicdrive.fragment.DatePickerFragment;
+import br.com.economicdrive.model.Combustivel;
 
 public class OpcaoAbastecimentoActivity extends AppCompatActivity implements OnClickListener{
 	private Spinner tpcombustiveSpinner;
@@ -88,7 +89,7 @@ public class OpcaoAbastecimentoActivity extends AppCompatActivity implements OnC
 			break;
 		}
 		
-		List <Combustivel> combustivel = Combustivel.consultarComb(this, sql);
+		List<Combustivel> combustivel = Combustivel.consultarComb(this, sql);
 		Combustivel [] itens = 
 				combustivel.toArray(new Combustivel[0]);
 		adapterTpComb = new ArrayAdapter <Combustivel> (this, R.layout.rowsrelatorio,R.id.abast, itens);

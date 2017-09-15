@@ -6,6 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -209,11 +210,22 @@ public class CarroDAO extends SQLiteOpenHelper {
 
     public List<Combustivel> getCombustivel(Carro carro) {
         SQLiteDatabase db = getReadableDatabase();
-        String sql = "SELECT *"
-                + " FROM combustivel"
-                + " WHERE idTipo = ?";
-        String[] args = {String.valueOf(carro.getComb())};
-        Cursor cursor = db.rawQuery(sql, args);
+        String sql = null;
+        Cursor cursor = null;
+        if (carro.getComb() == Constantes.FLEX) {
+            sql = "SELECT *"
+                    + " FROM combustivel"
+                    + " WHERE idTipo = ?"
+                    + " AND idTipo = ?";
+            String[] args = {"1", "2"};
+            cursor = db.rawQuery(sql, args);
+        } else {
+            sql = "SELECT *"
+                    + " FROM combustivel"
+                    + " WHERE idTipo = ?";
+            String[] args = {String.valueOf(carro.getComb())};
+            cursor = db.rawQuery(sql, args);
+        }
         List<Combustivel> gasolineList = new ArrayList<>();
         while (cursor.isAfterLast()) {
             Combustivel combustivel = new Combustivel();

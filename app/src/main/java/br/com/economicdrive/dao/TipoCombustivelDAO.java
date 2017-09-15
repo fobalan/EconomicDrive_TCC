@@ -29,6 +29,7 @@ public class TipoCombustivelDAO extends SQLiteOpenHelper{
                 "id INTEGER PRIMARY KEY," +
                 "nome VARCHAR(50))";
         db.execSQL(sql);
+        insertData(db);
     }
 
     @Override
@@ -53,6 +54,14 @@ public class TipoCombustivelDAO extends SQLiteOpenHelper{
         }
         cursor.close();
         return tipoComvustivelList;
+    }
+
+    private void insertData(SQLiteDatabase db) {
+        //Tipos de combustiveis para carros
+        db.execSQL("INSERT INTO tipo_combustivel (nome) SELECT ('Gasolina')");
+        db.execSQL("INSERT INTO tipo_combustivel (nome) SELECT ('Álcool')");
+        db.execSQL("INSERT INTO tipo_combustivel (nome) SELECT ('Flex')");
+        db.execSQL("INSERT INTO tipo_combustivel (nome) SELECT ('Diesel')");
     }
 
 }
