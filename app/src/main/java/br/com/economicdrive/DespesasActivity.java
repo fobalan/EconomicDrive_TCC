@@ -24,6 +24,7 @@ import com.mikepenz.materialdrawer.holder.StringHolder;
 import com.rengwuxian.materialedittext.MaterialEditText;
 
 import br.com.economicdrive.constantes.Constantes;
+import br.com.economicdrive.dao.CarroDAO;
 import br.com.economicdrive.fragment.DatePickerFragment;
 import br.com.economicdrive.model.Carro;
 import br.com.economicdrive.model.Despesas;
@@ -42,11 +43,14 @@ public class DespesasActivity extends AppCompatActivity implements OnClickListen
     private Toolbar toolbar;
     private Local local;
     private Carro veiculoEscolhido;
+    private CarroDAO carroDAO;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_despesas);
+
+        carroDAO = new CarroDAO(this);
 
         //Toolbar
         toolbar = (Toolbar) findViewById(R.id.despesaToolbar);

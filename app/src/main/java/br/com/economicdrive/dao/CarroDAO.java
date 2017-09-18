@@ -105,6 +105,62 @@ public class CarroDAO extends SQLiteOpenHelper {
         return carroList;
     }
 
+    public List<Information> getList(){
+        SQLiteDatabase db = getReadableDatabase();
+        String sql = "SELECT * " +
+                "FROM carro " +
+                "INNER JOIN modelo ON id = modelo " +
+                "INNER JOIN marca ON id = marca " +
+                "INNER JOIN tipo_combustivel ON id = combustivel ";
+        Cursor cursor = db.rawQuery(sql, null);
+        List <Information> carroList = new ArrayList<>();
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()){
+            Carro newCarro = new Carro(
+                    cursor.getInt(cursor.getColumnIndex("id")),
+                    cursor.getString(cursor.getColumnIndex("nome")),
+                    cursor.getString(cursor.getColumnIndex("placa")),
+                    cursor.getInt(cursor.getColumnIndex("kilometros")),
+                    cursor.getInt(cursor.getColumnIndex("marca")),
+                    cursor.getInt(cursor.getColumnIndex("modelo")),
+                    cursor.getInt(cursor.getColumnIndex("combustivel")),
+                    cursor.getString(cursor.getColumnIndex("ativo")));
+            carroList.add(newCarro);
+            cursor.moveToNext();
+        }
+        cursor.close();
+        return carroList;
+    }
+
+    public List<Information> getListByName(Carro carro){
+        SQLiteDatabase db = getReadableDatabase();
+        String sql = "SELECT * " +
+                "FROM carro " +
+                "INNER JOIN modelo ON id = modelo " +
+                "INNER JOIN marca ON id = marca " +
+                "INNER JOIN tipo_combustivel ON id = combustivel " +
+                "WHERE nome = ?";
+        String[] args = {carro.getNome()};
+        Cursor cursor = db.rawQuery(sql, args);
+        List <Information> carroList = new ArrayList<>();
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()){
+            Carro newCarro = new Carro(
+                    cursor.getInt(cursor.getColumnIndex("id")),
+                    cursor.getString(cursor.getColumnIndex("nome")),
+                    cursor.getString(cursor.getColumnIndex("placa")),
+                    cursor.getInt(cursor.getColumnIndex("kilometros")),
+                    cursor.getInt(cursor.getColumnIndex("marca")),
+                    cursor.getInt(cursor.getColumnIndex("modelo")),
+                    cursor.getInt(cursor.getColumnIndex("combustivel")),
+                    cursor.getString(cursor.getColumnIndex("ativo")));
+            carroList.add(newCarro);
+            cursor.moveToNext();
+        }
+        cursor.close();
+        return carroList;
+    }
+
     public void changeToActive(Carro carro){
         SQLiteDatabase db = getWritableDatabase();
         String sql01 = 	"UPDATE carro SET ativo = 'nao';";

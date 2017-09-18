@@ -60,7 +60,7 @@ public class LocalDAO extends SQLiteOpenHelper {
 
     public List<Information> getLocaisByEndereco(Local local) {
         SQLiteDatabase db = getReadableDatabase();
-        String sql = "SELECT * FROM local WHERE endereco =?";
+        String sql = "SELECT * FROM local WHERE endereco = ?";
         String[] args = {local.getEndereco()};
         List<Information> localList = new ArrayList<>();
         Cursor cursor = db.rawQuery(sql, args);

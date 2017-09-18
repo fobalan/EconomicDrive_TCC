@@ -16,6 +16,7 @@ import android.widget.Toast;
 import com.rengwuxian.materialedittext.MaterialEditText;
 
 import br.com.economicdrive.constantes.Constantes;
+import br.com.economicdrive.dao.LocalDAO;
 import br.com.economicdrive.model.Local;
 
 public class LocalActivity extends AppCompatActivity {
@@ -26,12 +27,15 @@ public class LocalActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private Local local;
     int intAcao = 1;
+    private LocalDAO localDAO;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_local);
+
+        localDAO = new LocalDAO(this);
 
         //Toolbar
         toolbar = (Toolbar) findViewById(R.id.localToolbar);
@@ -99,7 +103,7 @@ public class LocalActivity extends AppCompatActivity {
                 switch (intAcao) {
                     case Constantes.INSERIR:
                         local = new Local(strEnde, strLocal);
-                        local2 = Local.ConsultaLocais(this, "SELECT * FROM tb_local WHERE enderecoLOCAL = '" + local.getEndereco() + "'");
+                        local2 = localDAO.getLocaisByEndereco(local);
                         itens = local2.toArray(new Local[0]);
                         if (itens.length > 0) {
                             Toast.makeText(getApplicationContext(), "Já existe um local cadastrado com esse endereço", Toast.LENGTH_SHORT).show();
@@ -113,7 +117,7 @@ public class LocalActivity extends AppCompatActivity {
                         break;
                     case Constantes.EDITAR:
                         local = new Local(intCodigo, strEnde, strLocal);
-                        local2 = Local.ConsultaLocais(this, "SELECT * FROM tb_local WHERE enderecoLOCAL = '" + local.getEndereco() + "'");
+                        local2 = localDAO.getLocaisByEndereco(local);
                         itens = local2.toArray(new Local[0]);
                         if (itens.length > 0 && itens[0].getCodigo() != local.getCodigo()) {
                             Toast.makeText(getApplicationContext(), "Já existe um local cadastrado com esse endereço", Toast.LENGTH_SHORT).show();

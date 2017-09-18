@@ -31,6 +31,7 @@ import java.util.List;
 import br.com.economicdrive.adapter.MyAdapter;
 import br.com.economicdrive.communicator.Communicator;
 import br.com.economicdrive.constantes.Constantes;
+import br.com.economicdrive.dao.CarroDAO;
 import br.com.economicdrive.fragment.AbastecimentoListFragment;
 import br.com.economicdrive.fragment.DespesasListFragment;
 import br.com.economicdrive.fragment.DialogFragmentMessage;
@@ -58,11 +59,15 @@ public class MainActivity extends AppCompatActivity implements Communicator,
     private Bundle b;
     private static Drawer navigationDrawerLeft;
     private FragmentTransaction fragmentTransaction;
+    private CarroDAO carroDAO;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        carroDAO = new CarroDAO(this);
+
         toolbar = (Toolbar) findViewById(R.id.myMainToolbar);
         optionList = getResources().getStringArray(R.array.optionsList);
         vazio = onCheckEmpty();
@@ -249,11 +254,7 @@ public class MainActivity extends AppCompatActivity implements Communicator,
     }
 
     public boolean onCheckEmpty() {
-        veiculos = Carro.consultaCarro(this, "SELECT idCARRO,nomeCARRO, kmCARRO, placaCARRO, idMARCA, idMODELO, idTPCOMBUSTIVEL, ativo " +
-                "FROM tb_carro " +
-                "INNER JOIN tb_modelos ON idMODELO = modeloCARRO " +
-                "INNER JOIN tb_marcas ON marcaMODELO = idMARCA " +
-                "INNER JOIN tb_tipo_combustivel ON idTPCOMBUSTIVEL = combCARRO ");
+        veiculos = carroDAO.getList();
 
         return veiculos.size() == 0;
     }
